@@ -1,0 +1,7 @@
+.idea/*
+!.idea/modules.xml
+!.idea/compiler.xml
+!.idea/encoding.xml
+!.idea/artifacts
+!.idea/libraries
+!.idea/ant.xml
