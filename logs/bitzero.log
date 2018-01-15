@@ -1,0 +1,10 @@
+15 Jan 2018 14:43:33,103 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+15 Jan 2018 14:43:33,365 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+15 Jan 2018 14:43:33,365 INFO  [main] entities.managers.BZBannedUserManager     - No BannedUser data available, starting with a clean DB.
+15 Jan 2018 14:43:33,897 WARN  [main] bitzero.server.BitZeroServer     - Listening Sockets: { 127.0.0.1:1102, TCP } { 127.0.0.1:1101, TCP } { 127.0.0.1:8081 (SSL) (WebSocket) }
+15 Jan 2018 14:43:33,901 INFO  [main] bitzero.server.BitZeroServer     - BitZeroServer Max (alpha RC-READY!
+15 Jan 2018 14:44:23,741 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+15 Jan 2018 14:44:24,035 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+15 Jan 2018 14:44:24,035 INFO  [main] entities.managers.BZBannedUserManager     - No BannedUser data available, starting with a clean DB.
+15 Jan 2018 14:44:24,477 WARN  [main] bitzero.server.BitZeroServer     - Listening Sockets: { 127.0.0.1:1102, TCP } { 127.0.0.1:1101, TCP } { 127.0.0.1:8081 (SSL) (WebSocket) }
+15 Jan 2018 14:44:24,479 INFO  [main] bitzero.server.BitZeroServer     - BitZeroServer Max (alpha RC-READY!

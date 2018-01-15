@@ -5,3 +5,5 @@
 !.idea/artifacts
 !.idea/libraries
 !.idea/ant.xml
+
+out/
