@@ -1,6 +1,0 @@
-15 Jan 2018 14:43:33,385 INFO  [main] Extensions     - {starter}: Request handler register 
-15 Jan 2018 14:43:33,388 INFO  [main] Extensions     - {starter}: handler.request.LobbyRequestHandler initilazion 
-15 Jan 2018 14:43:33,388 INFO  [main] Extensions     - {starter}: Event handler register 
-15 Jan 2018 14:44:24,047 INFO  [main] Extensions     - {starter}: Request handler register 
-15 Jan 2018 14:44:24,049 INFO  [main] Extensions     - {starter}: handler.request.LobbyRequestHandler initilazion 
-15 Jan 2018 14:44:24,050 INFO  [main] Extensions     - {starter}: Event handler register 
