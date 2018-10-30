@@ -12,6 +12,7 @@ import bitzero.server.extensions.data.DataCmd;
 import cmd.authen.RequestLogin;
 import constant.CmdDefine;
 import constant.ServerConstant;
+import extras.webserver.RestServer;
 import handler.event.DisconnectEventHandler;
 import handler.event.LoginEventHandler;
 import handler.event.LogoutEventHandler;
@@ -35,11 +36,15 @@ public class Extension extends BZExtension {
         addEventHandler(BZEventType.USER_LOGOUT, LogoutEventHandler.class);
         addEventHandler(BZEventType.USER_DISCONNECT, DisconnectEventHandler.class);
         addEventHandler(BZEventType.PAYMENT_UPDATE, PaymentUpdateEventHandler.class);
+
+        // init others service
+        RestServer.getInstance().onExtensionInit();
     }
 
     @Override
     public void destroy() {
         super.destroy();
+        RestServer.getInstance().onExtensionDestroy();
         trace(ExtensionLogLevel.WARN, "Server is shutting down. Kick all users  ... ");
     }
 
