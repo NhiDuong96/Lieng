@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.gsn.starter</groupId>
-    <artifactId>socket-server</artifactId>
+    <groupId>com.gsn.pokeru</groupId>
+    <artifactId>server-master</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <description>Use Maven Project
@@ -14,8 +14,8 @@
 
     <!--user properties-->
     <properties>
-        <deploy.gameName>server-socket</deploy.gameName>
-        <deploy.jarName>socket-java</deploy.jarName>
+        <deploy.gameName>server-master</deploy.gameName>
+        <deploy.jarName>master</deploy.jarName>
     </properties>
 
     <repositories>
