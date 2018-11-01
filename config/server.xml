@@ -1,7 +1,8 @@
 <serverSettings>
     <socketAddresses>
-        <socket address="127.0.0.1" port="1102" type="TCP"/>
-        <socket address="127.0.0.1" port="1101" type="TCP"/>
+        <socket address="127.0.0.1" port="3101" type="TCP"/>
+        <!--port server-server-->
+        <socket address="127.0.0.1" port="3102" type="TCP"/>
     </socketAddresses>
     <ipFilter>
         <addressBlackList>
