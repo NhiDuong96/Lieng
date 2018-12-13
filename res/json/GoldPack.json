@@ -1,0 +1,837 @@
+{
+    "BasePack": {
+        "GP_0": {
+            "xuCost": 1,
+            "goldValue": 30000,
+            "vPoint": 1
+        },
+        "GP_1": {
+            "xuCost": 100,
+            "goldValue": 3000000,
+            "vPoint": 100
+        },
+        "GP_2": {
+            "xuCost": 200,
+            "goldValue": 6500000,
+            "vPoint": 200
+        },
+        "GP_3": {
+            "xuCost": 500,
+            "goldValue": 17000000,
+            "vPoint": 500
+        },
+        "GP_4": {
+            "xuCost": 1000,
+            "goldValue": 38000000,
+            "vPoint": 1000
+        },
+        "GP_5": {
+            "xuCost": 2000,
+            "goldValue": 90000000,
+            "vPoint": 2000
+        },
+        "GP_6": {
+            "xuCost": 5000,
+            "goldValue": 270000000,
+            "vPoint": 5000
+        }
+    },
+    "ZaloSMSPack": {
+        "ZSMS_1": {
+            "cost": 5000,
+            "gold": 750000,
+            "vPoint": 25,
+            "isAvailable": 0,
+            "firstPromotion": 100
+        },
+        "ZSMS_2": {
+            "cost": 10000,
+            "gold": 1500000,
+            "vPoint": 50,
+            "isAvailable": 1,
+            "firstPromotion": 250
+        },
+        "ZSMS_3": {
+            "cost": 15000,
+            "gold": 3000000,
+            "vPoint": 100,
+            "isAvailable": 1,
+            "firstPromotion": 300
+        }
+    },
+    "BluePaySMSPackTH": {
+        "BPSMS_TH_1": {
+            "cost": 5,
+            "gold": 930000,
+            "vPoint": 31,
+            "skull": {
+                "DTAC": 4078005,
+                "TRUEMONEY": 4192007,
+                "AIS": 4192034
+            },
+            "isAvailable": 0,
+            "firstPromotion": 0
+        },
+        "BPSMS_TH_2": {
+            "cost": 10,
+            "gold": 1860000,
+            "vPoint": 62,
+            "skull": {
+                "DTAC": 4078006,
+                "TRUEMONEY": 4192008,
+                "AIS": 4192035
+            },
+            "isAvailable": 1,
+            "firstPromotion": 250
+        },
+        "BPSMS_TH_3": {
+            "cost": 15,
+            "gold": 2790000,
+            "vPoint": 93,
+            "skull": {
+                "DTAC": 4078014,
+                "TRUEMONEY": 4192009,
+                "AIS": 4192036
+            },
+            "isAvailable": 0,
+            "firstPromotion": 0
+        },
+        "BPSMS_TH_4": {
+            "cost": 20,
+            "gold": 3720000,
+            "vPoint": 124,
+            "skull": {
+                "DTAC": 4078007,
+                "TRUEMONEY": 4192010,
+                "AIS": 4192037
+            },
+            "isAvailable": 0,
+            "firstPromotion": 0
+        },
+        "BPSMS_TH_5": {
+            "cost": 25,
+            "gold": 4650000,
+            "vPoint": 155,
+            "skull": {
+                "DTAC": 4078015,
+                "TRUEMONEY": 4192011,
+                "AIS": 4192038
+            },
+            "isAvailable": 0,
+            "firstPromotion": 0
+        },
+        "BPSMS_TH_6": {
+            "cost": 30,
+            "gold": 5580000,
+            "vPoint": 186,
+            "skull": {
+                "DTAC": 4078016,
+                "TRUEMONEY": 4192012,
+                "AIS": 4192039
+            },
+            "isAvailable": 1,
+            "firstPromotion": 260
+        },
+        "BPSMS_TH_7": {
+            "cost": 35,
+            "gold": 6510000,
+            "vPoint": 217,
+            "skull": {
+                "DTAC": 4078017,
+                "TRUEMONEY": 4192013,
+                "AIS": 4192040
+            },
+            "isAvailable": 0,
+            "firstPromotion": 0
+        },
+        "BPSMS_TH_8": {
+            "cost": 50,
+            "gold": 9300000,
+            "vPoint": 310,
+            "skull": {
+                "DTAC": 4078008,
+                "TRUEMONEY": 4192014,
+                "AIS": 4192041
+            },
+            "isAvailable": 1,
+            "firstPromotion": 270
+        },
+        "BPSMS_TH_9": {
+            "cost": 100,
+            "gold": 18600000,
+            "vPoint": 620,
+            "skull": {
+                "DTAC": 4078009,
+                "TRUEMONEY": 4192015,
+                "AIS": 4192042
+            },
+            "isAvailable": 1,
+            "firstPromotion": 280
+        },
+        "BPSMS_TH_10": {
+            "cost": 9,
+            "gold": 1674000,
+            "vPoint": 55.8,
+            "skull": {
+                "DTAC": 4078021,
+                "TRUEMONEY": 4192032,
+                "AIS": 4192047
+            },
+            "isAvailable": 0,
+            "firstPromotion": 0
+        },
+        "BPSMS_TH_11": {
+            "cost": 19,
+            "gold": 3534000,
+            "vPoint": 117.8,
+            "skull": {
+                "DTAC": 4078022,
+                "TRUEMONEY": 4192016,
+                "AIS": 4192048
+            },
+            "isAvailable": 0,
+            "firstPromotion": 0
+        },
+        "BPSMS_TH_12": {
+            "cost": 29,
+            "gold": 5394000,
+            "vPoint": 179.8,
+            "skull": {
+                "DTAC": 4078018,
+                "TRUEMONEY": 4192017,
+                "AIS": 4192049
+            },
+            "isAvailable": 0,
+            "firstPromotion": 0
+        },
+        "BPSMS_TH_13": {
+            "cost": 39,
+            "gold": 7254000,
+            "vPoint": 241.8,
+            "skull": {
+                "DTAC": 4078023,
+                "TRUEMONEY": 4192018,
+                "AIS": 4192050
+            },
+            "isAvailable": 0,
+            "firstPromotion": 0
+        },
+        "BPSMS_TH_14": {
+            "cost": 49,
+            "gold": 9114000,
+            "vPoint": 303.8,
+            "skull": {
+                "DTAC": 4078019,
+                "TRUEMONEY": 4192019,
+                "AIS": 4192051
+            },
+            "isAvailable": 0,
+            "firstPromotion": 0
+        },
+        "BPSMS_TH_15": {
+            "cost": 59,
+            "gold": 10974000,
+            "vPoint": 365.8,
+            "skull": {
+                "DTAC": 4078024,
+                "TRUEMONEY": 4192020,
+                "AIS": 4192052
+            },
+            "isAvailable": 0,
+            "firstPromotion": 0
+        },
+        "BPSMS_TH_16": {
+            "cost": 69,
+            "gold": 12834000,
+            "vPoint": 427.8,
+            "skull": {
+                "DTAC": 4078025,
+                "TRUEMONEY": 4192021,
+                "AIS": 4192053
+            },
+            "isAvailable": 0,
+            "firstPromotion": 0
+        },
+        "BPSMS_TH_17": {
+            "cost": 79,
+            "gold": 14694000,
+            "vPoint": 489.8,
+            "skull": {
+                "DTAC": 4078026,
+                "TRUEMONEY": 4192022,
+                "AIS": 4192054
+            },
+            "isAvailable": 0,
+            "firstPromotion": 0
+        },
+        "BPSMS_TH_18": {
+            "cost": 89,
+            "gold": 16554000,
+            "vPoint": 551.8,
+            "skull": {
+                "DTAC": 4078027,
+                "TRUEMONEY": 4192023,
+                "AIS": 4192055
+            },
+            "isAvailable": 0,
+            "firstPromotion": 0
+        },
+        "BPSMS_TH_19": {
+            "cost": 99,
+            "gold": 18414000,
+            "vPoint": 613.8,
+            "skull": {
+                "DTAC": 4078020,
+                "TRUEMONEY": 4192024,
+                "AIS": 4192056
+            },
+            "isAvailable": 0,
+            "firstPromotion": 0
+        },
+        "BPSMS_TH_20": {
+            "cost": 149,
+            "gold": 27714000,
+            "vPoint": 923.8,
+            "skull": {
+                "DTAC": 4078028,
+                "TRUEMONEY": 4192025,
+                "AIS": 4192057
+            },
+            "isAvailable": 0,
+            "firstPromotion": 0
+        },
+        "BPSMS_TH_21": {
+            "cost": 150,
+            "gold": 27900000,
+            "vPoint": 930,
+            "skull": {
+                "DTAC": 4078066,
+                "TRUEMONEY": 4192066,
+                "AIS": 4192066
+            },
+            "isAvailable": 1,
+            "firstPromotion": 300
+        },
+        "BPSMS_TH_22": {
+            "cost": 200,
+            "gold": 37200000,
+            "vPoint": 1240,
+            "skull": {
+                "DTAC": 4078067,
+                "TRUEMONEY": 4192067,
+                "AIS": 4192067
+            },
+            "isAvailable": 0,
+            "firstPromotion": 0
+        },
+        "BPSMS_TH_23": {
+            "cost": 250,
+            "gold": 46500000,
+            "vPoint": 1550,
+            "skull": {
+                "DTAC": 4078068,
+                "TRUEMONEY": 4192068,
+                "AIS": 4192068
+            },
+            "isAvailable": 0,
+            "firstPromotion": 0
+        }
+    },
+    "MOLSMSPackTH": {
+        "MOLSMS_TH_1": {
+            "cost": 10,
+            "gold": 1860000,
+            "vPoint": 62,
+            "skull": {
+                "DTAC": 4210501,
+                "TRUEMONEY": 4210501,
+                "AIS": 4210501
+            },
+            "isAvailable": 1,
+            "firstPromotion": 250
+        },
+        "MOLSMS_TH_2": {
+            "cost": 30,
+            "gold": 5580000,
+            "vPoint": 186,
+            "skull": {
+                "DTAC": 4210503,
+                "TRUEMONEY": 4210503,
+                "AIS": 4210503
+            },
+            "isAvailable": 1,
+            "firstPromotion": 260
+        },
+        "MOLSMS_TH_3": {
+            "cost": 50,
+            "gold": 9300000,
+            "vPoint": 310,
+            "skull": {
+                "DTAC": 4210505,
+                "TRUEMONEY": 4210505,
+                "AIS": 4210505
+            },
+            "isAvailable": 1,
+            "firstPromotion": 270
+        },
+        "MOLSMS_TH_4": {
+            "cost": 100,
+            "gold": 18600000,
+            "vPoint": 620,
+            "skull": {
+                "DTAC": 4210510,
+                "TRUEMONEY": 4210510,
+                "AIS": 4210510
+            },
+            "isAvailable": 1,
+            "firstPromotion": 280
+        },
+        "MOLSMS_TH_5": {
+            "cost": 150,
+            "gold": 27900000,
+            "vPoint": 930,
+            "skull": {
+                "DTAC": 4210515,
+                "TRUEMONEY": 4210515,
+                "AIS": 4210515
+            },
+            "isAvailable": 1,
+            "firstPromotion": 300
+        },
+        "MOLSMS_TH_6": {
+            "cost": 300,
+            "gold": 55800000,
+            "vPoint": 1860,
+            "skull": {
+                "DTAC": 4210530,
+                "TRUEMONEY": 4210530,
+                "AIS": 4210530
+            },
+            "isAvailable": 0,
+            "firstPromotion": 0
+        },
+        "MOLSMS_TH_7": {
+            "cost": 500,
+            "gold": 93000000,
+            "vPoint": 3100,
+            "skull": {
+                "DTAC": 4210550,
+                "TRUEMONEY": 4210550,
+                "AIS": 4210550
+            },
+            "isAvailable": 0,
+            "firstPromotion": 0
+        }
+    },
+    "MOLSMSPackID": {
+        "MOLSMS_ID_1": {
+            "cost": 3000,
+            "gold": 1530000,
+            "vPoint": 51,
+            "skull": {
+                "TELKOMSEL": 96999,
+                "INDOSAT": 96999,
+                "XL": 99532
+            },
+            "code": 503,
+            "isAvailable": 0,
+            "firstPromotion": 100
+        },
+        "MOLSMS_ID_2": {
+            "cost": 5000,
+            "gold": 2550000,
+            "vPoint": 85,
+            "skull": {
+                "TELKOMSEL": 96999,
+                "INDOSAT": 96999,
+                "XL": 99532
+            },
+            "code": 505,
+            "isAvailable": 1,
+            "firstPromotion": 250
+        },
+        "MOLSMS_ID_3": {
+            "cost": 10000,
+            "gold": 5100000,
+            "vPoint": 170,
+            "skull": {
+                "TELKOMSEL": 96999,
+                "INDOSAT": 96999,
+                "XL": 99532
+            },
+            "code": 510,
+            "isAvailable": 1,
+            "firstPromotion": 260
+        },
+        "MOLSMS_ID_4": {
+            "cost": 20000,
+            "gold": 10200000,
+            "vPoint": 340,
+            "skull": {
+                "TELKOMSEL": 96999,
+                "INDOSAT": 96999,
+                "XL": 99532
+            },
+            "code": 520,
+            "isAvailable": 1,
+            "firstPromotion": 270
+        },
+        "MOLSMS_ID_5": {
+            "cost": 50000,
+            "gold": 25500000,
+            "vPoint": 850,
+            "skull": {
+                "TELKOMSEL": 96999,
+                "INDOSAT": 96999,
+                "XL": 99532
+            },
+            "code": 550,
+            "isAvailable": 1,
+            "firstPromotion": 280
+        }
+    },
+    "MOLSMSPackMY": {
+        "MOLSMS_MY_1": {
+            "cost": 1,
+            "gold": 1650000,
+            "vPoint": 55,
+            "skull": {
+                "DIGI": 22200,
+                "MAXIS": 26770
+            },
+            "code": 501,
+            "isAvailable": 0,
+            "firstPromotion": 100
+        },
+        "MOLSMS_MY_2": {
+            "cost": 3,
+            "gold": 4950000,
+            "vPoint": 165,
+            "skull": {
+                "DIGI": 22200,
+                "MAXIS": 26770
+            },
+            "code": 503,
+            "isAvailable": 1,
+            "firstPromotion": 250
+        },
+        "MOLSMS_MY_3": {
+            "cost": 5,
+            "gold": 8250000,
+            "vPoint": 275,
+            "skull": {
+                "DIGI": 22200,
+                "MAXIS": 26770
+            },
+            "code": 505,
+            "isAvailable": 1,
+            "firstPromotion": 260
+        },
+        "MOLSMS_MY_4": {
+            "cost": 10,
+            "gold": 16500000,
+            "vPoint": 550,
+            "skull": {
+                "DIGI": 22200,
+                "MAXIS": 26770
+            },
+            "code": 510,
+            "isAvailable": 1,
+            "firstPromotion": 270
+        },
+        "MOLSMS_MY_5": {
+            "cost": 30,
+            "gold": 49500000,
+            "vPoint": 1650,
+            "skull": {
+                "DIGI": 22200,
+                "MAXIS": 26770
+            },
+            "code": 530,
+            "isAvailable": 1,
+            "firstPromotion": 280
+        },
+        "MOLSMS_MY_6": {
+            "cost": 50,
+            "gold": 82500000,
+            "vPoint": 2750,
+            "skull": {
+                "DIGI": 22200,
+                "MAXIS": 26770
+            },
+            "code": 550,
+            "isAvailable": 1,
+            "firstPromotion": 300
+        }
+    },
+    "MOLSMSPackMM": {
+        "MOLSMS_MM_1": {
+            "cost": 100,
+            "gold": 498000,
+            "vPoint": 17,
+            "skull": {
+                "DUMMY": 22200
+            },
+            "code": 501,
+            "isAvailable": 0,
+            "firstPromotion": 100
+        },
+        "MOLSMS_MM_2": {
+            "cost": 300,
+            "gold": 1500000,
+            "vPoint": 50,
+            "skull": {
+                "DUMMY": 22200
+            },
+            "code": 503,
+            "isAvailable": 1,
+            "firstPromotion": 250
+        },
+        "MOLSMS_MM_3": {
+            "cost": 500,
+            "gold": 2800000,
+            "vPoint": 83,
+            "skull": {
+                "DUMMY": 22200
+            },
+            "code": 505,
+            "isAvailable": 1,
+            "firstPromotion": 260
+        },
+        "MOLSMS_MM_4": {
+            "cost": 1000,
+            "gold": 5800000,
+            "vPoint": 166,
+            "skull": {
+                "DUMMY": 22200
+            },
+            "code": 510,
+            "isAvailable": 1,
+            "firstPromotion": 270
+        },
+        "MOLSMS_MM_5": {
+            "cost": 3000,
+            "gold": 20000000,
+            "vPoint": 498,
+            "skull": {
+                "DUMMY": 22200
+            },
+            "code": 530,
+            "isAvailable": 1,
+            "firstPromotion": 280
+        },
+        "MOLSMS_MM_6": {
+            "cost": 5000,
+            "gold": 38000000,
+            "vPoint": 830,
+            "skull": {
+                "DUMMY": 22200
+            },
+            "code": 550,
+            "isAvailable": 1,
+            "firstPromotion": 300
+        }
+    },
+    "CODASMSPackMM": {
+        "CODASMS_MM_1": {
+            "cost": 10,
+            "gold": 50000,
+            "vPoint": 2,
+            "skull": {
+                "DUMMY": 22200
+            },
+            "code": 501,
+            "isAvailable": 0,
+            "firstPromotion": 100
+        },
+        "CODASMS_MM_2": {
+            "cost": 20,
+            "gold": 100000,
+            "vPoint": 3,
+            "skull": {
+                "DUMMY": 22200
+            },
+            "code": 501,
+            "isAvailable": 0,
+            "firstPromotion": 100
+        },
+        "CODASMS_MM_3": {
+            "cost": 30,
+            "gold": 150000,
+            "vPoint": 5,
+            "skull": {
+                "DUMMY": 22200
+            },
+            "code": 501,
+            "isAvailable": 0,
+            "firstPromotion": 100
+        },
+        "CODASMS_MM_4": {
+            "cost": 60,
+            "gold": 300000,
+            "vPoint": 10,
+            "skull": {
+                "DUMMY": 22200
+            },
+            "code": 501,
+            "isAvailable": 0,
+            "firstPromotion": 100
+        },
+        "CODASMS_MM_5": {
+            "cost": 100,
+            "gold": 500000,
+            "vPoint": 17,
+            "skull": {
+                "DUMMY": 22200
+            },
+            "code": 501,
+            "isAvailable": 0,
+            "firstPromotion": 100
+        },
+        "CODASMS_MM_6": {
+            "cost": 300,
+            "gold": 1500000,
+            "vPoint": 50,
+            "skull": {
+                "DUMMY": 22200
+            },
+            "code": 503,
+            "isAvailable": 1,
+            "firstPromotion": 250
+        },
+        "CODASMS_MM_7": {
+            "cost": 500,
+            "gold": 2800000,
+            "vPoint": 83,
+            "skull": {
+                "DUMMY": 22200
+            },
+            "code": 505,
+            "isAvailable": 1,
+            "firstPromotion": 260
+        },
+        "CODASMS_MM_8": {
+            "cost": 1000,
+            "gold": 5800000,
+            "vPoint": 166,
+            "skull": {
+                "DUMMY": 22200
+            },
+            "code": 510,
+            "isAvailable": 1,
+            "firstPromotion": 270
+        },
+        "CODASMS_MM_9": {
+            "cost": 3000,
+            "gold": 20000000,
+            "vPoint": 498,
+            "skull": {
+                "DUMMY": 22200
+            },
+            "code": 530,
+            "isAvailable": 1,
+            "firstPromotion": 280
+        },
+        "CODASMS_MM_10": {
+            "cost": 5000,
+            "gold": 38000000,
+            "vPoint": 830,
+            "skull": {
+                "DUMMY": 22200
+            },
+            "code": 550,
+            "isAvailable": 1,
+            "firstPromotion": 300
+        }
+    },
+    "UNISMSPackID": {
+        "UNISMS_ID_1": {
+            "cost": 3000,
+            "gold": 1530000,
+            "vPoint": 51,
+            "skull": {
+                "TELKOMSEL": 0,
+                "INDOSAT": 0,
+                "XL": 0
+            },
+            "code": 503,
+            "isAvailable": 0,
+            "firstPromotion": 250
+        },
+        "UNISMS_ID_2": {
+            "cost": 5000,
+            "gold": 2550000,
+            "vPoint": 85,
+            "skull": {
+                "TELKOMSEL": 0,
+                "INDOSAT": 0,
+                "XL": 0
+            },
+            "code": 505,
+            "isAvailable": 1,
+            "firstPromotion": 260
+        },
+        "UNISMS_ID_3": {
+            "cost": 10000,
+            "gold": 5100000,
+            "vPoint": 170,
+            "skull": {
+                "TELKOMSEL": 0,
+                "INDOSAT": 0,
+                "XL": 0
+            },
+            "code": 510,
+            "isAvailable": 1,
+            "firstPromotion": 270
+        },
+        "UNISMS_ID_4": {
+            "cost": 20000,
+            "gold": 10200000,
+            "vPoint": 340,
+            "skull": {
+                "TELKOMSEL": 0,
+                "INDOSAT": 0,
+                "XL": 0
+            },
+            "code": 520,
+            "isAvailable": 1,
+            "firstPromotion": 280
+        },
+        "UNISMS_ID_5": {
+            "cost": 50000,
+            "gold": 25500000,
+            "vPoint": 850,
+            "skull": {
+                "TELKOMSEL": 0,
+                "INDOSAT": 0,
+                "XL": 0
+            },
+            "code": 550,
+            "isAvailable": 1,
+            "firstPromotion": 300
+        }
+    },
+    "ZingSMSPack": {
+        "ZingSMS_1": {
+            "cost": 5000,
+            "gold": 750000,
+            "vPoint": 25,
+            "isAvailable": 0,
+            "firstPromotion": 100
+        },
+        "ZingSMS_2": {
+            "cost": 10000,
+            "gold": 1500000,
+            "vPoint": 50,
+            "isAvailable": 1,
+            "firstPromotion": 250
+        },
+        "ZingSMS_3": {
+            "cost": 15000,
+            "gold": 3000000,
+            "vPoint": 100,
+            "isAvailable": 1,
+            "firstPromotion": 300
+        }
+    }
+}

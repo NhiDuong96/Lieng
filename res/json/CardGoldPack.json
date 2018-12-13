@@ -1,0 +1,808 @@
+{
+    "ZaloCardPack": {
+        "ZCARD_1": {
+            "cost": 10000,
+            "gold": 3000000,
+            "vPoint": 100,
+            "isAvailable": {
+                "MOBI": 1,
+                "VINA": 1,
+                "VIETTEL": 1
+            },
+            "goldPerUnit": 300,
+            "firstPromotion": 300
+        },
+        "ZCARD_2": {
+            "cost": 20000,
+            "gold": 6500000,
+            "vPoint": 200,
+            "isAvailable": {
+                "MOBI": 1,
+                "VINA": 1,
+                "VIETTEL": 1
+            },
+            "goldPerUnit": 325,
+            "firstPromotion": 275
+        },
+        "ZCARD_3": {
+            "cost": 50000,
+            "gold": 17000000,
+            "vPoint": 500,
+            "isAvailable": {
+                "MOBI": 1,
+                "VINA": 1,
+                "VIETTEL": 1
+            },
+            "goldPerUnit": 340,
+            "firstPromotion": 270
+        },
+        "ZCARD_4": {
+            "cost": 100000,
+            "gold": 38000000,
+            "vPoint": 1000,
+            "isAvailable": {
+                "MOBI": 1,
+                "VINA": 1,
+                "VIETTEL": 1
+            },
+            "goldPerUnit": 380,
+            "firstPromotion": 265
+        },
+        "ZCARD_5": {
+            "cost": 200000,
+            "gold": 90000000,
+            "vPoint": 2000,
+            "isAvailable": {
+                "MOBI": 1,
+                "VINA": 1,
+                "VIETTEL": 1
+            },
+            "goldPerUnit": 450,
+            "firstPromotion": 260
+        },
+        "ZCARD_6": {
+            "cost": 500000,
+            "gold": 270000000,
+            "vPoint": 5000,
+            "isAvailable": {
+                "MOBI": 1,
+                "VINA": 1,
+                "VIETTEL": 1
+            },
+            "goldPerUnit": 540,
+            "firstPromotion": 255
+        },
+        "ZCARD_7": {
+            "cost": 1000000,
+            "gold": 600000000,
+            "vPoint": 10000,
+            "isAvailable": {
+                "MOBI": 1,
+                "VINA": 1,
+                "VIETTEL": 1
+            },
+            "goldPerUnit": 600,
+            "firstPromotion": 250
+        }
+    },
+    "ZingCardPack": {
+        "ZINGCARD_1": {
+            "cost": 10000,
+            "gold": 3000000,
+            "vPoint": 100,
+            "isAvailable": {
+                "ZING": 1
+            },
+            "goldPerUnit": 300,
+            "firstPromotion": 250
+        },
+        "ZINGCARD_2": {
+            "cost": 20000,
+            "gold": 6500000,
+            "vPoint": 200,
+            "isAvailable": {
+                "ZING": 1
+            },
+            "goldPerUnit": 325,
+            "firstPromotion": 260
+        },
+        "ZINGCARD_3": {
+            "cost": 50000,
+            "gold": 17000000,
+            "vPoint": 500,
+            "isAvailable": {
+                "ZING": 1
+            },
+            "goldPerUnit": 340,
+            "firstPromotion": 270
+        },
+        "ZINGCARD_4": {
+            "cost": 100000,
+            "gold": 38000000,
+            "vPoint": 1000,
+            "isAvailable": {
+                "ZING": 1
+            },
+            "goldPerUnit": 380,
+            "firstPromotion": 280
+        },
+        "ZINGCARD_5": {
+            "cost": 200000,
+            "gold": 90000000,
+            "vPoint": 2000,
+            "isAvailable": {
+                "ZING": 1
+            },
+            "goldPerUnit": 450,
+            "firstPromotion": 290
+        },
+        "ZINGCARD_6": {
+            "cost": 500000,
+            "gold": 270000000,
+            "vPoint": 5000,
+            "isAvailable": {
+                "ZING": 1
+            },
+            "goldPerUnit": 540,
+            "firstPromotion": 300
+        },
+        "ZINGCARD_7": {
+            "cost": 1000000,
+            "gold": 600000000,
+            "vPoint": 10000,
+            "isAvailable": {
+                "ZING": 1
+            },
+            "goldPerUnit": 600,
+            "firstPromotion": 350
+        }
+    },
+    "BluePayCardPackTH": {
+        "BPCARD_TH_1": {
+            "cost": 50,
+            "gold": 9300000,
+            "vPoint": 310,
+            "isAvailable": {
+                "DTAC": 1,
+                "TRUEMONEY": 1,
+                "AIS": 1
+            },
+            "goldPerUnit": 186000,
+            "firstPromotion": 100
+        },
+        "BPCARD_TH_2": {
+            "cost": 100,
+            "gold": 20460000,
+            "vPoint": 620,
+            "isAvailable": {
+                "DTAC": 1,
+                "TRUEMONEY": 1,
+                "AIS": 1
+            },
+            "goldPerUnit": 204600,
+            "firstPromotion": 100
+        },
+        "BPCARD_TH_3": {
+            "cost": 150,
+            "gold": 32085000,
+            "vPoint": 930,
+            "isAvailable": {
+                "DTAC": 1,
+                "TRUEMONEY": 1,
+                "AIS": 1
+            },
+            "goldPerUnit": 213900,
+            "firstPromotion": 100
+        },
+        "BPCARD_TH_4": {
+            "cost": 200,
+            "gold": 46500000,
+            "vPoint": 1240,
+            "isAvailable": {
+                "DTAC": 1,
+                "TRUEMONEY": 1,
+                "AIS": 1
+            },
+            "goldPerUnit": 232500,
+            "firstPromotion": 100
+        },
+        "BPCARD_TH_5": {
+            "cost": 300,
+            "gold": 78120000,
+            "vPoint": 1860,
+            "isAvailable": {
+                "DTAC": 1,
+                "TRUEMONEY": 1,
+                "AIS": 1
+            },
+            "goldPerUnit": 260400,
+            "firstPromotion": 200
+        },
+        "BPCARD_TH_6": {
+            "cost": 500,
+            "gold": 167400000,
+            "vPoint": 3100,
+            "isAvailable": {
+                "DTAC": 1,
+                "TRUEMONEY": 1,
+                "AIS": 1
+            },
+            "goldPerUnit": 334800,
+            "firstPromotion": 100
+        },
+        "BPCARD_TH_7": {
+            "cost": 1000,
+            "gold": 372000000,
+            "vPoint": 6200,
+            "isAvailable": {
+                "DTAC": 1,
+                "TRUEMONEY": 1,
+                "AIS": 1
+            },
+            "goldPerUnit": 372000,
+            "firstPromotion": 100
+        },
+        "BPCARD_TH_8": {
+            "cost": 2000,
+            "gold": 818400000,
+            "vPoint": 12400,
+            "isAvailable": {
+                "DTAC": 1,
+                "TRUEMONEY": 1,
+                "AIS": 1
+            },
+            "goldPerUnit": 409200,
+            "firstPromotion": 100
+        },
+        "BPCARD_TH_9": {
+            "cost": 3500,
+            "gold": 1529850000,
+            "vPoint": 21700,
+            "isAvailable": {
+                "DTAC": 1,
+                "TRUEMONEY": 1,
+                "AIS": 1
+            },
+            "goldPerUnit": 437100,
+            "firstPromotion": 100
+        },
+        "BPCARD_TH_10": {
+            "cost": 5000,
+            "gold": 2325000000,
+            "vPoint": 31000,
+            "isAvailable": {
+                "DTAC": 1,
+                "TRUEMONEY": 1,
+                "AIS": 1
+            },
+            "goldPerUnit": 465000,
+            "firstPromotion": 100
+        }
+    },
+    "MOLCardPackTH": {
+        "MOLCARD_TH_1": {
+            "cost": 20,
+            "gold": 3720000,
+            "vPoint": 124,
+            "isAvailable": {
+                "DTAC": 0,
+                "TRUEMONEY": 1,
+                "AIS": 0,
+                "MOL": 0
+            },
+            "goldPerUnit": 186000,
+            "firstPromotion": 100
+        },
+        "MOLCARD_TH_2": {
+            "cost": 50,
+            "gold": 9672000,
+            "vPoint": 310,
+            "isAvailable": {
+                "DTAC": 0,
+                "TRUEMONEY": 1,
+                "AIS": 1,
+                "MOL": 0
+            },
+            "goldPerUnit": 193440,
+            "firstPromotion": 100
+        },
+        "MOLCARD_TH_3": {
+            "cost": 60,
+            "gold": 11718000,
+            "vPoint": 372,
+            "isAvailable": {
+                "DTAC": 1,
+                "TRUEMONEY": 0,
+                "AIS": 0,
+                "MOL": 0
+            },
+            "goldPerUnit": 195300,
+            "firstPromotion": 100
+        },
+        "MOLCARD_TH_4": {
+            "cost": 90,
+            "gold": 17744400,
+            "vPoint": 558,
+            "isAvailable": {
+                "DTAC": 0,
+                "TRUEMONEY": 1,
+                "AIS": 0,
+                "MOL": 0
+            },
+            "goldPerUnit": 197160,
+            "firstPromotion": 100
+        },
+        "MOLCARD_TH_5": {
+            "cost": 100,
+            "gold": 20460000,
+            "vPoint": 620,
+            "isAvailable": {
+                "DTAC": 1,
+                "TRUEMONEY": 0,
+                "AIS": 1,
+                "MOL": 1
+            },
+            "goldPerUnit": 204600,
+            "firstPromotion": 100
+        },
+        "MOLCARD_TH_6": {
+            "cost": 150,
+            "gold": 32085000,
+            "vPoint": 930,
+            "isAvailable": {
+                "DTAC": 0,
+                "TRUEMONEY": 1,
+                "AIS": 0,
+                "MOL": 0
+            },
+            "goldPerUnit": 213900,
+            "firstPromotion": 100
+        },
+        "MOLCARD_TH_7": {
+            "cost": 200,
+            "gold": 46500000,
+            "vPoint": 1240,
+            "isAvailable": {
+                "DTAC": 1,
+                "TRUEMONEY": 0,
+                "AIS": 0,
+                "MOL": 0
+            },
+            "goldPerUnit": 232500,
+            "firstPromotion": 100
+        },
+        "MOLCARD_TH_8": {
+            "cost": 300,
+            "gold": 78120000,
+            "vPoint": 1860,
+            "isAvailable": {
+                "DTAC": 1,
+                "TRUEMONEY": 1,
+                "AIS": 1,
+                "MOL": 1
+            },
+            "goldPerUnit": 260400,
+            "firstPromotion": 200
+        },
+        "MOLCARD_TH_9": {
+            "cost": 500,
+            "gold": 167400000,
+            "vPoint": 3100,
+            "isAvailable": {
+                "DTAC": 1,
+                "TRUEMONEY": 1,
+                "AIS": 1,
+                "MOL": 1
+            },
+            "goldPerUnit": 334800,
+            "firstPromotion": 100
+        },
+        "MOLCARD_TH_10": {
+            "cost": 1000,
+            "gold": 372000000,
+            "vPoint": 6200,
+            "isAvailable": {
+                "DTAC": 0,
+                "TRUEMONEY": 1,
+                "AIS": 1,
+                "MOL": 1
+            },
+            "goldPerUnit": 372000,
+            "firstPromotion": 100
+        },
+        "MOLCARD_TH_11": {
+            "cost": 2000,
+            "gold": 818400000,
+            "vPoint": 12400,
+            "isAvailable": {
+                "DTAC": 0,
+                "TRUEMONEY": 0,
+                "AIS": 0,
+                "MOL": 0
+            },
+            "goldPerUnit": 409200,
+            "firstPromotion": 100
+        },
+        "MOLCARD_TH_12": {
+            "cost": 3500,
+            "gold": 1529850000,
+            "vPoint": 21700,
+            "isAvailable": {
+                "DTAC": 0,
+                "TRUEMONEY": 0,
+                "AIS": 0,
+                "MOL": 1
+            },
+            "goldPerUnit": 437100,
+            "firstPromotion": 100
+        },
+        "MOLCARD_TH_13": {
+            "cost": 5000,
+            "gold": 2325000000,
+            "vPoint": 31000,
+            "isAvailable": {
+                "DTAC": 0,
+                "TRUEMONEY": 0,
+                "AIS": 0,
+                "MOL": 1
+            },
+            "goldPerUnit": 465000,
+            "firstPromotion": 100
+        }
+    },
+    "MOLCardPackMY": {
+        "MOLCARD_MY_1": {
+            "cost": 3,
+            "gold": 4950000,
+            "vPoint": 165,
+            "isAvailable": {
+                "MOL": 1
+            },
+            "goldPerUnit": 1650000,
+            "firstPromotion": 100
+        },
+        "MOLCARD_MY_2": {
+            "cost": 5,
+            "gold": 8250000,
+            "vPoint": 275,
+            "isAvailable": {
+                "MOL": 1
+            },
+            "goldPerUnit": 1732500,
+            "firstPromotion": 100
+        },
+        "MOLCARD_MY_3": {
+            "cost": 7,
+            "gold": 11550000,
+            "vPoint": 385,
+            "isAvailable": {
+                "MOL": 1
+            },
+            "goldPerUnit": 1765500,
+            "firstPromotion": 100
+        },
+        "MOLCARD_MY_4": {
+            "cost": 10,
+            "gold": 16500000,
+            "vPoint": 550,
+            "isAvailable": {
+                "MOL": 1
+            },
+            "goldPerUnit": 1815000,
+            "firstPromotion": 100
+        },
+        "MOLCARD_MY_5": {
+            "cost": 20,
+            "gold": 33000000,
+            "vPoint": 1100,
+            "isAvailable": {
+                "MOL": 1
+            },
+            "goldPerUnit": 1980000,
+            "firstPromotion": 100
+        },
+        "MOLCARD_MY_6": {
+            "cost": 30,
+            "gold": 49500000,
+            "vPoint": 1650,
+            "isAvailable": {
+                "MOL": 1
+            },
+            "goldPerUnit": 2310000,
+            "firstPromotion": 100
+        },
+        "MOLCARD_MY_7": {
+            "cost": 40,
+            "gold": 66000000,
+            "vPoint": 2200,
+            "isAvailable": {
+                "MOL": 1
+            },
+            "goldPerUnit": 2640000,
+            "firstPromotion": 100
+        },
+        "MOLCARD_MY_8": {
+            "cost": 50,
+            "gold": 82500000,
+            "vPoint": 2750,
+            "isAvailable": {
+                "MOL": 1
+            },
+            "goldPerUnit": 2970000,
+            "firstPromotion": 100
+        },
+        "MOLCARD_MY_9": {
+            "cost": 100,
+            "gold": 165000000,
+            "vPoint": 5500,
+            "isAvailable": {
+                "MOL": 1
+            },
+            "goldPerUnit": 3300000,
+            "firstPromotion": 100
+        },
+        "MOLCARD_MY_10": {
+            "cost": 200,
+            "gold": 330000000,
+            "vPoint": 11000,
+            "isAvailable": {
+                "MOL": 1
+            },
+            "goldPerUnit": 3630000,
+            "firstPromotion": 100
+        },
+        "MOLCARD_MY_11": {
+            "cost": 300,
+            "gold": 495000000,
+            "vPoint": 16500,
+            "isAvailable": {
+                "MOL": 1
+            },
+            "goldPerUnit": 3877500,
+            "firstPromotion": 100
+        },
+        "MOLCARD_MY_12": {
+            "cost": 500,
+            "gold": 825000000,
+            "vPoint": 27500,
+            "isAvailable": {
+                "MOL": 1
+            },
+            "goldPerUnit": 4125000,
+            "firstPromotion": 100
+        }
+    },
+    "MOLCardPackID": {
+        "MOLCARD_ID_1": {
+            "cost": 2200,
+            "gold": 1122000,
+            "vPoint": 37,
+            "isAvailable": {
+                "MOL": 1,
+                "TELKOMSEL": 0,
+                "INDOSAT": 0,
+                "XL": 0
+            },
+            "goldPerUnit": 510,
+            "firstPromotion": 100
+        },
+        "MOLCARD_ID_2": {
+            "cost": 4500,
+            "gold": 2295000,
+            "vPoint": 76,
+            "isAvailable": {
+                "MOL": 1,
+                "TELKOMSEL": 0,
+                "INDOSAT": 0,
+                "XL": 0
+            },
+            "goldPerUnit": 535.5,
+            "firstPromotion": 100
+        },
+        "MOLCARD_ID_3": {
+            "cost": 9000,
+            "gold": 4590000,
+            "vPoint": 153,
+            "isAvailable": {
+                "MOL": 1,
+                "TELKOMSEL": 0,
+                "INDOSAT": 0,
+                "XL": 0
+            },
+            "goldPerUnit": 561,
+            "firstPromotion": 100
+        },
+        "MOLCARD_ID_4": {
+            "cost": 10000,
+            "gold": 5100000,
+            "vPoint": 170,
+            "isAvailable": {
+                "MOL": 1,
+                "TELKOMSEL": 0,
+                "INDOSAT": 0,
+                "XL": 0
+            },
+            "goldPerUnit": 586.5,
+            "firstPromotion": 100
+        },
+        "MOLCARD_ID_5": {
+            "cost": 13500,
+            "gold": 6885000,
+            "vPoint": 230,
+            "isAvailable": {
+                "MOL": 1,
+                "TELKOMSEL": 0,
+                "INDOSAT": 0,
+                "XL": 0
+            },
+            "goldPerUnit": 612,
+            "firstPromotion": 100
+        },
+        "MOLCARD_ID_6": {
+            "cost": 18000,
+            "gold": 9180000,
+            "vPoint": 306,
+            "isAvailable": {
+                "MOL": 1,
+                "TELKOMSEL": 0,
+                "INDOSAT": 0,
+                "XL": 0
+            },
+            "goldPerUnit": 637.5,
+            "firstPromotion": 100
+        },
+        "MOLCARD_ID_7": {
+            "cost": 20000,
+            "gold": 10200000,
+            "vPoint": 340,
+            "isAvailable": {
+                "MOL": 1,
+                "TELKOMSEL": 0,
+                "INDOSAT": 0,
+                "XL": 0
+            },
+            "goldPerUnit": 663,
+            "firstPromotion": 100
+        },
+        "MOLCARD_ID_8": {
+            "cost": 22500,
+            "gold": 11475000,
+            "vPoint": 382,
+            "isAvailable": {
+                "MOL": 1,
+                "TELKOMSEL": 0,
+                "INDOSAT": 0,
+                "XL": 0
+            },
+            "goldPerUnit": 688.5,
+            "firstPromotion": 100
+        },
+        "MOLCARD_ID_9": {
+            "cost": 50000,
+            "gold": 25500000,
+            "vPoint": 850,
+            "isAvailable": {
+                "MOL": 1,
+                "TELKOMSEL": 1,
+                "INDOSAT": 1,
+                "XL": 1
+            },
+            "goldPerUnit": 714,
+            "firstPromotion": 200
+        },
+        "MOLCARD_ID_10": {
+            "cost": 100000,
+            "gold": 51000000,
+            "vPoint": 1700,
+            "isAvailable": {
+                "MOL": 1,
+                "TELKOMSEL": 1,
+                "INDOSAT": 1,
+                "XL": 1
+            },
+            "goldPerUnit": 765,
+            "firstPromotion": 100
+        },
+        "MOLCARD_ID_11": {
+            "cost": 200000,
+            "gold": 102000000,
+            "vPoint": 3400,
+            "isAvailable": {
+                "MOL": 1,
+                "TELKOMSEL": 0,
+                "INDOSAT": 0,
+                "XL": 0
+            },
+            "goldPerUnit": 918,
+            "firstPromotion": 100
+        },
+        "MOLCARD_ID_12": {
+            "cost": 500000,
+            "gold": 255000000,
+            "vPoint": 8500,
+            "isAvailable": {
+                "MOL": 1,
+                "TELKOMSEL": 0,
+                "INDOSAT": 0,
+                "XL": 0
+            },
+            "goldPerUnit": 1071,
+            "firstPromotion": 100
+        },
+        "MOLCARD_ID_13": {
+            "cost": 1000000,
+            "gold": 510000000,
+            "vPoint": 17000,
+            "isAvailable": {
+                "MOL": 1,
+                "TELKOMSEL": 0,
+                "INDOSAT": 0,
+                "XL": 0
+            },
+            "goldPerUnit": 1224,
+            "firstPromotion": 100
+        }
+    },
+    "2C2PCardPackMM": {
+        "2C2PCARD_MM_1": {
+            "cost": 100,
+            "gold": 498000,
+            "vPoint": 17,
+            "isAvailable": {
+                "EASY_POINTS": 0
+            },
+            "goldPerUnit": 4980,
+            "firstPromotion": 250
+        },
+        "2C2PCARD_MM_2": {
+            "cost": 300,
+            "gold": 1494000,
+            "vPoint": 50,
+            "isAvailable": {
+                "EASY_POINTS": 0
+            },
+            "goldPerUnit": 5229,
+            "firstPromotion": 250
+        },
+        "2C2PCARD_MM_3": {
+            "cost": 500,
+            "gold": 2800000,
+            "vPoint": 83,
+            "isAvailable": {
+                "EASY_POINTS": 1
+            },
+            "goldPerUnit": 5478,
+            "firstPromotion": 260
+        },
+        "2C2PCARD_MM_4": {
+            "cost": 1000,
+            "gold": 5800000,
+            "vPoint": 166,
+            "isAvailable": {
+                "EASY_POINTS": 1
+            },
+            "goldPerUnit": 5727,
+            "firstPromotion": 270
+        },
+        "2C2PCARD_MM_5": {
+            "cost": 3000,
+            "gold": 20000000,
+            "vPoint": 498,
+            "isAvailable": {
+                "EASY_POINTS": 1
+            },
+            "goldPerUnit": 5976,
+            "firstPromotion": 280
+        },
+        "2C2PCARD_MM_6": {
+            "cost": 5000,
+            "gold": 38000000,
+            "vPoint": 830,
+            "isAvailable": {
+                "EASY_POINTS": 1
+            },
+            "goldPerUnit": 6225,
+            "firstPromotion": 300
+        }
+    }
+}

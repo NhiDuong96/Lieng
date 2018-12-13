@@ -1,0 +1,61 @@
+{
+    "ExclusiveDeal": {
+        "1": {
+            "vipRequired": 0,
+            "minLifeTimeInSec": 259200,
+            "paymentRequired": "sms:5000;zcard:-1;pcard:-1;mcard:-1;iap:-1",
+            "minAccumulateValue": 0,
+            "rewards": {
+                "1": {
+                    "item": "UP_VIP",
+                    "q": 1
+                },
+                "2": {
+                    "item": "GOLD",
+                    "q": 2000000
+                }
+            },
+            "limitTimeInSec": 86400,
+            "periodToReviewInSec": 604800,
+            "nextDealDelayInSec": 259200
+        },
+        "2": {
+            "vipRequired": 1,
+            "minLifeTimeInSec": 259200,
+            "paymentRequired": "sms:15000;zcard:-1;pcard:-1;mcard:-1;iap:-1",
+            "minAccumulateValue": 0,
+            "rewards": {
+                "1": {
+                    "item": "UP_VIP",
+                    "q": 1
+                },
+                "2": {
+                    "item": "GOLD",
+                    "q": 5000000
+                }
+            },
+            "limitTimeInSec": 172800,
+            "periodToReviewInSec": 604800,
+            "nextDealDelayInSec": 259200
+        },
+        "3": {
+            "vipRequired": 2,
+            "minLifeTimeInSec": 0,
+            "paymentRequired": "*:-1",
+            "minAccumulateValue": 200000000,
+            "rewards": {
+                "1": {
+                    "item": "UP_VIP",
+                    "q": 1
+                },
+                "2": {
+                    "item": "GOLD",
+                    "q": 100000000
+                }
+            },
+            "limitTimeInSec": 172800,
+            "periodToReviewInSec": 604800,
+            "nextDealDelayInSec": 259200
+        }
+    }
+}

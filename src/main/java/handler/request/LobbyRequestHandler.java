@@ -1,16 +1,18 @@
 package handler.request;
 
-import bitzero.server.core.IBZEvent;
 import bitzero.server.entities.User;
 import bitzero.server.extensions.BaseClientRequestHandler;
 import bitzero.server.extensions.data.DataCmd;
-import constant.CmdDefine;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 
-public class LobbyRequestHandler extends BaseClientRequestHandler {
-    Logger logger = LoggerFactory.getLogger(getClass());
+
+/**
+ * Created by pc1 on 11/2/2018.
+ */
+abstract class LobbyRequestHandler extends BaseClientRequestHandler {
+    protected Logger logger = LoggerFactory.getLogger(getClass());
 
     public LobbyRequestHandler() {
         super();
@@ -20,9 +22,10 @@ public class LobbyRequestHandler extends BaseClientRequestHandler {
     public void handleClientRequest(User user, DataCmd cmd) {
         try {
             switch (cmd.getId()) {
-                case CmdDefine.GET_USER_INFO:
-                    getUserInfo(user, cmd);
+                case 1100:
+                    onHandleRequestUserInfo(user);
                     break;
+
                 default:
                     break;
             }
@@ -31,10 +34,6 @@ public class LobbyRequestHandler extends BaseClientRequestHandler {
         }
     }
 
-    private void getUserInfo(User user, DataCmd cmd) {
-    }
+    protected abstract void onHandleRequestUserInfo(User user);
 
-    public void handleServerEvent(IBZEvent ibzevent) throws Exception {
-        super.handleServerEvent(ibzevent);
-    }
 }

@@ -1,0 +1,289 @@
+{
+    "General": {
+        "maxFriendInvitationPerDay": 100,
+        "timeResetSupportDaily": "8:00;12:00;19:00",
+        "goldSupportNewAccount": 50000,
+        "goldLikeFanpage": 250000,
+        "goldRateApp": 500000,
+        "goldDailySupport": 15000,
+        "spinMachinePeriodInSec": 7200,
+        "spinMachineCheckpoints": 5,
+        "goldPortalCampaign": 49999,
+        "goldSupportGuestAccount": 50000
+    },
+    "FirstPaying": {
+        "SMSBonusRate": {
+            "value": 0.5
+        },
+        "TelcoBonusGold": {
+            "value": 3000000
+        },
+        "IAPBonusRate": {
+            "value": 1
+        },
+        "FirstPayBonusMin": {
+            "value": 250
+        }
+    },
+    "ContinuousLogin": {
+        "1": {
+            "gold": 15000
+        },
+        "2": {
+            "gold": 20000
+        },
+        "3": {
+            "gold": 25000
+        },
+        "4": {
+            "gold": 30000
+        },
+        "5": {
+            "gold": 35000
+        },
+        "6": {
+            "gold": 40000
+        },
+        "7": {
+            "gold": 45000
+        }
+    },
+    "InviteFriend": {
+        "1": {
+            "nInvited": 10,
+            "gold": 25000
+        },
+        "2": {
+            "nInvited": 30,
+            "gold": 50000
+        },
+        "3": {
+            "nInvited": 50,
+            "gold": 75000
+        },
+        "4": {
+            "nInvited": 100,
+            "gold": 100000
+        }
+    },
+    "InGameBonus": {
+        "1": {
+            "time": 120,
+            "gold": 5000
+        },
+        "2": {
+            "time": 180,
+            "gold": 10000
+        },
+        "3": {
+            "time": 300,
+            "gold": 20000
+        },
+        "4": {
+            "time": 480,
+            "gold": 30000
+        },
+        "5": {
+            "time": 720,
+            "gold": 50000
+        }
+    },
+    "SpinMachine": [
+        {
+            "chance": 80,
+            "baseGold": 3000,
+            "megaGold": 6000,
+            "levelMultiplier": {
+                "0": 1,
+                "20": 1.25,
+                "50": 1.5,
+                "100": 1.75,
+                "200": 2,
+                "300": 2.25,
+                "500": 2.5
+            }
+        },
+        {
+            "chance": 80,
+            "baseGold": 3500,
+            "megaGold": 7000,
+            "levelMultiplier": {
+                "0": 1,
+                "20": 1.25,
+                "50": 1.5,
+                "100": 1.75,
+                "200": 2,
+                "300": 2.25,
+                "500": 2.5
+            }
+        },
+        {
+            "chance": 80,
+            "baseGold": 4000,
+            "megaGold": 8000,
+            "levelMultiplier": {
+                "0": 1,
+                "20": 1.25,
+                "50": 1.5,
+                "100": 1.75,
+                "200": 2,
+                "300": 2.25,
+                "500": 2.5
+            }
+        },
+        {
+            "chance": 100,
+            "baseGold": 5000,
+            "megaGold": 10000,
+            "levelMultiplier": {
+                "0": 1,
+                "20": 1.25,
+                "50": 1.5,
+                "100": 1.75,
+                "200": 2,
+                "300": 2.25,
+                "500": 2.5
+            }
+        },
+        {
+            "chance": 100,
+            "baseGold": 5500,
+            "megaGold": 11000,
+            "levelMultiplier": {
+                "0": 1,
+                "20": 1.25,
+                "50": 1.5,
+                "100": 1.75,
+                "200": 2,
+                "300": 2.25,
+                "500": 2.5
+            }
+        },
+        {
+            "chance": 100,
+            "baseGold": 6000,
+            "megaGold": 12000,
+            "levelMultiplier": {
+                "0": 1,
+                "20": 1.25,
+                "50": 1.5,
+                "100": 1.75,
+                "200": 2,
+                "300": 2.25,
+                "500": 2.5
+            }
+        },
+        {
+            "chance": 100,
+            "baseGold": 6500,
+            "megaGold": 13000,
+            "levelMultiplier": {
+                "0": 1,
+                "20": 1.25,
+                "50": 1.5,
+                "100": 1.75,
+                "200": 2,
+                "300": 2.25,
+                "500": 2.5
+            }
+        },
+        {
+            "chance": 100,
+            "baseGold": 7000,
+            "megaGold": 14000,
+            "levelMultiplier": {
+                "0": 1,
+                "20": 1.25,
+                "50": 1.5,
+                "100": 1.75,
+                "200": 2,
+                "300": 2.25,
+                "500": 2.5
+            }
+        },
+        {
+            "chance": 40,
+            "baseGold": 8000,
+            "megaGold": 16000,
+            "levelMultiplier": {
+                "0": 1,
+                "20": 1.25,
+                "50": 1.5,
+                "100": 1.75,
+                "200": 2,
+                "300": 2.25,
+                "500": 2.5
+            }
+        },
+        {
+            "chance": 40,
+            "baseGold": 9000,
+            "megaGold": 18000,
+            "levelMultiplier": {
+                "0": 1,
+                "20": 1.25,
+                "50": 1.5,
+                "100": 1.75,
+                "200": 2,
+                "300": 2.25,
+                "500": 2.5
+            }
+        },
+        {
+            "chance": 40,
+            "baseGold": 10000,
+            "megaGold": 20000,
+            "levelMultiplier": {
+                "0": 1,
+                "20": 1.25,
+                "50": 1.5,
+                "100": 1.75,
+                "200": 2,
+                "300": 2.25,
+                "500": 2.5
+            }
+        },
+        {
+            "chance": 10,
+            "baseGold": 20000,
+            "megaGold": 40000,
+            "levelMultiplier": {
+                "0": 1,
+                "20": 1.25,
+                "50": 1.5,
+                "100": 1.75,
+                "200": 2,
+                "300": 2.25,
+                "500": 2.5
+            }
+        },
+        {
+            "chance": 10,
+            "baseGold": 25000,
+            "megaGold": 50000,
+            "levelMultiplier": {
+                "0": 1,
+                "20": 1.25,
+                "50": 1.5,
+                "100": 1.75,
+                "200": 2,
+                "300": 2.25,
+                "500": 2.5
+            }
+        },
+        {
+            "chance": 10,
+            "baseGold": 30000,
+            "megaGold": 60000,
+            "levelMultiplier": {
+                "0": 1,
+                "20": 1.25,
+                "50": 1.5,
+                "100": 1.75,
+                "200": 2,
+                "300": 2.25,
+                "500": 2.5
+            }
+        }
+    ]
+}

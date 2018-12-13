@@ -17,7 +17,7 @@ import handler.event.DisconnectEventHandler;
 import handler.event.LoginEventHandler;
 import handler.event.LogoutEventHandler;
 import handler.event.PaymentUpdateEventHandler;
-import handler.request.LobbyRequestHandler;
+import handler.request.LobbyRequestHandlerImpl;
 
 
 public class Extension extends BZExtension {
@@ -29,7 +29,7 @@ public class Extension extends BZExtension {
     @Override
     public void init() {
         trace(ExtensionLogLevel.INFO, "Request handler register");
-        addRequestHandler(CmdDefine.LOBBY_MULTI_IDS, LobbyRequestHandler.class);
+        addRequestHandler(CmdDefine.LOBBY_MULTI_IDS, LobbyRequestHandlerImpl.class);
 
         trace(ExtensionLogLevel.INFO, "Event handler register");
         addEventHandler(BZEventType.USER_LOGIN, LoginEventHandler.class);
@@ -38,7 +38,7 @@ public class Extension extends BZExtension {
         addEventHandler(BZEventType.PAYMENT_UPDATE, PaymentUpdateEventHandler.class);
 
         // init others service
-        RestServer.getInstance().onExtensionInit();
+        //RestServer.getInstance().onExtensionInit();
     }
 
     @Override

@@ -1,0 +1,468 @@
+{
+    "Structure": {
+        "name": "BCTC_0",
+        "maxPlayer": 9,
+        "maxSpectator": 0,
+        "minGoldRequired": 10000,
+        "totalBaseWeight": 1000010,
+        "maxGamesNonInterActive": 3,
+        "maxGamesDisconnect": 3,
+        "rateMaxBetLevel": 2,
+        "goldRate": [
+            0,
+            2,
+            3,
+            4,
+            6
+        ]
+    },
+    "GameCase": [
+        {
+            "case": {
+                "1": 3
+            },
+            "baseWeight": 4630
+        },
+        {
+            "case": {
+                "2": 3
+            },
+            "baseWeight": 4630
+        },
+        {
+            "case": {
+                "3": 3
+            },
+            "baseWeight": 4630
+        },
+        {
+            "case": {
+                "4": 3
+            },
+            "baseWeight": 4630
+        },
+        {
+            "case": {
+                "5": 3
+            },
+            "baseWeight": 4630
+        },
+        {
+            "case": {
+                "6": 3
+            },
+            "baseWeight": 4630
+        },
+        {
+            "case": {
+                "1": 2,
+                "2": 1
+            },
+            "baseWeight": 13889
+        },
+        {
+            "case": {
+                "1": 2,
+                "3": 1
+            },
+            "baseWeight": 13889
+        },
+        {
+            "case": {
+                "1": 2,
+                "4": 1
+            },
+            "baseWeight": 13889
+        },
+        {
+            "case": {
+                "1": 2,
+                "5": 1
+            },
+            "baseWeight": 13889
+        },
+        {
+            "case": {
+                "1": 2,
+                "6": 1
+            },
+            "baseWeight": 13889
+        },
+        {
+            "case": {
+                "1": 1,
+                "2": 2
+            },
+            "baseWeight": 13889
+        },
+        {
+            "case": {
+                "2": 2,
+                "3": 1
+            },
+            "baseWeight": 13889
+        },
+        {
+            "case": {
+                "2": 2,
+                "4": 1
+            },
+            "baseWeight": 13889
+        },
+        {
+            "case": {
+                "2": 2,
+                "5": 1
+            },
+            "baseWeight": 13889
+        },
+        {
+            "case": {
+                "2": 2,
+                "6": 1
+            },
+            "baseWeight": 13889
+        },
+        {
+            "case": {
+                "1": 1,
+                "3": 2
+            },
+            "baseWeight": 13889
+        },
+        {
+            "case": {
+                "2": 1,
+                "3": 2
+            },
+            "baseWeight": 13889
+        },
+        {
+            "case": {
+                "3": 2,
+                "4": 1
+            },
+            "baseWeight": 13889
+        },
+        {
+            "case": {
+                "3": 2,
+                "5": 1
+            },
+            "baseWeight": 13889
+        },
+        {
+            "case": {
+                "3": 2,
+                "6": 1
+            },
+            "baseWeight": 13889
+        },
+        {
+            "case": {
+                "1": 1,
+                "4": 2
+            },
+            "baseWeight": 13889
+        },
+        {
+            "case": {
+                "2": 1,
+                "4": 2
+            },
+            "baseWeight": 13889
+        },
+        {
+            "case": {
+                "3": 1,
+                "4": 2
+            },
+            "baseWeight": 13889
+        },
+        {
+            "case": {
+                "4": 2,
+                "5": 1
+            },
+            "baseWeight": 13889
+        },
+        {
+            "case": {
+                "4": 2,
+                "6": 1
+            },
+            "baseWeight": 13889
+        },
+        {
+            "case": {
+                "1": 1,
+                "5": 2
+            },
+            "baseWeight": 13889
+        },
+        {
+            "case": {
+                "2": 1,
+                "5": 2
+            },
+            "baseWeight": 13889
+        },
+        {
+            "case": {
+                "3": 1,
+                "5": 2
+            },
+            "baseWeight": 13889
+        },
+        {
+            "case": {
+                "4": 1,
+                "5": 2
+            },
+            "baseWeight": 13889
+        },
+        {
+            "case": {
+                "5": 2,
+                "6": 1
+            },
+            "baseWeight": 13889
+        },
+        {
+            "case": {
+                "1": 1,
+                "6": 2
+            },
+            "baseWeight": 13889
+        },
+        {
+            "case": {
+                "2": 1,
+                "6": 2
+            },
+            "baseWeight": 13889
+        },
+        {
+            "case": {
+                "3": 1,
+                "6": 2
+            },
+            "baseWeight": 13889
+        },
+        {
+            "case": {
+                "4": 1,
+                "6": 2
+            },
+            "baseWeight": 13889
+        },
+        {
+            "case": {
+                "5": 1,
+                "6": 2
+            },
+            "baseWeight": 13889
+        },
+        {
+            "case": {
+                "1": 1,
+                "2": 1,
+                "3": 1
+            },
+            "baseWeight": 27778
+        },
+        {
+            "case": {
+                "1": 1,
+                "2": 1,
+                "4": 1
+            },
+            "baseWeight": 27778
+        },
+        {
+            "case": {
+                "1": 1,
+                "2": 1,
+                "5": 1
+            },
+            "baseWeight": 27778
+        },
+        {
+            "case": {
+                "1": 1,
+                "2": 1,
+                "6": 1
+            },
+            "baseWeight": 27778
+        },
+        {
+            "case": {
+                "1": 1,
+                "3": 1,
+                "4": 1
+            },
+            "baseWeight": 27778
+        },
+        {
+            "case": {
+                "1": 1,
+                "3": 1,
+                "5": 1
+            },
+            "baseWeight": 27778
+        },
+        {
+            "case": {
+                "1": 1,
+                "3": 1,
+                "6": 1
+            },
+            "baseWeight": 27778
+        },
+        {
+            "case": {
+                "1": 1,
+                "4": 1,
+                "5": 1
+            },
+            "baseWeight": 27778
+        },
+        {
+            "case": {
+                "1": 1,
+                "4": 1,
+                "6": 1
+            },
+            "baseWeight": 27778
+        },
+        {
+            "case": {
+                "1": 1,
+                "5": 1,
+                "6": 1
+            },
+            "baseWeight": 27778
+        },
+        {
+            "case": {
+                "2": 1,
+                "3": 1,
+                "4": 1
+            },
+            "baseWeight": 27778
+        },
+        {
+            "case": {
+                "2": 1,
+                "3": 1,
+                "5": 1
+            },
+            "baseWeight": 27778
+        },
+        {
+            "case": {
+                "2": 1,
+                "3": 1,
+                "6": 1
+            },
+            "baseWeight": 27778
+        },
+        {
+            "case": {
+                "2": 1,
+                "4": 1,
+                "5": 1
+            },
+            "baseWeight": 27778
+        },
+        {
+            "case": {
+                "2": 1,
+                "4": 1,
+                "6": 1
+            },
+            "baseWeight": 27778
+        },
+        {
+            "case": {
+                "2": 1,
+                "5": 1,
+                "6": 1
+            },
+            "baseWeight": 27778
+        },
+        {
+            "case": {
+                "3": 1,
+                "4": 1,
+                "5": 1
+            },
+            "baseWeight": 27778
+        },
+        {
+            "case": {
+                "3": 1,
+                "4": 1,
+                "6": 1
+            },
+            "baseWeight": 27778
+        },
+        {
+            "case": {
+                "3": 1,
+                "5": 1,
+                "6": 1
+            },
+            "baseWeight": 27778
+        },
+        {
+            "case": {
+                "4": 1,
+                "5": 1,
+                "6": 1
+            },
+            "baseWeight": 27778
+        }
+    ],
+    "Dice": {
+        "gourd": {
+            "id": 1
+        },
+        "crab": {
+            "id": 2
+        },
+        "shrimp": {
+            "id": 3
+        },
+        "fish": {
+            "id": 4
+        },
+        "chicken": {
+            "id": 5
+        },
+        "tiger": {
+            "id": 6
+        }
+    },
+    "TimePhase": {
+        "ready": 5,
+        "ante": 15,
+        "showdown": 8,
+        "updateHandInfo": 1,
+        "timePerBet": 1
+    },
+    "BetLevel": [
+        5000,
+        10000,
+        20000,
+        50000,
+        100000,
+        200000,
+        500000,
+        1000000,
+        2000000,
+        5000000,
+        10000000,
+        50000000
+    ]
+}

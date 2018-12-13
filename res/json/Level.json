@@ -1,0 +1,2504 @@
+{
+    "Level": {
+        "1": {
+            "requiredExp": 4,
+            "bonusGold": 500,
+            "bonusVPoint": 1
+        },
+        "2": {
+            "requiredExp": 64,
+            "bonusGold": 1000,
+            "bonusVPoint": 1
+        },
+        "3": {
+            "requiredExp": 124,
+            "bonusGold": 1500,
+            "bonusVPoint": 1
+        },
+        "4": {
+            "requiredExp": 184,
+            "bonusGold": 2000,
+            "bonusVPoint": 1
+        },
+        "5": {
+            "requiredExp": 244,
+            "bonusGold": 2500,
+            "bonusVPoint": 1
+        },
+        "6": {
+            "requiredExp": 304,
+            "bonusGold": 3000,
+            "bonusVPoint": 1
+        },
+        "7": {
+            "requiredExp": 364,
+            "bonusGold": 3500,
+            "bonusVPoint": 1
+        },
+        "8": {
+            "requiredExp": 424,
+            "bonusGold": 4000,
+            "bonusVPoint": 1
+        },
+        "9": {
+            "requiredExp": 484,
+            "bonusGold": 4500,
+            "bonusVPoint": 1
+        },
+        "10": {
+            "requiredExp": 544,
+            "bonusGold": 5000,
+            "bonusVPoint": 1
+        },
+        "11": {
+            "requiredExp": 604,
+            "bonusGold": 5500,
+            "bonusVPoint": 1
+        },
+        "12": {
+            "requiredExp": 664,
+            "bonusGold": 6000,
+            "bonusVPoint": 1
+        },
+        "13": {
+            "requiredExp": 724,
+            "bonusGold": 6500,
+            "bonusVPoint": 1
+        },
+        "14": {
+            "requiredExp": 784,
+            "bonusGold": 7000,
+            "bonusVPoint": 1
+        },
+        "15": {
+            "requiredExp": 844,
+            "bonusGold": 7500,
+            "bonusVPoint": 1
+        },
+        "16": {
+            "requiredExp": 904,
+            "bonusGold": 8000,
+            "bonusVPoint": 1
+        },
+        "17": {
+            "requiredExp": 964,
+            "bonusGold": 8500,
+            "bonusVPoint": 1
+        },
+        "18": {
+            "requiredExp": 1024,
+            "bonusGold": 9000,
+            "bonusVPoint": 1
+        },
+        "19": {
+            "requiredExp": 1084,
+            "bonusGold": 9500,
+            "bonusVPoint": 1
+        },
+        "20": {
+            "requiredExp": 1144,
+            "bonusGold": 10000,
+            "bonusVPoint": 1
+        },
+        "21": {
+            "requiredExp": 1204,
+            "bonusGold": 10500,
+            "bonusVPoint": 1
+        },
+        "22": {
+            "requiredExp": 1264,
+            "bonusGold": 11000,
+            "bonusVPoint": 1
+        },
+        "23": {
+            "requiredExp": 1324,
+            "bonusGold": 11500,
+            "bonusVPoint": 1
+        },
+        "24": {
+            "requiredExp": 1384,
+            "bonusGold": 12000,
+            "bonusVPoint": 1
+        },
+        "25": {
+            "requiredExp": 1444,
+            "bonusGold": 12500,
+            "bonusVPoint": 1
+        },
+        "26": {
+            "requiredExp": 1504,
+            "bonusGold": 13000,
+            "bonusVPoint": 1
+        },
+        "27": {
+            "requiredExp": 1564,
+            "bonusGold": 13500,
+            "bonusVPoint": 1
+        },
+        "28": {
+            "requiredExp": 1624,
+            "bonusGold": 14000,
+            "bonusVPoint": 1
+        },
+        "29": {
+            "requiredExp": 1684,
+            "bonusGold": 14500,
+            "bonusVPoint": 1
+        },
+        "30": {
+            "requiredExp": 1744,
+            "bonusGold": 15000,
+            "bonusVPoint": 1
+        },
+        "31": {
+            "requiredExp": 1804,
+            "bonusGold": 15500,
+            "bonusVPoint": 1
+        },
+        "32": {
+            "requiredExp": 1864,
+            "bonusGold": 16000,
+            "bonusVPoint": 1
+        },
+        "33": {
+            "requiredExp": 1924,
+            "bonusGold": 16500,
+            "bonusVPoint": 1
+        },
+        "34": {
+            "requiredExp": 1984,
+            "bonusGold": 17000,
+            "bonusVPoint": 1
+        },
+        "35": {
+            "requiredExp": 2044,
+            "bonusGold": 17500,
+            "bonusVPoint": 1
+        },
+        "36": {
+            "requiredExp": 2164,
+            "bonusGold": 18000,
+            "bonusVPoint": 1
+        },
+        "37": {
+            "requiredExp": 2284,
+            "bonusGold": 18500,
+            "bonusVPoint": 1
+        },
+        "38": {
+            "requiredExp": 2404,
+            "bonusGold": 19000,
+            "bonusVPoint": 1
+        },
+        "39": {
+            "requiredExp": 2524,
+            "bonusGold": 19500,
+            "bonusVPoint": 1
+        },
+        "40": {
+            "requiredExp": 2644,
+            "bonusGold": 20000,
+            "bonusVPoint": 1
+        },
+        "41": {
+            "requiredExp": 2764,
+            "bonusGold": 20500,
+            "bonusVPoint": 1
+        },
+        "42": {
+            "requiredExp": 2884,
+            "bonusGold": 21000,
+            "bonusVPoint": 1
+        },
+        "43": {
+            "requiredExp": 3004,
+            "bonusGold": 21500,
+            "bonusVPoint": 1
+        },
+        "44": {
+            "requiredExp": 3124,
+            "bonusGold": 22000,
+            "bonusVPoint": 1
+        },
+        "45": {
+            "requiredExp": 3244,
+            "bonusGold": 22500,
+            "bonusVPoint": 1
+        },
+        "46": {
+            "requiredExp": 3364,
+            "bonusGold": 23000,
+            "bonusVPoint": 1
+        },
+        "47": {
+            "requiredExp": 3484,
+            "bonusGold": 23500,
+            "bonusVPoint": 1
+        },
+        "48": {
+            "requiredExp": 3604,
+            "bonusGold": 24000,
+            "bonusVPoint": 1
+        },
+        "49": {
+            "requiredExp": 3724,
+            "bonusGold": 24500,
+            "bonusVPoint": 1
+        },
+        "50": {
+            "requiredExp": 3844,
+            "bonusGold": 25000,
+            "bonusVPoint": 1
+        },
+        "51": {
+            "requiredExp": 3964,
+            "bonusGold": 25500,
+            "bonusVPoint": 1
+        },
+        "52": {
+            "requiredExp": 4084,
+            "bonusGold": 26000,
+            "bonusVPoint": 1
+        },
+        "53": {
+            "requiredExp": 4204,
+            "bonusGold": 26500,
+            "bonusVPoint": 1
+        },
+        "54": {
+            "requiredExp": 4324,
+            "bonusGold": 27000,
+            "bonusVPoint": 1
+        },
+        "55": {
+            "requiredExp": 4444,
+            "bonusGold": 27500,
+            "bonusVPoint": 1
+        },
+        "56": {
+            "requiredExp": 4564,
+            "bonusGold": 28000,
+            "bonusVPoint": 1
+        },
+        "57": {
+            "requiredExp": 4684,
+            "bonusGold": 28500,
+            "bonusVPoint": 1
+        },
+        "58": {
+            "requiredExp": 4804,
+            "bonusGold": 29000,
+            "bonusVPoint": 1
+        },
+        "59": {
+            "requiredExp": 4924,
+            "bonusGold": 29500,
+            "bonusVPoint": 1
+        },
+        "60": {
+            "requiredExp": 5044,
+            "bonusGold": 30000,
+            "bonusVPoint": 1
+        },
+        "61": {
+            "requiredExp": 5164,
+            "bonusGold": 30500,
+            "bonusVPoint": 1
+        },
+        "62": {
+            "requiredExp": 5284,
+            "bonusGold": 31000,
+            "bonusVPoint": 1
+        },
+        "63": {
+            "requiredExp": 5404,
+            "bonusGold": 31500,
+            "bonusVPoint": 1
+        },
+        "64": {
+            "requiredExp": 5524,
+            "bonusGold": 32000,
+            "bonusVPoint": 1
+        },
+        "65": {
+            "requiredExp": 5644,
+            "bonusGold": 32500,
+            "bonusVPoint": 1
+        },
+        "66": {
+            "requiredExp": 5764,
+            "bonusGold": 33000,
+            "bonusVPoint": 1
+        },
+        "67": {
+            "requiredExp": 5884,
+            "bonusGold": 33500,
+            "bonusVPoint": 1
+        },
+        "68": {
+            "requiredExp": 6004,
+            "bonusGold": 34000,
+            "bonusVPoint": 1
+        },
+        "69": {
+            "requiredExp": 6124,
+            "bonusGold": 34500,
+            "bonusVPoint": 1
+        },
+        "70": {
+            "requiredExp": 6244,
+            "bonusGold": 35000,
+            "bonusVPoint": 1
+        },
+        "71": {
+            "requiredExp": 6844,
+            "bonusGold": 35500,
+            "bonusVPoint": 1
+        },
+        "72": {
+            "requiredExp": 7444,
+            "bonusGold": 36000,
+            "bonusVPoint": 1
+        },
+        "73": {
+            "requiredExp": 8044,
+            "bonusGold": 36500,
+            "bonusVPoint": 1
+        },
+        "74": {
+            "requiredExp": 8644,
+            "bonusGold": 37000,
+            "bonusVPoint": 1
+        },
+        "75": {
+            "requiredExp": 9244,
+            "bonusGold": 37500,
+            "bonusVPoint": 1
+        },
+        "76": {
+            "requiredExp": 9844,
+            "bonusGold": 38000,
+            "bonusVPoint": 1
+        },
+        "77": {
+            "requiredExp": 10444,
+            "bonusGold": 38500,
+            "bonusVPoint": 1
+        },
+        "78": {
+            "requiredExp": 11044,
+            "bonusGold": 39000,
+            "bonusVPoint": 1
+        },
+        "79": {
+            "requiredExp": 11644,
+            "bonusGold": 39500,
+            "bonusVPoint": 1
+        },
+        "80": {
+            "requiredExp": 12244,
+            "bonusGold": 40000,
+            "bonusVPoint": 1
+        },
+        "81": {
+            "requiredExp": 12844,
+            "bonusGold": 40500,
+            "bonusVPoint": 1
+        },
+        "82": {
+            "requiredExp": 13444,
+            "bonusGold": 41000,
+            "bonusVPoint": 1
+        },
+        "83": {
+            "requiredExp": 14044,
+            "bonusGold": 41500,
+            "bonusVPoint": 1
+        },
+        "84": {
+            "requiredExp": 14644,
+            "bonusGold": 42000,
+            "bonusVPoint": 1
+        },
+        "85": {
+            "requiredExp": 15244,
+            "bonusGold": 42500,
+            "bonusVPoint": 1
+        },
+        "86": {
+            "requiredExp": 15844,
+            "bonusGold": 43000,
+            "bonusVPoint": 1
+        },
+        "87": {
+            "requiredExp": 16444,
+            "bonusGold": 43500,
+            "bonusVPoint": 1
+        },
+        "88": {
+            "requiredExp": 17044,
+            "bonusGold": 44000,
+            "bonusVPoint": 1
+        },
+        "89": {
+            "requiredExp": 17644,
+            "bonusGold": 44500,
+            "bonusVPoint": 1
+        },
+        "90": {
+            "requiredExp": 18244,
+            "bonusGold": 45000,
+            "bonusVPoint": 1
+        },
+        "91": {
+            "requiredExp": 18844,
+            "bonusGold": 45500,
+            "bonusVPoint": 1
+        },
+        "92": {
+            "requiredExp": 19444,
+            "bonusGold": 46000,
+            "bonusVPoint": 1
+        },
+        "93": {
+            "requiredExp": 20044,
+            "bonusGold": 46500,
+            "bonusVPoint": 1
+        },
+        "94": {
+            "requiredExp": 20644,
+            "bonusGold": 47000,
+            "bonusVPoint": 1
+        },
+        "95": {
+            "requiredExp": 21244,
+            "bonusGold": 47500,
+            "bonusVPoint": 1
+        },
+        "96": {
+            "requiredExp": 21844,
+            "bonusGold": 48000,
+            "bonusVPoint": 1
+        },
+        "97": {
+            "requiredExp": 22444,
+            "bonusGold": 48500,
+            "bonusVPoint": 1
+        },
+        "98": {
+            "requiredExp": 23044,
+            "bonusGold": 49000,
+            "bonusVPoint": 1
+        },
+        "99": {
+            "requiredExp": 23644,
+            "bonusGold": 49500,
+            "bonusVPoint": 1
+        },
+        "100": {
+            "requiredExp": 24244,
+            "bonusGold": 50000,
+            "bonusVPoint": 1
+        },
+        "101": {
+            "requiredExp": 24844,
+            "bonusGold": 50500,
+            "bonusVPoint": 1
+        },
+        "102": {
+            "requiredExp": 25444,
+            "bonusGold": 51000,
+            "bonusVPoint": 1
+        },
+        "103": {
+            "requiredExp": 26044,
+            "bonusGold": 51500,
+            "bonusVPoint": 1
+        },
+        "104": {
+            "requiredExp": 26644,
+            "bonusGold": 52000,
+            "bonusVPoint": 1
+        },
+        "105": {
+            "requiredExp": 27244,
+            "bonusGold": 52500,
+            "bonusVPoint": 1
+        },
+        "106": {
+            "requiredExp": 27844,
+            "bonusGold": 53000,
+            "bonusVPoint": 1
+        },
+        "107": {
+            "requiredExp": 28444,
+            "bonusGold": 53500,
+            "bonusVPoint": 1
+        },
+        "108": {
+            "requiredExp": 29044,
+            "bonusGold": 54000,
+            "bonusVPoint": 1
+        },
+        "109": {
+            "requiredExp": 29644,
+            "bonusGold": 54500,
+            "bonusVPoint": 1
+        },
+        "110": {
+            "requiredExp": 30244,
+            "bonusGold": 55000,
+            "bonusVPoint": 1
+        },
+        "111": {
+            "requiredExp": 30844,
+            "bonusGold": 55500,
+            "bonusVPoint": 1
+        },
+        "112": {
+            "requiredExp": 31444,
+            "bonusGold": 56000,
+            "bonusVPoint": 1
+        },
+        "113": {
+            "requiredExp": 32044,
+            "bonusGold": 56500,
+            "bonusVPoint": 1
+        },
+        "114": {
+            "requiredExp": 32644,
+            "bonusGold": 57000,
+            "bonusVPoint": 1
+        },
+        "115": {
+            "requiredExp": 33244,
+            "bonusGold": 57500,
+            "bonusVPoint": 1
+        },
+        "116": {
+            "requiredExp": 33844,
+            "bonusGold": 58000,
+            "bonusVPoint": 1
+        },
+        "117": {
+            "requiredExp": 34444,
+            "bonusGold": 58500,
+            "bonusVPoint": 1
+        },
+        "118": {
+            "requiredExp": 35044,
+            "bonusGold": 59000,
+            "bonusVPoint": 1
+        },
+        "119": {
+            "requiredExp": 35644,
+            "bonusGold": 59500,
+            "bonusVPoint": 1
+        },
+        "120": {
+            "requiredExp": 36244,
+            "bonusGold": 60000,
+            "bonusVPoint": 1
+        },
+        "121": {
+            "requiredExp": 36844,
+            "bonusGold": 60500,
+            "bonusVPoint": 1
+        },
+        "122": {
+            "requiredExp": 37444,
+            "bonusGold": 61000,
+            "bonusVPoint": 1
+        },
+        "123": {
+            "requiredExp": 38044,
+            "bonusGold": 61500,
+            "bonusVPoint": 1
+        },
+        "124": {
+            "requiredExp": 38644,
+            "bonusGold": 62000,
+            "bonusVPoint": 1
+        },
+        "125": {
+            "requiredExp": 39244,
+            "bonusGold": 62500,
+            "bonusVPoint": 1
+        },
+        "126": {
+            "requiredExp": 39844,
+            "bonusGold": 63000,
+            "bonusVPoint": 1
+        },
+        "127": {
+            "requiredExp": 40444,
+            "bonusGold": 63500,
+            "bonusVPoint": 1
+        },
+        "128": {
+            "requiredExp": 41044,
+            "bonusGold": 64000,
+            "bonusVPoint": 1
+        },
+        "129": {
+            "requiredExp": 41644,
+            "bonusGold": 64500,
+            "bonusVPoint": 1
+        },
+        "130": {
+            "requiredExp": 42244,
+            "bonusGold": 65000,
+            "bonusVPoint": 1
+        },
+        "131": {
+            "requiredExp": 42844,
+            "bonusGold": 65500,
+            "bonusVPoint": 1
+        },
+        "132": {
+            "requiredExp": 43444,
+            "bonusGold": 66000,
+            "bonusVPoint": 1
+        },
+        "133": {
+            "requiredExp": 44044,
+            "bonusGold": 66500,
+            "bonusVPoint": 1
+        },
+        "134": {
+            "requiredExp": 44644,
+            "bonusGold": 67000,
+            "bonusVPoint": 1
+        },
+        "135": {
+            "requiredExp": 45244,
+            "bonusGold": 67500,
+            "bonusVPoint": 1
+        },
+        "136": {
+            "requiredExp": 45844,
+            "bonusGold": 68000,
+            "bonusVPoint": 1
+        },
+        "137": {
+            "requiredExp": 46444,
+            "bonusGold": 68500,
+            "bonusVPoint": 1
+        },
+        "138": {
+            "requiredExp": 47044,
+            "bonusGold": 69000,
+            "bonusVPoint": 1
+        },
+        "139": {
+            "requiredExp": 47644,
+            "bonusGold": 69500,
+            "bonusVPoint": 1
+        },
+        "140": {
+            "requiredExp": 48244,
+            "bonusGold": 70000,
+            "bonusVPoint": 1
+        },
+        "141": {
+            "requiredExp": 48844,
+            "bonusGold": 70500,
+            "bonusVPoint": 1
+        },
+        "142": {
+            "requiredExp": 49444,
+            "bonusGold": 71000,
+            "bonusVPoint": 1
+        },
+        "143": {
+            "requiredExp": 50044,
+            "bonusGold": 71500,
+            "bonusVPoint": 1
+        },
+        "144": {
+            "requiredExp": 50644,
+            "bonusGold": 72000,
+            "bonusVPoint": 1
+        },
+        "145": {
+            "requiredExp": 51244,
+            "bonusGold": 72500,
+            "bonusVPoint": 1
+        },
+        "146": {
+            "requiredExp": 51844,
+            "bonusGold": 73000,
+            "bonusVPoint": 1
+        },
+        "147": {
+            "requiredExp": 52444,
+            "bonusGold": 73500,
+            "bonusVPoint": 1
+        },
+        "148": {
+            "requiredExp": 53044,
+            "bonusGold": 74000,
+            "bonusVPoint": 1
+        },
+        "149": {
+            "requiredExp": 53644,
+            "bonusGold": 74500,
+            "bonusVPoint": 1
+        },
+        "150": {
+            "requiredExp": 54244,
+            "bonusGold": 75000,
+            "bonusVPoint": 1
+        },
+        "151": {
+            "requiredExp": 57244,
+            "bonusGold": 75500,
+            "bonusVPoint": 1
+        },
+        "152": {
+            "requiredExp": 60244,
+            "bonusGold": 76000,
+            "bonusVPoint": 1
+        },
+        "153": {
+            "requiredExp": 63244,
+            "bonusGold": 76500,
+            "bonusVPoint": 1
+        },
+        "154": {
+            "requiredExp": 66244,
+            "bonusGold": 77000,
+            "bonusVPoint": 1
+        },
+        "155": {
+            "requiredExp": 69244,
+            "bonusGold": 77500,
+            "bonusVPoint": 1
+        },
+        "156": {
+            "requiredExp": 72244,
+            "bonusGold": 78000,
+            "bonusVPoint": 1
+        },
+        "157": {
+            "requiredExp": 75244,
+            "bonusGold": 78500,
+            "bonusVPoint": 1
+        },
+        "158": {
+            "requiredExp": 78244,
+            "bonusGold": 79000,
+            "bonusVPoint": 1
+        },
+        "159": {
+            "requiredExp": 81244,
+            "bonusGold": 79500,
+            "bonusVPoint": 1
+        },
+        "160": {
+            "requiredExp": 84244,
+            "bonusGold": 80000,
+            "bonusVPoint": 1
+        },
+        "161": {
+            "requiredExp": 87244,
+            "bonusGold": 80500,
+            "bonusVPoint": 1
+        },
+        "162": {
+            "requiredExp": 90244,
+            "bonusGold": 81000,
+            "bonusVPoint": 1
+        },
+        "163": {
+            "requiredExp": 93244,
+            "bonusGold": 81500,
+            "bonusVPoint": 1
+        },
+        "164": {
+            "requiredExp": 96244,
+            "bonusGold": 82000,
+            "bonusVPoint": 1
+        },
+        "165": {
+            "requiredExp": 99244,
+            "bonusGold": 82500,
+            "bonusVPoint": 1
+        },
+        "166": {
+            "requiredExp": 102244,
+            "bonusGold": 83000,
+            "bonusVPoint": 1
+        },
+        "167": {
+            "requiredExp": 105244,
+            "bonusGold": 83500,
+            "bonusVPoint": 1
+        },
+        "168": {
+            "requiredExp": 108244,
+            "bonusGold": 84000,
+            "bonusVPoint": 1
+        },
+        "169": {
+            "requiredExp": 111244,
+            "bonusGold": 84500,
+            "bonusVPoint": 1
+        },
+        "170": {
+            "requiredExp": 114244,
+            "bonusGold": 85000,
+            "bonusVPoint": 1
+        },
+        "171": {
+            "requiredExp": 117244,
+            "bonusGold": 85500,
+            "bonusVPoint": 1
+        },
+        "172": {
+            "requiredExp": 120244,
+            "bonusGold": 86000,
+            "bonusVPoint": 1
+        },
+        "173": {
+            "requiredExp": 123244,
+            "bonusGold": 86500,
+            "bonusVPoint": 1
+        },
+        "174": {
+            "requiredExp": 126244,
+            "bonusGold": 87000,
+            "bonusVPoint": 1
+        },
+        "175": {
+            "requiredExp": 129244,
+            "bonusGold": 87500,
+            "bonusVPoint": 1
+        },
+        "176": {
+            "requiredExp": 132244,
+            "bonusGold": 88000,
+            "bonusVPoint": 1
+        },
+        "177": {
+            "requiredExp": 135244,
+            "bonusGold": 88500,
+            "bonusVPoint": 1
+        },
+        "178": {
+            "requiredExp": 138244,
+            "bonusGold": 89000,
+            "bonusVPoint": 1
+        },
+        "179": {
+            "requiredExp": 141244,
+            "bonusGold": 89500,
+            "bonusVPoint": 1
+        },
+        "180": {
+            "requiredExp": 144244,
+            "bonusGold": 90000,
+            "bonusVPoint": 1
+        },
+        "181": {
+            "requiredExp": 147244,
+            "bonusGold": 90500,
+            "bonusVPoint": 1
+        },
+        "182": {
+            "requiredExp": 150244,
+            "bonusGold": 91000,
+            "bonusVPoint": 1
+        },
+        "183": {
+            "requiredExp": 153244,
+            "bonusGold": 91500,
+            "bonusVPoint": 1
+        },
+        "184": {
+            "requiredExp": 156244,
+            "bonusGold": 92000,
+            "bonusVPoint": 1
+        },
+        "185": {
+            "requiredExp": 159244,
+            "bonusGold": 92500,
+            "bonusVPoint": 1
+        },
+        "186": {
+            "requiredExp": 162244,
+            "bonusGold": 93000,
+            "bonusVPoint": 1
+        },
+        "187": {
+            "requiredExp": 165244,
+            "bonusGold": 93500,
+            "bonusVPoint": 1
+        },
+        "188": {
+            "requiredExp": 168244,
+            "bonusGold": 94000,
+            "bonusVPoint": 1
+        },
+        "189": {
+            "requiredExp": 171244,
+            "bonusGold": 94500,
+            "bonusVPoint": 1
+        },
+        "190": {
+            "requiredExp": 174244,
+            "bonusGold": 95000,
+            "bonusVPoint": 1
+        },
+        "191": {
+            "requiredExp": 177244,
+            "bonusGold": 95500,
+            "bonusVPoint": 1
+        },
+        "192": {
+            "requiredExp": 180244,
+            "bonusGold": 96000,
+            "bonusVPoint": 1
+        },
+        "193": {
+            "requiredExp": 183244,
+            "bonusGold": 96500,
+            "bonusVPoint": 1
+        },
+        "194": {
+            "requiredExp": 186244,
+            "bonusGold": 97000,
+            "bonusVPoint": 1
+        },
+        "195": {
+            "requiredExp": 189244,
+            "bonusGold": 97500,
+            "bonusVPoint": 1
+        },
+        "196": {
+            "requiredExp": 192244,
+            "bonusGold": 98000,
+            "bonusVPoint": 1
+        },
+        "197": {
+            "requiredExp": 195244,
+            "bonusGold": 98500,
+            "bonusVPoint": 1
+        },
+        "198": {
+            "requiredExp": 198244,
+            "bonusGold": 99000,
+            "bonusVPoint": 1
+        },
+        "199": {
+            "requiredExp": 201244,
+            "bonusGold": 99500,
+            "bonusVPoint": 1
+        },
+        "200": {
+            "requiredExp": 231244,
+            "bonusGold": 100000,
+            "bonusVPoint": 1
+        },
+        "201": {
+            "requiredExp": 261244,
+            "bonusGold": 100500,
+            "bonusVPoint": 1
+        },
+        "202": {
+            "requiredExp": 291244,
+            "bonusGold": 101000,
+            "bonusVPoint": 1
+        },
+        "203": {
+            "requiredExp": 321244,
+            "bonusGold": 101500,
+            "bonusVPoint": 1
+        },
+        "204": {
+            "requiredExp": 351244,
+            "bonusGold": 102000,
+            "bonusVPoint": 1
+        },
+        "205": {
+            "requiredExp": 381244,
+            "bonusGold": 102500,
+            "bonusVPoint": 1
+        },
+        "206": {
+            "requiredExp": 411244,
+            "bonusGold": 103000,
+            "bonusVPoint": 1
+        },
+        "207": {
+            "requiredExp": 441244,
+            "bonusGold": 103500,
+            "bonusVPoint": 1
+        },
+        "208": {
+            "requiredExp": 471244,
+            "bonusGold": 104000,
+            "bonusVPoint": 1
+        },
+        "209": {
+            "requiredExp": 501244,
+            "bonusGold": 104500,
+            "bonusVPoint": 1
+        },
+        "210": {
+            "requiredExp": 531244,
+            "bonusGold": 105000,
+            "bonusVPoint": 1
+        },
+        "211": {
+            "requiredExp": 561244,
+            "bonusGold": 105500,
+            "bonusVPoint": 1
+        },
+        "212": {
+            "requiredExp": 591244,
+            "bonusGold": 106000,
+            "bonusVPoint": 1
+        },
+        "213": {
+            "requiredExp": 621244,
+            "bonusGold": 106500,
+            "bonusVPoint": 1
+        },
+        "214": {
+            "requiredExp": 651244,
+            "bonusGold": 107000,
+            "bonusVPoint": 1
+        },
+        "215": {
+            "requiredExp": 681244,
+            "bonusGold": 107500,
+            "bonusVPoint": 1
+        },
+        "216": {
+            "requiredExp": 711244,
+            "bonusGold": 108000,
+            "bonusVPoint": 1
+        },
+        "217": {
+            "requiredExp": 741244,
+            "bonusGold": 108500,
+            "bonusVPoint": 1
+        },
+        "218": {
+            "requiredExp": 771244,
+            "bonusGold": 109000,
+            "bonusVPoint": 1
+        },
+        "219": {
+            "requiredExp": 801244,
+            "bonusGold": 109500,
+            "bonusVPoint": 1
+        },
+        "220": {
+            "requiredExp": 831244,
+            "bonusGold": 110000,
+            "bonusVPoint": 1
+        },
+        "221": {
+            "requiredExp": 861244,
+            "bonusGold": 110500,
+            "bonusVPoint": 1
+        },
+        "222": {
+            "requiredExp": 891244,
+            "bonusGold": 111000,
+            "bonusVPoint": 1
+        },
+        "223": {
+            "requiredExp": 921244,
+            "bonusGold": 111500,
+            "bonusVPoint": 1
+        },
+        "224": {
+            "requiredExp": 951244,
+            "bonusGold": 112000,
+            "bonusVPoint": 1
+        },
+        "225": {
+            "requiredExp": 981244,
+            "bonusGold": 112500,
+            "bonusVPoint": 1
+        },
+        "226": {
+            "requiredExp": 1011244,
+            "bonusGold": 113000,
+            "bonusVPoint": 1
+        },
+        "227": {
+            "requiredExp": 1041244,
+            "bonusGold": 113500,
+            "bonusVPoint": 1
+        },
+        "228": {
+            "requiredExp": 1071244,
+            "bonusGold": 114000,
+            "bonusVPoint": 1
+        },
+        "229": {
+            "requiredExp": 1101244,
+            "bonusGold": 114500,
+            "bonusVPoint": 1
+        },
+        "230": {
+            "requiredExp": 1131244,
+            "bonusGold": 115000,
+            "bonusVPoint": 1
+        },
+        "231": {
+            "requiredExp": 1161244,
+            "bonusGold": 115500,
+            "bonusVPoint": 1
+        },
+        "232": {
+            "requiredExp": 1191244,
+            "bonusGold": 116000,
+            "bonusVPoint": 1
+        },
+        "233": {
+            "requiredExp": 1221244,
+            "bonusGold": 116500,
+            "bonusVPoint": 1
+        },
+        "234": {
+            "requiredExp": 1251244,
+            "bonusGold": 117000,
+            "bonusVPoint": 1
+        },
+        "235": {
+            "requiredExp": 1281244,
+            "bonusGold": 117500,
+            "bonusVPoint": 1
+        },
+        "236": {
+            "requiredExp": 1311244,
+            "bonusGold": 118000,
+            "bonusVPoint": 1
+        },
+        "237": {
+            "requiredExp": 1341244,
+            "bonusGold": 118500,
+            "bonusVPoint": 1
+        },
+        "238": {
+            "requiredExp": 1371244,
+            "bonusGold": 119000,
+            "bonusVPoint": 1
+        },
+        "239": {
+            "requiredExp": 1401244,
+            "bonusGold": 119500,
+            "bonusVPoint": 1
+        },
+        "240": {
+            "requiredExp": 1431244,
+            "bonusGold": 120000,
+            "bonusVPoint": 1
+        },
+        "241": {
+            "requiredExp": 1461244,
+            "bonusGold": 120500,
+            "bonusVPoint": 1
+        },
+        "242": {
+            "requiredExp": 1491244,
+            "bonusGold": 121000,
+            "bonusVPoint": 1
+        },
+        "243": {
+            "requiredExp": 1521244,
+            "bonusGold": 121500,
+            "bonusVPoint": 1
+        },
+        "244": {
+            "requiredExp": 1551244,
+            "bonusGold": 122000,
+            "bonusVPoint": 1
+        },
+        "245": {
+            "requiredExp": 1581244,
+            "bonusGold": 122500,
+            "bonusVPoint": 1
+        },
+        "246": {
+            "requiredExp": 1611244,
+            "bonusGold": 123000,
+            "bonusVPoint": 1
+        },
+        "247": {
+            "requiredExp": 1641244,
+            "bonusGold": 123500,
+            "bonusVPoint": 1
+        },
+        "248": {
+            "requiredExp": 1671244,
+            "bonusGold": 124000,
+            "bonusVPoint": 1
+        },
+        "249": {
+            "requiredExp": 1701244,
+            "bonusGold": 124500,
+            "bonusVPoint": 1
+        },
+        "250": {
+            "requiredExp": 1731244,
+            "bonusGold": 125000,
+            "bonusVPoint": 1
+        },
+        "251": {
+            "requiredExp": 1881244,
+            "bonusGold": 125500,
+            "bonusVPoint": 1
+        },
+        "252": {
+            "requiredExp": 2031244,
+            "bonusGold": 126000,
+            "bonusVPoint": 1
+        },
+        "253": {
+            "requiredExp": 2181244,
+            "bonusGold": 126500,
+            "bonusVPoint": 1
+        },
+        "254": {
+            "requiredExp": 2331244,
+            "bonusGold": 127000,
+            "bonusVPoint": 1
+        },
+        "255": {
+            "requiredExp": 2481244,
+            "bonusGold": 127500,
+            "bonusVPoint": 1
+        },
+        "256": {
+            "requiredExp": 2631244,
+            "bonusGold": 128000,
+            "bonusVPoint": 1
+        },
+        "257": {
+            "requiredExp": 2781244,
+            "bonusGold": 128500,
+            "bonusVPoint": 1
+        },
+        "258": {
+            "requiredExp": 2931244,
+            "bonusGold": 129000,
+            "bonusVPoint": 1
+        },
+        "259": {
+            "requiredExp": 3081244,
+            "bonusGold": 129500,
+            "bonusVPoint": 1
+        },
+        "260": {
+            "requiredExp": 3231244,
+            "bonusGold": 130000,
+            "bonusVPoint": 1
+        },
+        "261": {
+            "requiredExp": 3381244,
+            "bonusGold": 130500,
+            "bonusVPoint": 1
+        },
+        "262": {
+            "requiredExp": 3531244,
+            "bonusGold": 131000,
+            "bonusVPoint": 1
+        },
+        "263": {
+            "requiredExp": 3681244,
+            "bonusGold": 131500,
+            "bonusVPoint": 1
+        },
+        "264": {
+            "requiredExp": 3831244,
+            "bonusGold": 132000,
+            "bonusVPoint": 1
+        },
+        "265": {
+            "requiredExp": 3981244,
+            "bonusGold": 132500,
+            "bonusVPoint": 1
+        },
+        "266": {
+            "requiredExp": 4131244,
+            "bonusGold": 133000,
+            "bonusVPoint": 1
+        },
+        "267": {
+            "requiredExp": 4281244,
+            "bonusGold": 133500,
+            "bonusVPoint": 1
+        },
+        "268": {
+            "requiredExp": 4431244,
+            "bonusGold": 134000,
+            "bonusVPoint": 1
+        },
+        "269": {
+            "requiredExp": 4581244,
+            "bonusGold": 134500,
+            "bonusVPoint": 1
+        },
+        "270": {
+            "requiredExp": 4731244,
+            "bonusGold": 135000,
+            "bonusVPoint": 1
+        },
+        "271": {
+            "requiredExp": 4881244,
+            "bonusGold": 135500,
+            "bonusVPoint": 1
+        },
+        "272": {
+            "requiredExp": 5031244,
+            "bonusGold": 136000,
+            "bonusVPoint": 1
+        },
+        "273": {
+            "requiredExp": 5181244,
+            "bonusGold": 136500,
+            "bonusVPoint": 1
+        },
+        "274": {
+            "requiredExp": 5331244,
+            "bonusGold": 137000,
+            "bonusVPoint": 1
+        },
+        "275": {
+            "requiredExp": 5481244,
+            "bonusGold": 137500,
+            "bonusVPoint": 1
+        },
+        "276": {
+            "requiredExp": 5631244,
+            "bonusGold": 138000,
+            "bonusVPoint": 1
+        },
+        "277": {
+            "requiredExp": 5781244,
+            "bonusGold": 138500,
+            "bonusVPoint": 1
+        },
+        "278": {
+            "requiredExp": 5931244,
+            "bonusGold": 139000,
+            "bonusVPoint": 1
+        },
+        "279": {
+            "requiredExp": 6081244,
+            "bonusGold": 139500,
+            "bonusVPoint": 1
+        },
+        "280": {
+            "requiredExp": 6231244,
+            "bonusGold": 140000,
+            "bonusVPoint": 1
+        },
+        "281": {
+            "requiredExp": 6381244,
+            "bonusGold": 140500,
+            "bonusVPoint": 1
+        },
+        "282": {
+            "requiredExp": 6531244,
+            "bonusGold": 141000,
+            "bonusVPoint": 1
+        },
+        "283": {
+            "requiredExp": 6681244,
+            "bonusGold": 141500,
+            "bonusVPoint": 1
+        },
+        "284": {
+            "requiredExp": 6831244,
+            "bonusGold": 142000,
+            "bonusVPoint": 1
+        },
+        "285": {
+            "requiredExp": 6981244,
+            "bonusGold": 142500,
+            "bonusVPoint": 1
+        },
+        "286": {
+            "requiredExp": 7131244,
+            "bonusGold": 143000,
+            "bonusVPoint": 1
+        },
+        "287": {
+            "requiredExp": 7281244,
+            "bonusGold": 143500,
+            "bonusVPoint": 1
+        },
+        "288": {
+            "requiredExp": 7431244,
+            "bonusGold": 144000,
+            "bonusVPoint": 1
+        },
+        "289": {
+            "requiredExp": 7581244,
+            "bonusGold": 144500,
+            "bonusVPoint": 1
+        },
+        "290": {
+            "requiredExp": 7731244,
+            "bonusGold": 145000,
+            "bonusVPoint": 1
+        },
+        "291": {
+            "requiredExp": 7881244,
+            "bonusGold": 145500,
+            "bonusVPoint": 1
+        },
+        "292": {
+            "requiredExp": 8031244,
+            "bonusGold": 146000,
+            "bonusVPoint": 1
+        },
+        "293": {
+            "requiredExp": 8181244,
+            "bonusGold": 146500,
+            "bonusVPoint": 1
+        },
+        "294": {
+            "requiredExp": 8331244,
+            "bonusGold": 147000,
+            "bonusVPoint": 1
+        },
+        "295": {
+            "requiredExp": 8481244,
+            "bonusGold": 147500,
+            "bonusVPoint": 1
+        },
+        "296": {
+            "requiredExp": 8631244,
+            "bonusGold": 148000,
+            "bonusVPoint": 1
+        },
+        "297": {
+            "requiredExp": 8781244,
+            "bonusGold": 148500,
+            "bonusVPoint": 1
+        },
+        "298": {
+            "requiredExp": 8931244,
+            "bonusGold": 149000,
+            "bonusVPoint": 1
+        },
+        "299": {
+            "requiredExp": 9081244,
+            "bonusGold": 149500,
+            "bonusVPoint": 1
+        },
+        "300": {
+            "requiredExp": 9831244,
+            "bonusGold": 150000,
+            "bonusVPoint": 1
+        },
+        "301": {
+            "requiredExp": 10581244,
+            "bonusGold": 150500,
+            "bonusVPoint": 1
+        },
+        "302": {
+            "requiredExp": 11331244,
+            "bonusGold": 151000,
+            "bonusVPoint": 1
+        },
+        "303": {
+            "requiredExp": 12081244,
+            "bonusGold": 151500,
+            "bonusVPoint": 1
+        },
+        "304": {
+            "requiredExp": 12831244,
+            "bonusGold": 152000,
+            "bonusVPoint": 1
+        },
+        "305": {
+            "requiredExp": 13581244,
+            "bonusGold": 152500,
+            "bonusVPoint": 1
+        },
+        "306": {
+            "requiredExp": 14331244,
+            "bonusGold": 153000,
+            "bonusVPoint": 1
+        },
+        "307": {
+            "requiredExp": 15081244,
+            "bonusGold": 153500,
+            "bonusVPoint": 1
+        },
+        "308": {
+            "requiredExp": 15831244,
+            "bonusGold": 154000,
+            "bonusVPoint": 1
+        },
+        "309": {
+            "requiredExp": 16581244,
+            "bonusGold": 154500,
+            "bonusVPoint": 1
+        },
+        "310": {
+            "requiredExp": 17331244,
+            "bonusGold": 155000,
+            "bonusVPoint": 1
+        },
+        "311": {
+            "requiredExp": 18081244,
+            "bonusGold": 155500,
+            "bonusVPoint": 1
+        },
+        "312": {
+            "requiredExp": 18831244,
+            "bonusGold": 156000,
+            "bonusVPoint": 1
+        },
+        "313": {
+            "requiredExp": 19581244,
+            "bonusGold": 156500,
+            "bonusVPoint": 1
+        },
+        "314": {
+            "requiredExp": 20331244,
+            "bonusGold": 157000,
+            "bonusVPoint": 1
+        },
+        "315": {
+            "requiredExp": 21081244,
+            "bonusGold": 157500,
+            "bonusVPoint": 1
+        },
+        "316": {
+            "requiredExp": 21831244,
+            "bonusGold": 158000,
+            "bonusVPoint": 1
+        },
+        "317": {
+            "requiredExp": 22581244,
+            "bonusGold": 158500,
+            "bonusVPoint": 1
+        },
+        "318": {
+            "requiredExp": 23331244,
+            "bonusGold": 159000,
+            "bonusVPoint": 1
+        },
+        "319": {
+            "requiredExp": 24081244,
+            "bonusGold": 159500,
+            "bonusVPoint": 1
+        },
+        "320": {
+            "requiredExp": 24831244,
+            "bonusGold": 160000,
+            "bonusVPoint": 1
+        },
+        "321": {
+            "requiredExp": 25581244,
+            "bonusGold": 160500,
+            "bonusVPoint": 1
+        },
+        "322": {
+            "requiredExp": 26331244,
+            "bonusGold": 161000,
+            "bonusVPoint": 1
+        },
+        "323": {
+            "requiredExp": 27081244,
+            "bonusGold": 161500,
+            "bonusVPoint": 1
+        },
+        "324": {
+            "requiredExp": 27831244,
+            "bonusGold": 162000,
+            "bonusVPoint": 1
+        },
+        "325": {
+            "requiredExp": 28581244,
+            "bonusGold": 162500,
+            "bonusVPoint": 1
+        },
+        "326": {
+            "requiredExp": 29331244,
+            "bonusGold": 163000,
+            "bonusVPoint": 1
+        },
+        "327": {
+            "requiredExp": 30081244,
+            "bonusGold": 163500,
+            "bonusVPoint": 1
+        },
+        "328": {
+            "requiredExp": 30831244,
+            "bonusGold": 164000,
+            "bonusVPoint": 1
+        },
+        "329": {
+            "requiredExp": 31581244,
+            "bonusGold": 164500,
+            "bonusVPoint": 1
+        },
+        "330": {
+            "requiredExp": 32331244,
+            "bonusGold": 165000,
+            "bonusVPoint": 1
+        },
+        "331": {
+            "requiredExp": 33081244,
+            "bonusGold": 165500,
+            "bonusVPoint": 1
+        },
+        "332": {
+            "requiredExp": 33831244,
+            "bonusGold": 166000,
+            "bonusVPoint": 1
+        },
+        "333": {
+            "requiredExp": 34581244,
+            "bonusGold": 166500,
+            "bonusVPoint": 1
+        },
+        "334": {
+            "requiredExp": 35331244,
+            "bonusGold": 167000,
+            "bonusVPoint": 1
+        },
+        "335": {
+            "requiredExp": 36081244,
+            "bonusGold": 167500,
+            "bonusVPoint": 1
+        },
+        "336": {
+            "requiredExp": 36831244,
+            "bonusGold": 168000,
+            "bonusVPoint": 1
+        },
+        "337": {
+            "requiredExp": 37581244,
+            "bonusGold": 168500,
+            "bonusVPoint": 1
+        },
+        "338": {
+            "requiredExp": 38331244,
+            "bonusGold": 169000,
+            "bonusVPoint": 1
+        },
+        "339": {
+            "requiredExp": 39081244,
+            "bonusGold": 169500,
+            "bonusVPoint": 1
+        },
+        "340": {
+            "requiredExp": 39831244,
+            "bonusGold": 170000,
+            "bonusVPoint": 1
+        },
+        "341": {
+            "requiredExp": 40581244,
+            "bonusGold": 170500,
+            "bonusVPoint": 1
+        },
+        "342": {
+            "requiredExp": 41331244,
+            "bonusGold": 171000,
+            "bonusVPoint": 1
+        },
+        "343": {
+            "requiredExp": 42081244,
+            "bonusGold": 171500,
+            "bonusVPoint": 1
+        },
+        "344": {
+            "requiredExp": 42831244,
+            "bonusGold": 172000,
+            "bonusVPoint": 1
+        },
+        "345": {
+            "requiredExp": 43581244,
+            "bonusGold": 172500,
+            "bonusVPoint": 1
+        },
+        "346": {
+            "requiredExp": 44331244,
+            "bonusGold": 173000,
+            "bonusVPoint": 1
+        },
+        "347": {
+            "requiredExp": 45081244,
+            "bonusGold": 173500,
+            "bonusVPoint": 1
+        },
+        "348": {
+            "requiredExp": 45831244,
+            "bonusGold": 174000,
+            "bonusVPoint": 1
+        },
+        "349": {
+            "requiredExp": 46581244,
+            "bonusGold": 174500,
+            "bonusVPoint": 1
+        },
+        "350": {
+            "requiredExp": 47331244,
+            "bonusGold": 175000,
+            "bonusVPoint": 1
+        },
+        "351": {
+            "requiredExp": 51081244,
+            "bonusGold": 175500,
+            "bonusVPoint": 1
+        },
+        "352": {
+            "requiredExp": 54831244,
+            "bonusGold": 176000,
+            "bonusVPoint": 1
+        },
+        "353": {
+            "requiredExp": 58581244,
+            "bonusGold": 176500,
+            "bonusVPoint": 1
+        },
+        "354": {
+            "requiredExp": 62331244,
+            "bonusGold": 177000,
+            "bonusVPoint": 1
+        },
+        "355": {
+            "requiredExp": 66081244,
+            "bonusGold": 177500,
+            "bonusVPoint": 1
+        },
+        "356": {
+            "requiredExp": 69831244,
+            "bonusGold": 178000,
+            "bonusVPoint": 1
+        },
+        "357": {
+            "requiredExp": 73581244,
+            "bonusGold": 178500,
+            "bonusVPoint": 1
+        },
+        "358": {
+            "requiredExp": 77331244,
+            "bonusGold": 179000,
+            "bonusVPoint": 1
+        },
+        "359": {
+            "requiredExp": 81081244,
+            "bonusGold": 179500,
+            "bonusVPoint": 1
+        },
+        "360": {
+            "requiredExp": 84831244,
+            "bonusGold": 180000,
+            "bonusVPoint": 1
+        },
+        "361": {
+            "requiredExp": 88581244,
+            "bonusGold": 180500,
+            "bonusVPoint": 1
+        },
+        "362": {
+            "requiredExp": 92331244,
+            "bonusGold": 181000,
+            "bonusVPoint": 1
+        },
+        "363": {
+            "requiredExp": 96081244,
+            "bonusGold": 181500,
+            "bonusVPoint": 1
+        },
+        "364": {
+            "requiredExp": 99831244,
+            "bonusGold": 182000,
+            "bonusVPoint": 1
+        },
+        "365": {
+            "requiredExp": 103581244,
+            "bonusGold": 182500,
+            "bonusVPoint": 1
+        },
+        "366": {
+            "requiredExp": 107331244,
+            "bonusGold": 183000,
+            "bonusVPoint": 1
+        },
+        "367": {
+            "requiredExp": 111081244,
+            "bonusGold": 183500,
+            "bonusVPoint": 1
+        },
+        "368": {
+            "requiredExp": 114831244,
+            "bonusGold": 184000,
+            "bonusVPoint": 1
+        },
+        "369": {
+            "requiredExp": 118581244,
+            "bonusGold": 184500,
+            "bonusVPoint": 1
+        },
+        "370": {
+            "requiredExp": 122331244,
+            "bonusGold": 185000,
+            "bonusVPoint": 1
+        },
+        "371": {
+            "requiredExp": 126081244,
+            "bonusGold": 185500,
+            "bonusVPoint": 1
+        },
+        "372": {
+            "requiredExp": 129831244,
+            "bonusGold": 186000,
+            "bonusVPoint": 1
+        },
+        "373": {
+            "requiredExp": 133581244,
+            "bonusGold": 186500,
+            "bonusVPoint": 1
+        },
+        "374": {
+            "requiredExp": 137331244,
+            "bonusGold": 187000,
+            "bonusVPoint": 1
+        },
+        "375": {
+            "requiredExp": 141081244,
+            "bonusGold": 187500,
+            "bonusVPoint": 1
+        },
+        "376": {
+            "requiredExp": 144831244,
+            "bonusGold": 188000,
+            "bonusVPoint": 1
+        },
+        "377": {
+            "requiredExp": 148581244,
+            "bonusGold": 188500,
+            "bonusVPoint": 1
+        },
+        "378": {
+            "requiredExp": 152331244,
+            "bonusGold": 189000,
+            "bonusVPoint": 1
+        },
+        "379": {
+            "requiredExp": 156081244,
+            "bonusGold": 189500,
+            "bonusVPoint": 1
+        },
+        "380": {
+            "requiredExp": 159831244,
+            "bonusGold": 190000,
+            "bonusVPoint": 1
+        },
+        "381": {
+            "requiredExp": 163581244,
+            "bonusGold": 190500,
+            "bonusVPoint": 1
+        },
+        "382": {
+            "requiredExp": 167331244,
+            "bonusGold": 191000,
+            "bonusVPoint": 1
+        },
+        "383": {
+            "requiredExp": 171081244,
+            "bonusGold": 191500,
+            "bonusVPoint": 1
+        },
+        "384": {
+            "requiredExp": 174831244,
+            "bonusGold": 192000,
+            "bonusVPoint": 1
+        },
+        "385": {
+            "requiredExp": 178581244,
+            "bonusGold": 192500,
+            "bonusVPoint": 1
+        },
+        "386": {
+            "requiredExp": 182331244,
+            "bonusGold": 193000,
+            "bonusVPoint": 1
+        },
+        "387": {
+            "requiredExp": 186081244,
+            "bonusGold": 193500,
+            "bonusVPoint": 1
+        },
+        "388": {
+            "requiredExp": 189831244,
+            "bonusGold": 194000,
+            "bonusVPoint": 1
+        },
+        "389": {
+            "requiredExp": 193581244,
+            "bonusGold": 194500,
+            "bonusVPoint": 1
+        },
+        "390": {
+            "requiredExp": 197331244,
+            "bonusGold": 195000,
+            "bonusVPoint": 1
+        },
+        "391": {
+            "requiredExp": 201081244,
+            "bonusGold": 195500,
+            "bonusVPoint": 1
+        },
+        "392": {
+            "requiredExp": 204831244,
+            "bonusGold": 196000,
+            "bonusVPoint": 1
+        },
+        "393": {
+            "requiredExp": 208581244,
+            "bonusGold": 196500,
+            "bonusVPoint": 1
+        },
+        "394": {
+            "requiredExp": 212331244,
+            "bonusGold": 197000,
+            "bonusVPoint": 1
+        },
+        "395": {
+            "requiredExp": 216081244,
+            "bonusGold": 197500,
+            "bonusVPoint": 1
+        },
+        "396": {
+            "requiredExp": 219831244,
+            "bonusGold": 198000,
+            "bonusVPoint": 1
+        },
+        "397": {
+            "requiredExp": 223581244,
+            "bonusGold": 198500,
+            "bonusVPoint": 1
+        },
+        "398": {
+            "requiredExp": 227331244,
+            "bonusGold": 199000,
+            "bonusVPoint": 1
+        },
+        "399": {
+            "requiredExp": 231081244,
+            "bonusGold": 199500,
+            "bonusVPoint": 1
+        },
+        "400": {
+            "requiredExp": 234831244,
+            "bonusGold": 200000,
+            "bonusVPoint": 1
+        },
+        "401": {
+            "requiredExp": 253581244,
+            "bonusGold": 200500,
+            "bonusVPoint": 1
+        },
+        "402": {
+            "requiredExp": 272331244,
+            "bonusGold": 201000,
+            "bonusVPoint": 1
+        },
+        "403": {
+            "requiredExp": 291081244,
+            "bonusGold": 201500,
+            "bonusVPoint": 1
+        },
+        "404": {
+            "requiredExp": 309831244,
+            "bonusGold": 202000,
+            "bonusVPoint": 1
+        },
+        "405": {
+            "requiredExp": 328581244,
+            "bonusGold": 202500,
+            "bonusVPoint": 1
+        },
+        "406": {
+            "requiredExp": 347331244,
+            "bonusGold": 203000,
+            "bonusVPoint": 1
+        },
+        "407": {
+            "requiredExp": 366081244,
+            "bonusGold": 203500,
+            "bonusVPoint": 1
+        },
+        "408": {
+            "requiredExp": 384831244,
+            "bonusGold": 204000,
+            "bonusVPoint": 1
+        },
+        "409": {
+            "requiredExp": 403581244,
+            "bonusGold": 204500,
+            "bonusVPoint": 1
+        },
+        "410": {
+            "requiredExp": 422331244,
+            "bonusGold": 205000,
+            "bonusVPoint": 1
+        },
+        "411": {
+            "requiredExp": 441081244,
+            "bonusGold": 205500,
+            "bonusVPoint": 1
+        },
+        "412": {
+            "requiredExp": 459831244,
+            "bonusGold": 206000,
+            "bonusVPoint": 1
+        },
+        "413": {
+            "requiredExp": 478581244,
+            "bonusGold": 206500,
+            "bonusVPoint": 1
+        },
+        "414": {
+            "requiredExp": 497331244,
+            "bonusGold": 207000,
+            "bonusVPoint": 1
+        },
+        "415": {
+            "requiredExp": 516081244,
+            "bonusGold": 207500,
+            "bonusVPoint": 1
+        },
+        "416": {
+            "requiredExp": 534831244,
+            "bonusGold": 208000,
+            "bonusVPoint": 1
+        },
+        "417": {
+            "requiredExp": 553581244,
+            "bonusGold": 208500,
+            "bonusVPoint": 1
+        },
+        "418": {
+            "requiredExp": 572331244,
+            "bonusGold": 209000,
+            "bonusVPoint": 1
+        },
+        "419": {
+            "requiredExp": 591081244,
+            "bonusGold": 209500,
+            "bonusVPoint": 1
+        },
+        "420": {
+            "requiredExp": 609831244,
+            "bonusGold": 210000,
+            "bonusVPoint": 1
+        },
+        "421": {
+            "requiredExp": 628581244,
+            "bonusGold": 210500,
+            "bonusVPoint": 1
+        },
+        "422": {
+            "requiredExp": 647331244,
+            "bonusGold": 211000,
+            "bonusVPoint": 1
+        },
+        "423": {
+            "requiredExp": 666081244,
+            "bonusGold": 211500,
+            "bonusVPoint": 1
+        },
+        "424": {
+            "requiredExp": 684831244,
+            "bonusGold": 212000,
+            "bonusVPoint": 1
+        },
+        "425": {
+            "requiredExp": 703581244,
+            "bonusGold": 212500,
+            "bonusVPoint": 1
+        },
+        "426": {
+            "requiredExp": 722331244,
+            "bonusGold": 213000,
+            "bonusVPoint": 1
+        },
+        "427": {
+            "requiredExp": 741081244,
+            "bonusGold": 213500,
+            "bonusVPoint": 1
+        },
+        "428": {
+            "requiredExp": 759831244,
+            "bonusGold": 214000,
+            "bonusVPoint": 1
+        },
+        "429": {
+            "requiredExp": 778581244,
+            "bonusGold": 214500,
+            "bonusVPoint": 1
+        },
+        "430": {
+            "requiredExp": 797331244,
+            "bonusGold": 215000,
+            "bonusVPoint": 1
+        },
+        "431": {
+            "requiredExp": 816081244,
+            "bonusGold": 215500,
+            "bonusVPoint": 1
+        },
+        "432": {
+            "requiredExp": 834831244,
+            "bonusGold": 216000,
+            "bonusVPoint": 1
+        },
+        "433": {
+            "requiredExp": 853581244,
+            "bonusGold": 216500,
+            "bonusVPoint": 1
+        },
+        "434": {
+            "requiredExp": 872331244,
+            "bonusGold": 217000,
+            "bonusVPoint": 1
+        },
+        "435": {
+            "requiredExp": 891081244,
+            "bonusGold": 217500,
+            "bonusVPoint": 1
+        },
+        "436": {
+            "requiredExp": 909831244,
+            "bonusGold": 218000,
+            "bonusVPoint": 1
+        },
+        "437": {
+            "requiredExp": 928581244,
+            "bonusGold": 218500,
+            "bonusVPoint": 1
+        },
+        "438": {
+            "requiredExp": 947331244,
+            "bonusGold": 219000,
+            "bonusVPoint": 1
+        },
+        "439": {
+            "requiredExp": 966081244,
+            "bonusGold": 219500,
+            "bonusVPoint": 1
+        },
+        "440": {
+            "requiredExp": 984831244,
+            "bonusGold": 220000,
+            "bonusVPoint": 1
+        },
+        "441": {
+            "requiredExp": 1003581244,
+            "bonusGold": 220500,
+            "bonusVPoint": 1
+        },
+        "442": {
+            "requiredExp": 1022331244,
+            "bonusGold": 221000,
+            "bonusVPoint": 1
+        },
+        "443": {
+            "requiredExp": 1041081244,
+            "bonusGold": 221500,
+            "bonusVPoint": 1
+        },
+        "444": {
+            "requiredExp": 1059831244,
+            "bonusGold": 222000,
+            "bonusVPoint": 1
+        },
+        "445": {
+            "requiredExp": 1078581244,
+            "bonusGold": 222500,
+            "bonusVPoint": 1
+        },
+        "446": {
+            "requiredExp": 1097331244,
+            "bonusGold": 223000,
+            "bonusVPoint": 1
+        },
+        "447": {
+            "requiredExp": 1116081244,
+            "bonusGold": 223500,
+            "bonusVPoint": 1
+        },
+        "448": {
+            "requiredExp": 1134831244,
+            "bonusGold": 224000,
+            "bonusVPoint": 1
+        },
+        "449": {
+            "requiredExp": 1153581244,
+            "bonusGold": 224500,
+            "bonusVPoint": 1
+        },
+        "450": {
+            "requiredExp": 1172331244,
+            "bonusGold": 225000,
+            "bonusVPoint": 1
+        },
+        "451": {
+            "requiredExp": 1266081244,
+            "bonusGold": 225500,
+            "bonusVPoint": 1
+        },
+        "452": {
+            "requiredExp": 1359831244,
+            "bonusGold": 226000,
+            "bonusVPoint": 1
+        },
+        "453": {
+            "requiredExp": 1453581244,
+            "bonusGold": 226500,
+            "bonusVPoint": 1
+        },
+        "454": {
+            "requiredExp": 1547331244,
+            "bonusGold": 227000,
+            "bonusVPoint": 1
+        },
+        "455": {
+            "requiredExp": 1641081244,
+            "bonusGold": 227500,
+            "bonusVPoint": 1
+        },
+        "456": {
+            "requiredExp": 1734831244,
+            "bonusGold": 228000,
+            "bonusVPoint": 1
+        },
+        "457": {
+            "requiredExp": 1828581244,
+            "bonusGold": 228500,
+            "bonusVPoint": 1
+        },
+        "458": {
+            "requiredExp": 1922331244,
+            "bonusGold": 229000,
+            "bonusVPoint": 1
+        },
+        "459": {
+            "requiredExp": 2016081244,
+            "bonusGold": 229500,
+            "bonusVPoint": 1
+        },
+        "460": {
+            "requiredExp": 2109831244,
+            "bonusGold": 230000,
+            "bonusVPoint": 1
+        },
+        "461": {
+            "requiredExp": 2203581244,
+            "bonusGold": 230500,
+            "bonusVPoint": 1
+        },
+        "462": {
+            "requiredExp": 2297331244,
+            "bonusGold": 231000,
+            "bonusVPoint": 1
+        },
+        "463": {
+            "requiredExp": 2391081244,
+            "bonusGold": 231500,
+            "bonusVPoint": 1
+        },
+        "464": {
+            "requiredExp": 2484831244,
+            "bonusGold": 232000,
+            "bonusVPoint": 1
+        },
+        "465": {
+            "requiredExp": 2578581244,
+            "bonusGold": 232500,
+            "bonusVPoint": 1
+        },
+        "466": {
+            "requiredExp": 2672331244,
+            "bonusGold": 233000,
+            "bonusVPoint": 1
+        },
+        "467": {
+            "requiredExp": 2766081244,
+            "bonusGold": 233500,
+            "bonusVPoint": 1
+        },
+        "468": {
+            "requiredExp": 2859831244,
+            "bonusGold": 234000,
+            "bonusVPoint": 1
+        },
+        "469": {
+            "requiredExp": 2953581244,
+            "bonusGold": 234500,
+            "bonusVPoint": 1
+        },
+        "470": {
+            "requiredExp": 3047331244,
+            "bonusGold": 235000,
+            "bonusVPoint": 1
+        },
+        "471": {
+            "requiredExp": 3141081244,
+            "bonusGold": 235500,
+            "bonusVPoint": 1
+        },
+        "472": {
+            "requiredExp": 3234831244,
+            "bonusGold": 236000,
+            "bonusVPoint": 1
+        },
+        "473": {
+            "requiredExp": 3328581244,
+            "bonusGold": 236500,
+            "bonusVPoint": 1
+        },
+        "474": {
+            "requiredExp": 3422331244,
+            "bonusGold": 237000,
+            "bonusVPoint": 1
+        },
+        "475": {
+            "requiredExp": 3516081244,
+            "bonusGold": 237500,
+            "bonusVPoint": 1
+        },
+        "476": {
+            "requiredExp": 3609831244,
+            "bonusGold": 238000,
+            "bonusVPoint": 1
+        },
+        "477": {
+            "requiredExp": 3703581244,
+            "bonusGold": 238500,
+            "bonusVPoint": 1
+        },
+        "478": {
+            "requiredExp": 3797331244,
+            "bonusGold": 239000,
+            "bonusVPoint": 1
+        },
+        "479": {
+            "requiredExp": 3891081244,
+            "bonusGold": 239500,
+            "bonusVPoint": 1
+        },
+        "480": {
+            "requiredExp": 3984831244,
+            "bonusGold": 240000,
+            "bonusVPoint": 1
+        },
+        "481": {
+            "requiredExp": 4078581244,
+            "bonusGold": 240500,
+            "bonusVPoint": 1
+        },
+        "482": {
+            "requiredExp": 4172331244,
+            "bonusGold": 241000,
+            "bonusVPoint": 1
+        },
+        "483": {
+            "requiredExp": 4266081244,
+            "bonusGold": 241500,
+            "bonusVPoint": 1
+        },
+        "484": {
+            "requiredExp": 4359831244,
+            "bonusGold": 242000,
+            "bonusVPoint": 1
+        },
+        "485": {
+            "requiredExp": 4453581244,
+            "bonusGold": 242500,
+            "bonusVPoint": 1
+        },
+        "486": {
+            "requiredExp": 4547331244,
+            "bonusGold": 243000,
+            "bonusVPoint": 1
+        },
+        "487": {
+            "requiredExp": 4641081244,
+            "bonusGold": 243500,
+            "bonusVPoint": 1
+        },
+        "488": {
+            "requiredExp": 4734831244,
+            "bonusGold": 244000,
+            "bonusVPoint": 1
+        },
+        "489": {
+            "requiredExp": 4828581244,
+            "bonusGold": 244500,
+            "bonusVPoint": 1
+        },
+        "490": {
+            "requiredExp": 4922331244,
+            "bonusGold": 245000,
+            "bonusVPoint": 1
+        },
+        "491": {
+            "requiredExp": 5016081244,
+            "bonusGold": 245500,
+            "bonusVPoint": 1
+        },
+        "492": {
+            "requiredExp": 5109831244,
+            "bonusGold": 246000,
+            "bonusVPoint": 1
+        },
+        "493": {
+            "requiredExp": 5203581244,
+            "bonusGold": 246500,
+            "bonusVPoint": 1
+        },
+        "494": {
+            "requiredExp": 5297331244,
+            "bonusGold": 247000,
+            "bonusVPoint": 1
+        },
+        "495": {
+            "requiredExp": 5391081244,
+            "bonusGold": 247500,
+            "bonusVPoint": 1
+        },
+        "496": {
+            "requiredExp": 5484831244,
+            "bonusGold": 248000,
+            "bonusVPoint": 1
+        },
+        "497": {
+            "requiredExp": 5578581244,
+            "bonusGold": 248500,
+            "bonusVPoint": 1
+        },
+        "498": {
+            "requiredExp": 5672331244,
+            "bonusGold": 249000,
+            "bonusVPoint": 1
+        },
+        "499": {
+            "requiredExp": 5766081244,
+            "bonusGold": 249500,
+            "bonusVPoint": 1
+        },
+        "500": {
+            "requiredExp": 5859831244,
+            "bonusGold": 250000,
+            "bonusVPoint": 1
+        }
+    }
+}

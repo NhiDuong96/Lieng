@@ -1,0 +1,212 @@
+{
+    "Channel": {
+        "2001": {
+            "name": "TOUR_TAPSU",
+            "levelRequire": 1,
+            "round": [
+                "TOUR_1"
+            ],
+            "bracelet": {
+                "id": "BRACELET_1",
+                "nWinToAcquireInitialization": 5,
+                "nWinToAcquireProgression": 1,
+                "bonusPrizeRate": 2
+            },
+            "available": 1,
+            "priority": 1,
+            "playerTimeout": 15
+        },
+        "2002": {
+            "name": "TOUR_TADIEN",
+            "levelRequire": 1,
+            "round": [
+                "TOUR_2"
+            ],
+            "bracelet": {
+                "id": "BRACELET_2",
+                "nWinToAcquireInitialization": 5,
+                "nWinToAcquireProgression": 1,
+                "bonusPrizeRate": 2
+            },
+            "available": 1,
+            "priority": 2,
+            "playerTimeout": 15
+        },
+        "2003": {
+            "name": "TOUR_TRIEUPHU",
+            "levelRequire": 1,
+            "round": [
+                "TOUR_3"
+            ],
+            "bracelet": {
+                "id": "BRACELET_3",
+                "nWinToAcquireInitialization": 5,
+                "nWinToAcquireProgression": 1,
+                "bonusPrizeRate": 2
+            },
+            "available": 1,
+            "priority": 3,
+            "playerTimeout": 15
+        },
+        "2004": {
+            "name": "TOUR_TIPHU",
+            "levelRequire": 1,
+            "round": [
+                "TOUR_4"
+            ],
+            "bracelet": {
+                "id": "BRACELET_4",
+                "nWinToAcquireInitialization": 5,
+                "nWinToAcquireProgression": 1,
+                "bonusPrizeRate": 2
+            },
+            "available": 1,
+            "priority": 4,
+            "playerTimeout": 15
+        }
+    },
+    "TournamentStructure": {
+        "TOUR_1": {
+            "maxPlayer": 5,
+            "maxSpectator": 0,
+            "buyTicket": {
+                "item": "GOLD",
+                "q": 50000
+            },
+            "buyin": 1000,
+            "tipDealer": 5000,
+            "blindLevel": {
+                "init": 10,
+                "multiplyRate": 2,
+                "minTimeMultiply": 120
+            },
+            "winningPrize": {
+                "1": 200000,
+                "2": 0
+            }
+        },
+        "TOUR_2": {
+            "maxPlayer": 5,
+            "maxSpectator": 0,
+            "buyTicket": {
+                "item": "GOLD",
+                "q": 250000
+            },
+            "buyin": 5000,
+            "tipDealer": 25000,
+            "blindLevel": {
+                "init": 50,
+                "multiplyRate": 2,
+                "minTimeMultiply": 180
+            },
+            "winningPrize": {
+                "1": 1000000,
+                "2": 0
+            }
+        },
+        "TOUR_3": {
+            "maxPlayer": 5,
+            "maxSpectator": 0,
+            "buyTicket": {
+                "item": "GOLD",
+                "q": 4000000
+            },
+            "buyin": 10000,
+            "tipDealer": 400000,
+            "blindLevel": {
+                "init": 150,
+                "multiplyRate": 2,
+                "minTimeMultiply": 240
+            },
+            "winningPrize": {
+                "1": 16000000,
+                "2": 0
+            }
+        },
+        "TOUR_4": {
+            "maxPlayer": 5,
+            "maxSpectator": 0,
+            "buyTicket": {
+                "item": "GOLD",
+                "q": 20000000
+            },
+            "buyin": 25000,
+            "tipDealer": 2000000,
+            "blindLevel": {
+                "init": 400,
+                "multiplyRate": 2,
+                "minTimeMultiply": 240
+            },
+            "winningPrize": {
+                "1": 80000000,
+                "2": 0
+            }
+        },
+        "TOUR_5": {
+            "maxPlayer": 5,
+            "maxSpectator": 0,
+            "buyTicket": {
+                "item": "GOLD",
+                "q": 100
+            },
+            "buyin": 25000,
+            "tipDealer": 2000,
+            "blindLevel": {
+                "init": 160,
+                "multiplyRate": 2,
+                "minTimeMultiply": 180
+            },
+            "winningPrize": {
+                "1": 1000000,
+                "2": 200000
+            }
+        }
+    },
+    "PlayerPosition": {
+        "5": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "6": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ],
+        "7": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+        ],
+        "8": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+        ],
+        "9": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    }
+}

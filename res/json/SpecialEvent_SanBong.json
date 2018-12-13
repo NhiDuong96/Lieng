@@ -1,0 +1,656 @@
+{
+    "Misc": {
+        "periodResetInventoryInSec": 604800,
+        "numberBonusTicket": 20,
+        "maxFragment_3": 3,
+        "ticketMode_1": 1,
+        "ticketMode_10": 8
+    },
+    "TicketFromGoldPack": {
+        "ZCARD_1": {
+            "ticket": 1
+        },
+        "ZCARD_2": {
+            "ticket": 2
+        },
+        "ZCARD_3": {
+            "ticket": 6
+        },
+        "ZCARD_4": {
+            "ticket": 13
+        },
+        "ZCARD_5": {
+            "ticket": 27
+        },
+        "ZCARD_6": {
+            "ticket": 69
+        },
+        "pack_1": {
+            "ticket": 2
+        },
+        "pack_2": {
+            "ticket": 11
+        },
+        "pack_3": {
+            "ticket": 23
+        },
+        "pack_4": {
+            "ticket": 48
+        },
+        "pack_5": {
+            "ticket": 125
+        },
+        "pack_6": {
+            "ticket": 260
+        },
+        "ZSMS_1": {
+            "ticket": 0
+        },
+        "ZSMS_2": {
+            "ticket": 0
+        },
+        "ZSMS_3": {
+            "ticket": 1
+        },
+        "ZingSMS_1": {
+            "ticket": 0
+        },
+        "ZingSMS_2": {
+            "ticket": 0
+        },
+        "ZingSMS_3": {
+            "ticket": 1
+        }
+    },
+    "TicketFromCommission": {
+        "1": {
+            "requiredPoint": 5000000,
+            "ticket": 1,
+            "nextLevel": 2
+        },
+        "2": {
+            "requiredPoint": 6000000,
+            "ticket": 1,
+            "nextLevel": 3
+        },
+        "3": {
+            "requiredPoint": 7000000,
+            "ticket": 1,
+            "nextLevel": 4
+        },
+        "4": {
+            "requiredPoint": 8000000,
+            "ticket": 1,
+            "nextLevel": 5
+        },
+        "5": {
+            "requiredPoint": 9000000,
+            "ticket": 1,
+            "nextLevel": 6
+        },
+        "6": {
+            "requiredPoint": 7000000,
+            "ticket": 1,
+            "nextLevel": 7
+        },
+        "7": {
+            "requiredPoint": 8000000,
+            "ticket": 1,
+            "nextLevel": 8
+        },
+        "8": {
+            "requiredPoint": 9000000,
+            "ticket": 1,
+            "nextLevel": 9
+        },
+        "9": {
+            "requiredPoint": 10000000,
+            "ticket": 1,
+            "nextLevel": 10
+        },
+        "10": {
+            "requiredPoint": 7000000,
+            "ticket": 1,
+            "nextLevel": 11
+        },
+        "11": {
+            "requiredPoint": 8000000,
+            "ticket": 1,
+            "nextLevel": 12
+        },
+        "12": {
+            "requiredPoint": 9000000,
+            "ticket": 1,
+            "nextLevel": 13
+        },
+        "13": {
+            "requiredPoint": 8000000,
+            "ticket": 1,
+            "nextLevel": 14
+        },
+        "14": {
+            "requiredPoint": 9000000,
+            "ticket": 1,
+            "nextLevel": 15
+        },
+        "15": {
+            "requiredPoint": 7000000,
+            "ticket": 1,
+            "nextLevel": 16
+        },
+        "16": {
+            "requiredPoint": 8000000,
+            "ticket": 1,
+            "nextLevel": 17
+        },
+        "17": {
+            "requiredPoint": 9000000,
+            "ticket": 1,
+            "nextLevel": 18
+        },
+        "18": {
+            "requiredPoint": 10000000,
+            "ticket": 1,
+            "nextLevel": 19
+        },
+        "19": {
+            "requiredPoint": 7000000,
+            "ticket": 1,
+            "nextLevel": 20
+        },
+        "20": {
+            "requiredPoint": 8000000,
+            "ticket": 1,
+            "nextLevel": 21
+        },
+        "21": {
+            "requiredPoint": 9000000,
+            "ticket": 1,
+            "nextLevel": 22
+        },
+        "22": {
+            "requiredPoint": 8000000,
+            "ticket": 1,
+            "nextLevel": 23
+        },
+        "23": {
+            "requiredPoint": 9000000,
+            "ticket": 1,
+            "nextLevel": 24
+        },
+        "24": {
+            "requiredPoint": 7000000,
+            "ticket": 1,
+            "nextLevel": 25
+        },
+        "25": {
+            "requiredPoint": 8000000,
+            "ticket": 1,
+            "nextLevel": 26
+        },
+        "26": {
+            "requiredPoint": 9000000,
+            "ticket": 1,
+            "nextLevel": 27
+        },
+        "27": {
+            "requiredPoint": 10000000,
+            "ticket": 1,
+            "nextLevel": 28
+        },
+        "28": {
+            "requiredPoint": 7000000,
+            "ticket": 1,
+            "nextLevel": 29
+        },
+        "29": {
+            "requiredPoint": 8000000,
+            "ticket": 1,
+            "nextLevel": 30
+        },
+        "30": {
+            "requiredPoint": 9000000,
+            "ticket": 1,
+            "nextLevel": 31
+        },
+        "31": {
+            "requiredPoint": 10000000,
+            "ticket": 1,
+            "nextLevel": 32
+        },
+        "32": {
+            "requiredPoint": 8000000,
+            "ticket": 1,
+            "nextLevel": 33
+        },
+        "33": {
+            "requiredPoint": 10000000,
+            "ticket": 1,
+            "nextLevel": 34
+        },
+        "34": {
+            "requiredPoint": 12000000,
+            "ticket": 1,
+            "nextLevel": 35
+        },
+        "35": {
+            "requiredPoint": 14000000,
+            "ticket": 1,
+            "nextLevel": 36
+        },
+        "36": {
+            "requiredPoint": 16000000,
+            "ticket": 1,
+            "nextLevel": 37
+        },
+        "37": {
+            "requiredPoint": 12000000,
+            "ticket": 1,
+            "nextLevel": 38
+        },
+        "38": {
+            "requiredPoint": 15000000,
+            "ticket": 1,
+            "nextLevel": 39
+        },
+        "39": {
+            "requiredPoint": 18000000,
+            "ticket": 1,
+            "nextLevel": 40
+        },
+        "40": {
+            "requiredPoint": 20000000,
+            "ticket": 1,
+            "nextLevel": 41
+        },
+        "41": {
+            "requiredPoint": 8000000,
+            "ticket": 1,
+            "nextLevel": 42
+        },
+        "42": {
+            "requiredPoint": 12000000,
+            "ticket": 1,
+            "nextLevel": 43
+        },
+        "43": {
+            "requiredPoint": 15000000,
+            "ticket": 1,
+            "nextLevel": 44
+        },
+        "44": {
+            "requiredPoint": 18000000,
+            "ticket": 1,
+            "nextLevel": 45
+        },
+        "45": {
+            "requiredPoint": 20000000,
+            "ticket": 1,
+            "nextLevel": 46
+        },
+        "46": {
+            "requiredPoint": 8000000,
+            "ticket": 1,
+            "nextLevel": 47
+        },
+        "47": {
+            "requiredPoint": 12000000,
+            "ticket": 1,
+            "nextLevel": 48
+        },
+        "48": {
+            "requiredPoint": 15000000,
+            "ticket": 1,
+            "nextLevel": 49
+        },
+        "49": {
+            "requiredPoint": 18000000,
+            "ticket": 1,
+            "nextLevel": 50
+        },
+        "50": {
+            "requiredPoint": 20000000,
+            "ticket": 1,
+            "nextLevel": 41
+        }
+    },
+    "TicketForFree": {
+        "ticketLimitByChannel": {
+            "1001": [
+                500,
+                500,
+                400
+            ],
+            "1002": [
+                500,
+                500,
+                500
+            ],
+            "1003": [
+                10,
+                40,
+                40
+            ],
+            "1004": [
+                10,
+                40,
+                40
+            ],
+            "1005": [
+                10,
+                40,
+                40
+            ]
+        },
+        "dailyPeriodInHour": 8,
+        "ticketLimitEachPlayer": 1,
+        "luckyChance": 0.01
+    },
+    "FragmentData": {
+        "1": {
+            "item": "GOLD",
+            "quantity": 100000,
+            "requiredInfo": 0,
+            "baseWeight": 300,
+            "bonusWeight": 100,
+            "fragmentRule": {
+                "playerCap": -1,
+                "3rdLimitPeriod": -1,
+                "3rdLimitEvent": -1,
+                "3rdLimitWeekly": -1,
+                "3rdLimitDaily": -1,
+                "3rdLimitPlayer": -1
+            }
+        },
+        "2": {
+            "item": "GOLD",
+            "quantity": 350000,
+            "requiredInfo": 0,
+            "baseWeight": 300,
+            "bonusWeight": 100,
+            "fragmentRule": {
+                "playerCap": -1,
+                "3rdLimitPeriod": -1,
+                "3rdLimitEvent": -1,
+                "3rdLimitWeekly": -1,
+                "3rdLimitDaily": -1,
+                "3rdLimitPlayer": -1
+            }
+        },
+        "3": {
+            "item": "GOLD",
+            "quantity": 750000,
+            "requiredInfo": 0,
+            "baseWeight": 300,
+            "bonusWeight": 100,
+            "fragmentRule": {
+                "playerCap": -1,
+                "3rdLimitPeriod": -1,
+                "3rdLimitEvent": -1,
+                "3rdLimitWeekly": -1,
+                "3rdLimitDaily": -1,
+                "3rdLimitPlayer": -1
+            }
+        },
+        "4": {
+            "item": "GOLD",
+            "quantity": 1500000,
+            "requiredInfo": 0,
+            "baseWeight": 300,
+            "bonusWeight": 100,
+            "fragmentRule": {
+                "playerCap": -1,
+                "3rdLimitPeriod": -1,
+                "3rdLimitEvent": -1,
+                "3rdLimitWeekly": -1,
+                "3rdLimitDaily": -1,
+                "3rdLimitPlayer": -1
+            }
+        },
+        "5": {
+            "item": "GOLD",
+            "quantity": 2500000,
+            "requiredInfo": 0,
+            "baseWeight": 100,
+            "bonusWeight": 100,
+            "fragmentRule": {
+                "playerCap": -1,
+                "3rdLimitPeriod": -1,
+                "3rdLimitEvent": -1,
+                "3rdLimitWeekly": -1,
+                "3rdLimitDaily": -1,
+                "3rdLimitPlayer": -1
+            }
+        },
+        "6": {
+            "item": "GOLD",
+            "quantity": 5000000,
+            "requiredInfo": 0,
+            "baseWeight": 100,
+            "bonusWeight": 100,
+            "fragmentRule": {
+                "playerCap": -1,
+                "3rdLimitPeriod": -1,
+                "3rdLimitEvent": -1,
+                "3rdLimitWeekly": -1,
+                "3rdLimitDaily": -1,
+                "3rdLimitPlayer": -1
+            }
+        },
+        "7": {
+            "item": "GOLD",
+            "quantity": 7500000,
+            "requiredInfo": 0,
+            "baseWeight": 25,
+            "bonusWeight": 25,
+            "fragmentRule": {
+                "playerCap": -1,
+                "3rdLimitPeriod": -1,
+                "3rdLimitEvent": -1,
+                "3rdLimitWeekly": -1,
+                "3rdLimitDaily": -1,
+                "3rdLimitPlayer": -1
+            }
+        },
+        "8": {
+            "item": "GOLD",
+            "quantity": 10000000,
+            "requiredInfo": 0,
+            "baseWeight": 20,
+            "bonusWeight": 20,
+            "fragmentRule": {
+                "playerCap": -1,
+                "3rdLimitPeriod": -1,
+                "3rdLimitEvent": -1,
+                "3rdLimitWeekly": -1,
+                "3rdLimitDaily": -1,
+                "3rdLimitPlayer": -1
+            }
+        },
+        "9": {
+            "item": "GP50M_FRAG",
+            "quantity": 1,
+            "finalReward": "GOLD:50000000",
+            "requiredInfo": 0,
+            "baseWeight": 25,
+            "bonusWeight": 25,
+            "fragmentRule": {
+                "playerCap": 2,
+                "3rdLimitPeriod": -1,
+                "3rdLimitEvent": -1,
+                "3rdLimitWeekly": -1,
+                "3rdLimitDaily": -1,
+                "3rdLimitPlayer": -1,
+                "3rdFragmentWeight": [
+                    {
+                        "coinConstrain": "0:300",
+                        "weight": 5
+                    }
+                ]
+            }
+        },
+        "10": {
+            "item": "GP500M_FRAG",
+            "quantity": 1,
+            "finalReward": "GOLD:500000000",
+            "requiredInfo": 0,
+            "baseWeight": 10,
+            "bonusWeight": 10,
+            "fragmentRule": {
+                "playerCap": 2,
+                "3rdLimitPeriod": -1,
+                "3rdLimitEvent": -1,
+                "3rdLimitWeekly": -1,
+                "3rdLimitDaily": -1,
+                "3rdLimitPlayer": -1,
+                "3rdFragmentWeight": [
+                    {
+                        "coinConstrain": "0:3000",
+                        "weight": 10
+                    }
+                ]
+            }
+        },
+        "11": {
+            "item": "BALO1_FRAG",
+            "quantity": 1,
+            "requiredInfo": 1,
+            "baseWeight": 10,
+            "bonusWeight": 30,
+            "fragmentRule": {
+                "playerCap": 2,
+                "3rdLimitPeriod": 7200,
+                "3rdLimitEvent": 55,
+                "3rdLimitWeekly": -1,
+                "3rdLimitDaily": 5,
+                "3rdLimitPlayer": 10,
+                "3rdFragmentWeight": [
+                    {
+                        "coinConstrain": "0:1500",
+                        "weight": 50
+                    }
+                ]
+            }
+        },
+        "12": {
+            "item": "CARD500K_FRAG",
+            "quantity": 1,
+            "requiredInfo": 1,
+            "baseWeight": 10,
+            "bonusWeight": 30,
+            "fragmentRule": {
+                "playerCap": 2,
+                "3rdLimitPeriod": 7200,
+                "3rdLimitEvent": 55,
+                "3rdLimitWeekly": -1,
+                "3rdLimitDaily": 5,
+                "3rdLimitPlayer": 10,
+                "3rdFragmentWeight": [
+                    {
+                        "coinConstrain": "0:1500",
+                        "weight": 50
+                    }
+                ]
+            }
+        },
+        "13": {
+            "item": "BEATSOLO_FRAG",
+            "quantity": 1,
+            "requiredInfo": 1,
+            "baseWeight": 10,
+            "bonusWeight": 30,
+            "fragmentRule": {
+                "playerCap": 2,
+                "3rdLimitPeriod": -1,
+                "3rdLimitEvent": 4,
+                "3rdLimitWeekly": 1,
+                "3rdLimitDaily": 1,
+                "3rdLimitPlayer": 1,
+                "3rdFragmentWeight": [
+                    {
+                        "coinConstrain": "150000:5000",
+                        "weight": 50
+                    },
+                    {
+                        "coinConstrain": "850000:5000",
+                        "weight": 50
+                    },
+                    {
+                        "coinConstrain": "1550000:15000",
+                        "weight": 50
+                    },
+                    {
+                        "coinConstrain": "2000000:15000",
+                        "weight": 50
+                    }
+                ]
+            }
+        },
+        "14": {
+            "item": "OPPOF1S_FRAG",
+            "quantity": 1,
+            "requiredInfo": 1,
+            "baseWeight": 7,
+            "bonusWeight": 20,
+            "fragmentRule": {
+                "playerCap": 2,
+                "3rdLimitPeriod": -1,
+                "3rdLimitEvent": 4,
+                "3rdLimitWeekly": 1,
+                "3rdLimitDaily": 1,
+                "3rdLimitPlayer": 1,
+                "3rdFragmentWeight": [
+                    {
+                        "coinConstrain": "300000:3000",
+                        "weight": 50
+                    },
+                    {
+                        "coinConstrain": "1000000:5000",
+                        "weight": 50
+                    },
+                    {
+                        "coinConstrain": "1700000:20000",
+                        "weight": 50
+                    },
+                    {
+                        "coinConstrain": "2000000:15000",
+                        "weight": 50
+                    }
+                ]
+            }
+        },
+        "15": {
+            "item": "IPHONE7P1_FRAG",
+            "quantity": 1,
+            "requiredInfo": 1,
+            "baseWeight": 7,
+            "bonusWeight": 20,
+            "fragmentRule": {
+                "playerCap": 2,
+                "3rdLimitPeriod": -1,
+                "3rdLimitEvent": 4,
+                "3rdLimitWeekly": 2,
+                "3rdLimitDaily": 1,
+                "3rdLimitPlayer": 1,
+                "3rdFragmentWeight": [
+                    {
+                        "coinConstrain": "650000:25000",
+                        "weight": 50
+                    },
+                    {
+                        "coinConstrain": "1250000:75000",
+                        "weight": 50
+                    },
+                    {
+                        "coinConstrain": "2000000:55000",
+                        "weight": 50
+                    },
+                    {
+                        "coinConstrain": "2000000:25000",
+                        "weight": 50
+                    }
+                ]
+            }
+        }
+    }
+}

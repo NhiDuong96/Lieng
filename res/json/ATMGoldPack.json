@@ -1,0 +1,74 @@
+{
+    "ZingATMPack": {
+        "ZINGATM_1": {
+            "cost": 10000,
+            "gold": 3000000,
+            "vPoint": 100,
+            "isAvailable": {
+                "ZING": 1
+            },
+            "goldPerUnit": 300,
+            "firstPromotion": 300
+        },
+        "ZINGATM_2": {
+            "cost": 20000,
+            "gold": 6500000,
+            "vPoint": 200,
+            "isAvailable": {
+                "ZING": 1
+            },
+            "goldPerUnit": 325,
+            "firstPromotion": 275
+        },
+        "ZINGATM_3": {
+            "cost": 50000,
+            "gold": 17000000,
+            "vPoint": 500,
+            "isAvailable": {
+                "ZING": 1
+            },
+            "goldPerUnit": 340,
+            "firstPromotion": 250
+        },
+        "ZINGATM_4": {
+            "cost": 100000,
+            "gold": 38000000,
+            "vPoint": 1000,
+            "isAvailable": {
+                "ZING": 1
+            },
+            "goldPerUnit": 380,
+            "firstPromotion": 260
+        },
+        "ZINGATM_5": {
+            "cost": 200000,
+            "gold": 90000000,
+            "vPoint": 2000,
+            "isAvailable": {
+                "ZING": 1
+            },
+            "goldPerUnit": 450,
+            "firstPromotion": 270
+        },
+        "ZINGATM_6": {
+            "cost": 500000,
+            "gold": 270000000,
+            "vPoint": 5000,
+            "isAvailable": {
+                "ZING": 1
+            },
+            "goldPerUnit": 540,
+            "firstPromotion": 280
+        },
+        "ZINGATM_7": {
+            "cost": 1000000,
+            "gold": 600000000,
+            "vPoint": 10000,
+            "isAvailable": {
+                "ZING": 1
+            },
+            "goldPerUnit": 600,
+            "firstPromotion": 300
+        }
+    }
+}

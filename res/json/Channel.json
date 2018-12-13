@@ -1,0 +1,768 @@
+{
+    "Channel": {
+        "1001": {
+            "name": "CG_TAP_SU",
+            "minRequire": 0,
+            "structure": [
+                "CG_1",
+                "CG_2",
+                "CG_3",
+                "CG_1S",
+                "CG_2S",
+                "CG_3S",
+                "CG_1P",
+                "CG_2P",
+                "CG_3P",
+                "CG_1SP",
+                "CG_2SP",
+                "CG_3SP"
+            ],
+            "roomName": "Bali;Singapore",
+            "available": 1,
+            "playerTimeout": 15,
+            "fastPlayerTimeout": 5,
+            "nonInterActiveTimeOut": 1
+        },
+        "1002": {
+            "name": "CG_TA_DIEN",
+            "minRequire": 50000,
+            "structure": [
+                "CG_4",
+                "CG_5",
+                "CG_6",
+                "CG_4S",
+                "CG_5S",
+                "CG_6S",
+                "CG_4P",
+                "CG_5P",
+                "CG_6P",
+                "CG_4SP",
+                "CG_5SP",
+                "CG_6SP"
+            ],
+            "roomName": "New York;London;Toronto",
+            "available": 1,
+            "playerTimeout": 15,
+            "fastPlayerTimeout": 5,
+            "nonInterActiveTimeOut": 1
+        },
+        "1003": {
+            "name": "CG_DIA_CHU",
+            "minRequire": 500000,
+            "structure": [
+                "CG_7",
+                "CG_8",
+                "CG_9",
+                "CG_7S",
+                "CG_8S",
+                "CG_9S",
+                "CG_7P",
+                "CG_8P",
+                "CG_9P",
+                "CG_7SP",
+                "CG_8SP",
+                "CG_9SP"
+            ],
+            "roomName": "Paris;Macao;Barden",
+            "available": 1,
+            "playerTimeout": 15,
+            "fastPlayerTimeout": 5,
+            "nonInterActiveTimeOut": 1
+        },
+        "1004": {
+            "name": "CG_TRIEU_PHU",
+            "minRequire": 5000000,
+            "structure": [
+                "CG_10",
+                "CG_11",
+                "CG_12",
+                "CG_10S",
+                "CG_11S",
+                "CG_12S",
+                "CG_10P",
+                "CG_11P",
+                "CG_12P",
+                "CG_10SP",
+                "CG_11SP",
+                "CG_12SP"
+            ],
+            "roomName": "Walkerhill;Chicago;LasVegas",
+            "available": 1,
+            "playerTimeout": 15,
+            "fastPlayerTimeout": 5,
+            "nonInterActiveTimeOut": 1
+        },
+        "1005": {
+            "name": "CG_TY_PHU",
+            "minRequire": 50000000,
+            "structure": [
+                "CG_13",
+                "CG_14",
+                "CG_15",
+                "CG_13S",
+                "CG_14S",
+                "CG_15S",
+                "CG_13P",
+                "CG_14P",
+                "CG_15P",
+                "CG_13SP",
+                "CG_14SP",
+                "CG_15SP"
+            ],
+            "roomName": "Los Angleles;Hongkong",
+            "available": 1,
+            "playerTimeout": 15,
+            "fastPlayerTimeout": 10,
+            "nonInterActiveTimeOut": 1
+        }
+    },
+    "CashGameStructure": {
+        "CG_1": {
+            "maxPlayer": 9,
+            "maxSpectator": 0,
+            "blindLevel": 500,
+            "sidepotValue": 125,
+            "buyInMin": 5000,
+            "buyInMax": 25000,
+            "light": 0,
+            "proMode": 0
+        },
+        "CG_1S": {
+            "maxPlayer": 5,
+            "maxSpectator": 0,
+            "blindLevel": 500,
+            "sidepotValue": 125,
+            "buyInMin": 5000,
+            "buyInMax": 25000,
+            "light": 1,
+            "proMode": 0
+        },
+        "CG_2": {
+            "maxPlayer": 9,
+            "maxSpectator": 0,
+            "blindLevel": 1000,
+            "sidepotValue": 250,
+            "buyInMin": 10000,
+            "buyInMax": 50000,
+            "light": 0,
+            "proMode": 0
+        },
+        "CG_2S": {
+            "maxPlayer": 5,
+            "maxSpectator": 0,
+            "blindLevel": 1000,
+            "sidepotValue": 250,
+            "buyInMin": 10000,
+            "buyInMax": 50000,
+            "light": 1,
+            "proMode": 0
+        },
+        "CG_3": {
+            "maxPlayer": 9,
+            "maxSpectator": 0,
+            "blindLevel": 2500,
+            "sidepotValue": 625,
+            "buyInMin": 25000,
+            "buyInMax": 125000,
+            "light": 0,
+            "proMode": 0
+        },
+        "CG_3S": {
+            "maxPlayer": 5,
+            "maxSpectator": 0,
+            "blindLevel": 2500,
+            "sidepotValue": 625,
+            "buyInMin": 25000,
+            "buyInMax": 125000,
+            "light": 1,
+            "proMode": 0
+        },
+        "CG_4": {
+            "maxPlayer": 9,
+            "maxSpectator": 0,
+            "blindLevel": 5000,
+            "sidepotValue": 1000,
+            "buyInMin": 50000,
+            "buyInMax": 250000,
+            "light": 0,
+            "proMode": 0
+        },
+        "CG_4S": {
+            "maxPlayer": 5,
+            "maxSpectator": 0,
+            "blindLevel": 5000,
+            "sidepotValue": 1000,
+            "buyInMin": 50000,
+            "buyInMax": 250000,
+            "light": 1,
+            "proMode": 0
+        },
+        "CG_5": {
+            "maxPlayer": 9,
+            "maxSpectator": 0,
+            "blindLevel": 10000,
+            "sidepotValue": 2000,
+            "buyInMin": 100000,
+            "buyInMax": 500000,
+            "light": 0,
+            "proMode": 0
+        },
+        "CG_5S": {
+            "maxPlayer": 5,
+            "maxSpectator": 0,
+            "blindLevel": 10000,
+            "sidepotValue": 2000,
+            "buyInMin": 100000,
+            "buyInMax": 500000,
+            "light": 1,
+            "proMode": 0
+        },
+        "CG_6": {
+            "maxPlayer": 9,
+            "maxSpectator": 0,
+            "blindLevel": 25000,
+            "sidepotValue": 5000,
+            "buyInMin": 250000,
+            "buyInMax": 1250000,
+            "light": 0,
+            "proMode": 0
+        },
+        "CG_6S": {
+            "maxPlayer": 5,
+            "maxSpectator": 0,
+            "blindLevel": 25000,
+            "sidepotValue": 5000,
+            "buyInMin": 250000,
+            "buyInMax": 1250000,
+            "light": 1,
+            "proMode": 0
+        },
+        "CG_7": {
+            "maxPlayer": 9,
+            "maxSpectator": 0,
+            "blindLevel": 50000,
+            "sidepotValue": 10000,
+            "buyInMin": 500000,
+            "buyInMax": 2500000,
+            "light": 0,
+            "proMode": 0
+        },
+        "CG_7S": {
+            "maxPlayer": 5,
+            "maxSpectator": 0,
+            "blindLevel": 50000,
+            "sidepotValue": 10000,
+            "buyInMin": 500000,
+            "buyInMax": 2500000,
+            "light": 1,
+            "proMode": 0
+        },
+        "CG_8": {
+            "maxPlayer": 9,
+            "maxSpectator": 0,
+            "blindLevel": 100000,
+            "sidepotValue": 20000,
+            "buyInMin": 1000000,
+            "buyInMax": 5000000,
+            "light": 0,
+            "proMode": 0
+        },
+        "CG_8S": {
+            "maxPlayer": 5,
+            "maxSpectator": 0,
+            "blindLevel": 100000,
+            "sidepotValue": 20000,
+            "buyInMin": 1000000,
+            "buyInMax": 5000000,
+            "light": 1,
+            "proMode": 0
+        },
+        "CG_9": {
+            "maxPlayer": 9,
+            "maxSpectator": 0,
+            "blindLevel": 250000,
+            "sidepotValue": 50000,
+            "buyInMin": 2500000,
+            "buyInMax": 12500000,
+            "light": 0,
+            "proMode": 0
+        },
+        "CG_9S": {
+            "maxPlayer": 5,
+            "maxSpectator": 0,
+            "blindLevel": 250000,
+            "sidepotValue": 50000,
+            "buyInMin": 2500000,
+            "buyInMax": 12500000,
+            "light": 1,
+            "proMode": 0
+        },
+        "CG_10": {
+            "maxPlayer": 9,
+            "maxSpectator": 0,
+            "blindLevel": 500000,
+            "sidepotValue": 62500,
+            "buyInMin": 5000000,
+            "buyInMax": 25000000,
+            "light": 0,
+            "proMode": 0
+        },
+        "CG_10S": {
+            "maxPlayer": 5,
+            "maxSpectator": 0,
+            "blindLevel": 500000,
+            "sidepotValue": 62500,
+            "buyInMin": 5000000,
+            "buyInMax": 25000000,
+            "light": 1,
+            "proMode": 0
+        },
+        "CG_11": {
+            "maxPlayer": 9,
+            "maxSpectator": 0,
+            "blindLevel": 1000000,
+            "sidepotValue": 125000,
+            "buyInMin": 10000000,
+            "buyInMax": 50000000,
+            "light": 0,
+            "proMode": 0
+        },
+        "CG_11S": {
+            "maxPlayer": 5,
+            "maxSpectator": 0,
+            "blindLevel": 1000000,
+            "sidepotValue": 125000,
+            "buyInMin": 10000000,
+            "buyInMax": 50000000,
+            "light": 1,
+            "proMode": 0
+        },
+        "CG_12": {
+            "maxPlayer": 9,
+            "maxSpectator": 0,
+            "blindLevel": 2500000,
+            "sidepotValue": 312500,
+            "buyInMin": 25000000,
+            "buyInMax": 125000000,
+            "light": 0,
+            "proMode": 0
+        },
+        "CG_12S": {
+            "maxPlayer": 5,
+            "maxSpectator": 0,
+            "blindLevel": 2500000,
+            "sidepotValue": 312500,
+            "buyInMin": 25000000,
+            "buyInMax": 125000000,
+            "light": 1,
+            "proMode": 0
+        },
+        "CG_13": {
+            "maxPlayer": 9,
+            "maxSpectator": 0,
+            "blindLevel": 5000000,
+            "sidepotValue": 625000,
+            "buyInMin": 50000000,
+            "buyInMax": 250000000,
+            "light": 0,
+            "proMode": 0
+        },
+        "CG_13S": {
+            "maxPlayer": 5,
+            "maxSpectator": 0,
+            "blindLevel": 5000000,
+            "sidepotValue": 625000,
+            "buyInMin": 50000000,
+            "buyInMax": 250000000,
+            "light": 1,
+            "proMode": 0
+        },
+        "CG_14": {
+            "maxPlayer": 9,
+            "maxSpectator": 0,
+            "blindLevel": 10000000,
+            "sidepotValue": 1250000,
+            "buyInMin": 100000000,
+            "buyInMax": 500000000,
+            "light": 0,
+            "proMode": 0
+        },
+        "CG_14S": {
+            "maxPlayer": 5,
+            "maxSpectator": 0,
+            "blindLevel": 10000000,
+            "sidepotValue": 1250000,
+            "buyInMin": 100000000,
+            "buyInMax": 500000000,
+            "light": 1,
+            "proMode": 0
+        },
+        "CG_15": {
+            "maxPlayer": 9,
+            "maxSpectator": 0,
+            "blindLevel": 25000000,
+            "sidepotValue": 3125000,
+            "buyInMin": 250000000,
+            "buyInMax": 1250000000,
+            "light": 0,
+            "proMode": 0
+        },
+        "CG_15S": {
+            "maxPlayer": 5,
+            "maxSpectator": 0,
+            "blindLevel": 25000000,
+            "sidepotValue": 3125000,
+            "buyInMin": 250000000,
+            "buyInMax": 1250000000,
+            "light": 1,
+            "proMode": 0
+        },
+        "CG_1P": {
+            "maxPlayer": 9,
+            "maxSpectator": 0,
+            "blindLevel": 500,
+            "sidepotValue": 125,
+            "buyInMin": 5000,
+            "buyInMax": 25000,
+            "light": 0,
+            "proMode": 1
+        },
+        "CG_1SP": {
+            "maxPlayer": 5,
+            "maxSpectator": 0,
+            "blindLevel": 500,
+            "sidepotValue": 125,
+            "buyInMin": 5000,
+            "buyInMax": 25000,
+            "light": 1,
+            "proMode": 1
+        },
+        "CG_2P": {
+            "maxPlayer": 9,
+            "maxSpectator": 0,
+            "blindLevel": 1000,
+            "sidepotValue": 250,
+            "buyInMin": 10000,
+            "buyInMax": 50000,
+            "light": 0,
+            "proMode": 1
+        },
+        "CG_2SP": {
+            "maxPlayer": 5,
+            "maxSpectator": 0,
+            "blindLevel": 1000,
+            "sidepotValue": 250,
+            "buyInMin": 10000,
+            "buyInMax": 50000,
+            "light": 1,
+            "proMode": 1
+        },
+        "CG_3P": {
+            "maxPlayer": 9,
+            "maxSpectator": 0,
+            "blindLevel": 2500,
+            "sidepotValue": 625,
+            "buyInMin": 25000,
+            "buyInMax": 125000,
+            "light": 0,
+            "proMode": 1
+        },
+        "CG_3SP": {
+            "maxPlayer": 5,
+            "maxSpectator": 0,
+            "blindLevel": 2500,
+            "sidepotValue": 625,
+            "buyInMin": 25000,
+            "buyInMax": 125000,
+            "light": 1,
+            "proMode": 1
+        },
+        "CG_4P": {
+            "maxPlayer": 9,
+            "maxSpectator": 0,
+            "blindLevel": 5000,
+            "sidepotValue": 1000,
+            "buyInMin": 50000,
+            "buyInMax": 250000,
+            "light": 0,
+            "proMode": 1
+        },
+        "CG_4SP": {
+            "maxPlayer": 5,
+            "maxSpectator": 0,
+            "blindLevel": 5000,
+            "sidepotValue": 1000,
+            "buyInMin": 50000,
+            "buyInMax": 250000,
+            "light": 1,
+            "proMode": 1
+        },
+        "CG_5P": {
+            "maxPlayer": 9,
+            "maxSpectator": 0,
+            "blindLevel": 10000,
+            "sidepotValue": 2000,
+            "buyInMin": 100000,
+            "buyInMax": 500000,
+            "light": 0,
+            "proMode": 1
+        },
+        "CG_5SP": {
+            "maxPlayer": 5,
+            "maxSpectator": 0,
+            "blindLevel": 10000,
+            "sidepotValue": 2000,
+            "buyInMin": 100000,
+            "buyInMax": 500000,
+            "light": 1,
+            "proMode": 1
+        },
+        "CG_6P": {
+            "maxPlayer": 9,
+            "maxSpectator": 0,
+            "blindLevel": 25000,
+            "sidepotValue": 5000,
+            "buyInMin": 250000,
+            "buyInMax": 1250000,
+            "light": 0,
+            "proMode": 1
+        },
+        "CG_6SP": {
+            "maxPlayer": 5,
+            "maxSpectator": 0,
+            "blindLevel": 25000,
+            "sidepotValue": 5000,
+            "buyInMin": 250000,
+            "buyInMax": 1250000,
+            "light": 1,
+            "proMode": 1
+        },
+        "CG_7P": {
+            "maxPlayer": 9,
+            "maxSpectator": 0,
+            "blindLevel": 50000,
+            "sidepotValue": 10000,
+            "buyInMin": 500000,
+            "buyInMax": 2500000,
+            "light": 0,
+            "proMode": 1
+        },
+        "CG_7SP": {
+            "maxPlayer": 5,
+            "maxSpectator": 0,
+            "blindLevel": 50000,
+            "sidepotValue": 10000,
+            "buyInMin": 500000,
+            "buyInMax": 2500000,
+            "light": 1,
+            "proMode": 1
+        },
+        "CG_8P": {
+            "maxPlayer": 9,
+            "maxSpectator": 0,
+            "blindLevel": 100000,
+            "sidepotValue": 20000,
+            "buyInMin": 1000000,
+            "buyInMax": 5000000,
+            "light": 0,
+            "proMode": 1
+        },
+        "CG_8SP": {
+            "maxPlayer": 5,
+            "maxSpectator": 0,
+            "blindLevel": 100000,
+            "sidepotValue": 20000,
+            "buyInMin": 1000000,
+            "buyInMax": 5000000,
+            "light": 1,
+            "proMode": 1
+        },
+        "CG_9P": {
+            "maxPlayer": 9,
+            "maxSpectator": 0,
+            "blindLevel": 250000,
+            "sidepotValue": 50000,
+            "buyInMin": 2500000,
+            "buyInMax": 12500000,
+            "light": 0,
+            "proMode": 1
+        },
+        "CG_9SP": {
+            "maxPlayer": 5,
+            "maxSpectator": 0,
+            "blindLevel": 250000,
+            "sidepotValue": 50000,
+            "buyInMin": 2500000,
+            "buyInMax": 12500000,
+            "light": 1,
+            "proMode": 1
+        },
+        "CG_10P": {
+            "maxPlayer": 9,
+            "maxSpectator": 0,
+            "blindLevel": 500000,
+            "sidepotValue": 62500,
+            "buyInMin": 5000000,
+            "buyInMax": 25000000,
+            "light": 0,
+            "proMode": 1
+        },
+        "CG_10SP": {
+            "maxPlayer": 5,
+            "maxSpectator": 0,
+            "blindLevel": 500000,
+            "sidepotValue": 62500,
+            "buyInMin": 5000000,
+            "buyInMax": 25000000,
+            "light": 1,
+            "proMode": 1
+        },
+        "CG_11P": {
+            "maxPlayer": 9,
+            "maxSpectator": 0,
+            "blindLevel": 1000000,
+            "sidepotValue": 125000,
+            "buyInMin": 10000000,
+            "buyInMax": 50000000,
+            "light": 0,
+            "proMode": 1
+        },
+        "CG_11SP": {
+            "maxPlayer": 5,
+            "maxSpectator": 0,
+            "blindLevel": 1000000,
+            "sidepotValue": 125000,
+            "buyInMin": 10000000,
+            "buyInMax": 50000000,
+            "light": 1,
+            "proMode": 1
+        },
+        "CG_12P": {
+            "maxPlayer": 9,
+            "maxSpectator": 0,
+            "blindLevel": 2500000,
+            "sidepotValue": 312500,
+            "buyInMin": 25000000,
+            "buyInMax": 125000000,
+            "light": 0,
+            "proMode": 1
+        },
+        "CG_12SP": {
+            "maxPlayer": 5,
+            "maxSpectator": 0,
+            "blindLevel": 2500000,
+            "sidepotValue": 312500,
+            "buyInMin": 25000000,
+            "buyInMax": 125000000,
+            "light": 1,
+            "proMode": 1
+        },
+        "CG_13P": {
+            "maxPlayer": 9,
+            "maxSpectator": 0,
+            "blindLevel": 5000000,
+            "sidepotValue": 625000,
+            "buyInMin": 50000000,
+            "buyInMax": 250000000,
+            "light": 0,
+            "proMode": 1
+        },
+        "CG_13SP": {
+            "maxPlayer": 5,
+            "maxSpectator": 0,
+            "blindLevel": 5000000,
+            "sidepotValue": 625000,
+            "buyInMin": 50000000,
+            "buyInMax": 250000000,
+            "light": 1,
+            "proMode": 1
+        },
+        "CG_14P": {
+            "maxPlayer": 9,
+            "maxSpectator": 0,
+            "blindLevel": 10000000,
+            "sidepotValue": 1250000,
+            "buyInMin": 100000000,
+            "buyInMax": 500000000,
+            "light": 0,
+            "proMode": 1
+        },
+        "CG_14SP": {
+            "maxPlayer": 5,
+            "maxSpectator": 0,
+            "blindLevel": 10000000,
+            "sidepotValue": 1250000,
+            "buyInMin": 100000000,
+            "buyInMax": 500000000,
+            "light": 1,
+            "proMode": 1
+        },
+        "CG_15P": {
+            "maxPlayer": 9,
+            "maxSpectator": 0,
+            "blindLevel": 25000000,
+            "sidepotValue": 3125000,
+            "buyInMin": 250000000,
+            "buyInMax": 1250000000,
+            "light": 0,
+            "proMode": 1
+        },
+        "CG_15SP": {
+            "maxPlayer": 5,
+            "maxSpectator": 0,
+            "blindLevel": 25000000,
+            "sidepotValue": 3125000,
+            "buyInMin": 250000000,
+            "buyInMax": 1250000000,
+            "light": 1,
+            "proMode": 1
+        }
+    },
+    "PlayerPosition": {
+        "5": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "6": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ],
+        "7": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+        ],
+        "8": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+        ],
+        "9": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    }
+}

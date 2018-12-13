@@ -5,13 +5,16 @@ import bitzero.framework.dao.model.AbstractUProfileModel;
 /**
  * Created by niennd on 10/29/2015.
  */
-public class UProfileModel extends AbstractUProfileModel {
+public class UProfileModel extends AbstractUProfileModel{
 
     long gold;
     String username;
     String displayname;
     String avatarURL;
     String defaultAvatar;
+    int level;
+    long exp;
+    boolean hasGame;
 
     public UProfileModel(int userID) {
         super(userID);
@@ -20,6 +23,8 @@ public class UProfileModel extends AbstractUProfileModel {
         this.avatarURL = "";
         this.gold = 0;
         this.defaultAvatar = "";
+        level = 0;
+        exp = 0;
     }
 
     @Override
@@ -30,54 +35,76 @@ public class UProfileModel extends AbstractUProfileModel {
         }
     }
 
-    public int getTotalExp() {
-        return 0;
-    }
-
-    public String getUsername() {
-        return username;
-    }
-
     public void setUsername(String username) {
         this.username = username;
-    }
-
-    public String getDisplayname() {
-        return displayname;
     }
 
     public void setDisplayname(String displayname) {
         this.displayname = displayname;
     }
 
-    public String getAvatarURL() {
-        return avatarURL;
-    }
-
     public void setAvatarURL(String avatarURL) {
         this.avatarURL = avatarURL;
-    }
-
-    public String getDefaultAvatar() {
-        return defaultAvatar;
-    }
-
-    public void setDefaultAvatar(String defaultAvatar) {
-        this.defaultAvatar = defaultAvatar;
-    }
-
-    public long getGold() {
-        return gold;
     }
 
     public void setGold(long gold) {
         this.gold = gold;
     }
 
+
+
+
+    public boolean getHasGame() {
+        return false;
+    }
+
+    public void setDefaultAvatar(String defaultAvatar) {
+        this.defaultAvatar = defaultAvatar;
+    }
+
+
+    public int getUID() {
+        return getUserID();
+    }
+
+
+    public String getUserName() {
+        return username;
+    }
+
+
+    public String getDisplayName() {
+        return displayname;
+    }
+
+
+    public int getLevel() {
+        return level;
+    }
+
+    public long getGold() {
+        return gold;
+    }
+
+
+    public long getExp() {
+        return exp;
+    }
+
+
+    public String getAvatarURL() {
+        return avatarURL;
+    }
+
+
+    public String getDefaultAvatar() {
+        return defaultAvatar;
+    }
+
     @Override
     public String toString() {
         return getUserID() +
-                "|" + getUsername() +
+                "|" + getUserName() +
                 "|" + getGold() +
                 "|" + getCoin();
     }

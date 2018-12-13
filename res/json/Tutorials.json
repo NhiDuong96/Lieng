@@ -1,0 +1,248 @@
+{
+    "coregame": [
+        [
+            {
+                "position": "22;65"
+            },
+            {
+                "position": "22;30"
+            },
+            {
+                "position": "55;50"
+            }
+        ],
+        [
+            {
+                "position": "22;65"
+            },
+            {
+                "position": "22;35"
+            },
+            {
+                "position": "55;50"
+            }
+        ],
+        [
+            {
+                "position": "22;70",
+                "endPosition": "50;60"
+            },
+            {
+                "position": "55;35"
+            },
+            {
+                "position": "22;47"
+            }
+        ],
+        [
+            {
+                "position": "22;60"
+            },
+            {
+                "position": "22;40",
+                "endPosition": "20;11"
+            }
+        ],
+        [
+            {
+                "position": "22;65",
+                "endPosition": "6;6"
+            },
+            {
+                "position": "22;35",
+                "endPosition": "16;6"
+            },
+            {
+                "position": "55;50",
+                "endPosition": "25;6"
+            }
+        ],
+        [
+            {
+                "position": "22;65",
+                "endPosition": "58;11"
+            },
+            {
+                "position": "22;40",
+                "endPosition": "52;11"
+            },
+            {
+                "position": "55;60",
+                "endPosition": "72;11"
+            },
+            {
+                "position": "55;35",
+                "endPosition": "65;11"
+            }
+        ],
+        [
+            {
+                "position": "22;65"
+            },
+            {
+                "position": "22;30",
+                "endPosition": "20;11"
+            }
+        ],
+        [
+            {
+                "position": "22;65",
+                "endPosition": "46;40"
+            },
+            {
+                "position": "22;35",
+                "endPosition": "20;11"
+            },
+            {
+                "position": "55;65",
+                "endPosition": "38;51"
+            }
+        ],
+        [
+            {
+                "position": "22;65",
+                "endPosition": "50;40"
+            },
+            {
+                "position": "22;35",
+                "endPosition": "20;11"
+            }
+        ],
+        [
+            {
+                "position": "22;65"
+            },
+            {
+                "position": "22;30"
+            }
+        ]
+    ],
+    "tournament": [
+        [
+            {
+                "position": "100;100"
+            },
+            {
+                "position": "100;100"
+            },
+            {
+                "position": "100;100"
+            }
+        ],
+        [
+            {
+                "position": "100;100",
+                "startPosition": "100;100",
+                "endPosition": "100;100"
+            },
+            {
+                "position": "100;100",
+                "startPosition": "100;100",
+                "endPosition": "100;100"
+            },
+            {
+                "position": "100;100",
+                "startPosition": "100;100",
+                "endPosition": "100;100"
+            }
+        ],
+        [
+            {
+                "position": "100;100"
+            },
+            {
+                "position": "100;100"
+            },
+            {
+                "position": "100;100"
+            },
+            {
+                "position": "100;100"
+            }
+        ],
+        [
+            {
+                "position": "100;100",
+                "startPosition": "200;100",
+                "endPosition": "100;100"
+            },
+            {
+                "position": "100;100",
+                "startPosition": "100;100",
+                "endPosition": "100;100"
+            }
+        ],
+        [
+            {
+                "position": "100;100",
+                "startPosition": "100;100",
+                "endPosition": "100;100"
+            },
+            {
+                "position": "100;100",
+                "startPosition": "100;100",
+                "endPosition": "100;100"
+            }
+        ],
+        [
+            {
+                "position": "100;100",
+                "startPosition": "100;100",
+                "endPosition": "100;100"
+            },
+            {
+                "position": "100;100",
+                "startPosition": "100;100",
+                "endPosition": "100;100"
+            }
+        ],
+        [
+            {
+                "position": "100;100",
+                "startPosition": "100;100",
+                "endPosition": "100;100"
+            },
+            {
+                "position": "100;100",
+                "startPosition": "100;100",
+                "endPosition": "100;100"
+            }
+        ],
+        [
+            {
+                "position": "100;100",
+                "startPosition": "100;100",
+                "endPosition": "100;100"
+            },
+            {
+                "position": "100;100",
+                "startPosition": "100;100",
+                "endPosition": "100;100"
+            }
+        ],
+        [
+            {
+                "position": "100;100",
+                "startPosition": "100;100",
+                "endPosition": "100;100"
+            },
+            {
+                "position": "100;100",
+                "startPosition": "100;100",
+                "endPosition": "100;100"
+            }
+        ],
+        [
+            {
+                "position": "100;100",
+                "startPosition": "100;100",
+                "endPosition": "100;100"
+            },
+            {
+                "position": "100;100",
+                "startPosition": "100;100",
+                "endPosition": "100;100"
+            }
+        ]
+    ]
+}

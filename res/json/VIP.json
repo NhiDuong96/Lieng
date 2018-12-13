@@ -1,0 +1,48 @@
+{
+    "VIPLevel": [
+        {
+            "requiredPoint": 0,
+            "goldBonus": 0,
+            "buyGoldBonusRate": 0,
+            "expiredAfter": -1,
+            "hasVipIcon": 0,
+            "dailyGoldBonus": 0,
+            "tableWellcome": 0,
+            "commissionRate": 0.1,
+            "tournamentPrizeBonusRate": 1
+        },
+        {
+            "requiredPoint": 2000,
+            "goldBonus": 10000000,
+            "buyGoldBonusRate": 2,
+            "expiredAfter": 604800,
+            "hasVipIcon": 1,
+            "dailyGoldBonus": 2000000,
+            "tableWellcome": 1,
+            "commissionRate": 0.08,
+            "tournamentPrizeBonusRate": 1.5
+        },
+        {
+            "requiredPoint": 4000,
+            "goldBonus": 100000000,
+            "buyGoldBonusRate": 2.25,
+            "expiredAfter": 2592000,
+            "hasVipIcon": 1,
+            "dailyGoldBonus": 3000000,
+            "tableWellcome": 1,
+            "commissionRate": 0.06,
+            "tournamentPrizeBonusRate": 2
+        },
+        {
+            "requiredPoint": 10000,
+            "goldBonus": 300000000,
+            "buyGoldBonusRate": 2.5,
+            "expiredAfter": 5184000,
+            "hasVipIcon": 1,
+            "dailyGoldBonus": 5000000,
+            "tableWellcome": 1,
+            "commissionRate": 0.05,
+            "tournamentPrizeBonusRate": 2.5
+        }
+    ]
+}

@@ -1,0 +1,161 @@
+{
+    "Misc": {
+        "accumulateRate": 0.02,
+        "jackpotShare": 0.5,
+        "jackpotTimeShare": 43200,
+        "goldTicketValue": 100000,
+        "goldTicketDailyLimit": 1,
+        "vpointTicketValue": 10,
+        "hashValue": 10
+    },
+    "HandInfo": {
+        "1": {
+            "handType": "HIGH_CARD",
+            "baseWeight": 20000,
+            "limitDaily": -1,
+            "playJackPot": 0,
+            "shouldNotify": 0
+        },
+        "2": {
+            "handType": "HIGH_CARD",
+            "cardRank": "ACE",
+            "baseWeight": 20000,
+            "limitDaily": -1,
+            "playJackPot": 0,
+            "ingame": "VPOINT:3",
+            "shouldNotify": 0
+        },
+        "3": {
+            "handType": "PAIR",
+            "baseWeight": 20000,
+            "limitDaily": -1,
+            "playJackPot": 0,
+            "ingame": "VPOINT:7",
+            "shouldNotify": 0
+        },
+        "4": {
+            "handType": "TWO_PAIR",
+            "baseWeight": 10000,
+            "limitDaily": -1,
+            "playJackPot": 0,
+            "ingame": "VPOINT:13",
+            "shouldNotify": 0
+        },
+        "5": {
+            "handType": "THREE_OF_A_KIND",
+            "baseWeight": 5000,
+            "limitDaily": -1,
+            "playJackPot": 0,
+            "ingame": "VPOINT:25",
+            "shouldNotify": 0
+        },
+        "6": {
+            "handType": "STRAIGHT",
+            "baseWeight": 1000,
+            "limitDaily": -1,
+            "playJackPot": 0,
+            "ingame": "VPOINT:75",
+            "shouldNotify": 0
+        },
+        "7": {
+            "handType": "FLUSH",
+            "baseWeight": 1000,
+            "limitDaily": 1000,
+            "playJackPot": 0,
+            "ingame": "GOLD:1000000",
+            "shouldNotify": 0
+        },
+        "8": {
+            "handType": "FULL_HOUSE",
+            "baseWeight": 100,
+            "limitDaily": 20,
+            "playJackPot": 0,
+            "ingame": "GOLD:10000000",
+            "shouldNotify": 1
+        },
+        "9": {
+            "handType": "FOUR_OF_A_KIND",
+            "baseWeight": 10,
+            "limitDaily": 2,
+            "playJackPot": 0,
+            "ingame": "GOLD:100000000",
+            "shouldNotify": 1
+        },
+        "10": {
+            "handType": "STRAIGHT_FLUSH",
+            "baseWeight": 5,
+            "limitDaily": 1,
+            "playJackPot": 0,
+            "ingame": "GOLD:1000000000",
+            "shouldNotify": 1,
+            "outgame": {
+                "vi": "CARD_10K"
+            }
+        },
+        "11": {
+            "handType": "ROYAL_FLUSH",
+            "baseWeight": 2,
+            "limitDaily": 1,
+            "playJackPot": 1,
+            "shouldNotify": 1
+        }
+    },
+    "JackPot": {
+        "1": {
+            "baseWeight": 300,
+            "isJackpot": 1,
+            "outgame": {
+                "vi": "CARD_50K"
+            }
+        },
+        "2": {
+            "baseWeight": 300,
+            "isJackpot": 1,
+            "outgame": {
+                "vi": "CARD_50K"
+            }
+        },
+        "3": {
+            "baseWeight": 300,
+            "isJackpot": 1,
+            "outgame": {
+                "vi": "CARD_100K"
+            }
+        },
+        "4": {
+            "baseWeight": 300,
+            "isJackpot": 1,
+            "outgame": {
+                "vi": "CARD_100K"
+            }
+        },
+        "5": {
+            "baseWeight": 300,
+            "isJackpot": 1,
+            "outgame": {
+                "vi": "CARD_200K"
+            }
+        },
+        "6": {
+            "baseWeight": 300,
+            "isJackpot": 1,
+            "outgame": {
+                "vi": "CARD_200K"
+            }
+        },
+        "7": {
+            "baseWeight": 300,
+            "isJackpot": 1,
+            "outgame": {
+                "vi": "CARD_300K"
+            }
+        },
+        "8": {
+            "baseWeight": 300,
+            "isJackpot": 1,
+            "outgame": {
+                "vi": "CARD_500K"
+            }
+        }
+    }
+}

@@ -16,10 +16,10 @@ public class MainController {
     static Gson gson = new Gson();
 
     @GET
-    @Path("test")
+    @Path("HandRankingTool")
     @Produces(MediaType.APPLICATION_JSON)
     public String test() {
-        return "Test";
+        return "ApiTypeTool";
     }
 
     @GET

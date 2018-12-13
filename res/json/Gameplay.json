@@ -1,0 +1,29 @@
+{
+    "SidepotShare": {
+        "shareFullLimitRound": 4,
+        "shareRateAfterLimitedRound": [
+            20,
+            40,
+            60,
+            80,
+            100
+        ]
+    },
+    "SidepotHandType": {
+        "PIRAL": {
+            "PIRAL": "50:50",
+            "RUNNING_FLUSH": "75:25",
+            "THREE_FACE_CARDS": "100:0"
+        },
+        "RUNNING_FLUSH": {
+            "PIRAL": "25:75",
+            "RUNNING_FLUSH": "50:50",
+            "THREE_FACE_CARDS": "75:25"
+        },
+        "THREE_FACE_CARDS": {
+            "PIRAL": "0:100",
+            "RUNNING_FLUSH": "25:75",
+            "THREE_FACE_CARDS": "50:50"
+        }
+    }
+}

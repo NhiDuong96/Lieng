@@ -1,0 +1,793 @@
+{
+    "General": {
+        "usdExchangeRate": 22275,
+        "iosNetRevRate": 0.7,
+        "androidNetRevRate": 0.7
+    },
+    "InAppPurchase": {
+        "pack_1": {
+            "xu": 167,
+            "usdCost": 0.99,
+            "gold": 5000000,
+            "vPoint": 167,
+            "localeCost": {
+                "vi": 22000,
+                "th": 35,
+                "international": 0.99
+            },
+            "firstPromotion": 250
+        },
+        "pack_2": {
+            "xu": 836,
+            "usdCost": 4.99,
+            "gold": 31000000,
+            "vPoint": 836,
+            "localeCost": {
+                "vi": 109000,
+                "th": 179,
+                "international": 4.99
+            },
+            "firstPromotion": 260
+        },
+        "pack_3": {
+            "xu": 1672,
+            "usdCost": 9.99,
+            "gold": 88000000,
+            "vPoint": 1672,
+            "localeCost": {
+                "vi": 219000,
+                "th": 349,
+                "international": 9.99
+            },
+            "firstPromotion": 280
+        },
+        "pack_4": {
+            "xu": 3344,
+            "usdCost": 19.99,
+            "gold": 226000000,
+            "vPoint": 3344,
+            "localeCost": {
+                "vi": 449000,
+                "th": 699,
+                "international": 19.99
+            },
+            "firstPromotion": 300
+        },
+        "pack_5": {
+            "xu": 8360,
+            "usdCost": 49.99,
+            "gold": 690000000,
+            "vPoint": 8360,
+            "localeCost": {
+                "vi": 1099000,
+                "th": 1750,
+                "international": 49.99
+            },
+            "firstPromotion": 350
+        },
+        "pack_6": {
+            "xu": 16720,
+            "usdCost": 99.99,
+            "gold": 1568000000,
+            "vPoint": 16720,
+            "localeCost": {
+                "vi": 2199000,
+                "th": 3500,
+                "international": 99.99
+            },
+            "firstPromotion": 400
+        }
+    },
+    "IAPItem": {
+        "item_1": {
+            "goldValue": "pack_1"
+        },
+        "item_2": {
+            "goldValue": "pack_2"
+        },
+        "item_3": {
+            "goldValue": "pack_3"
+        },
+        "item_4": {
+            "goldValue": "pack_4"
+        },
+        "item_5": {
+            "goldValue": "pack_5"
+        },
+        "item_6": {
+            "goldValue": "pack_6"
+        }
+    },
+    "packResolver": {
+        "com.gsn.zps.pack1": {
+            "price": "0.99$",
+            "target": "pack_1",
+            "packageName": [
+                "gsn.game.zingplaynew",
+                "gsn.portal"
+            ]
+        },
+        "com.gsn.zps.pack2": {
+            "price": "0.99$",
+            "target": "pack_1",
+            "packageName": [
+                "gsn.game.zingplaynew",
+                "gsn.portal"
+            ]
+        },
+        "com.gsn.zps.pack5": {
+            "price": "4.99$",
+            "target": "pack_2",
+            "packageName": [
+                "gsn.game.zingplaynew",
+                "gsn.portal"
+            ]
+        },
+        "com.gsn.zps.pack6": {
+            "price": "4.99$",
+            "target": "pack_2",
+            "packageName": [
+                "gsn.game.zingplaynew",
+                "gsn.portal"
+            ]
+        },
+        "com.gsn.zps.pack7": {
+            "price": "9.99$",
+            "target": "pack_3",
+            "packageName": [
+                "gsn.game.zingplaynew",
+                "gsn.portal"
+            ]
+        },
+        "com.gsn.zps.pack8": {
+            "price": "9.99$",
+            "target": "pack_3",
+            "packageName": [
+                "gsn.game.zingplaynew",
+                "gsn.portal"
+            ]
+        },
+        "com.gsn.zps.pack9": {
+            "price": "19.99$",
+            "target": "pack_4",
+            "packageName": [
+                "gsn.game.zingplaynew",
+                "gsn.portal"
+            ]
+        },
+        "com.gsn.zps.pack10": {
+            "price": "19.99$",
+            "target": "pack_4",
+            "packageName": [
+                "gsn.game.zingplaynew",
+                "gsn.portal"
+            ]
+        },
+        "com.gsn.zps.pack11": {
+            "price": "49.99$",
+            "target": "pack_5",
+            "packageName": [
+                "gsn.game.zingplaynew",
+                "gsn.portal"
+            ]
+        },
+        "com.gsn.zps.pack12": {
+            "price": "49.99$",
+            "target": "pack_5",
+            "packageName": [
+                "gsn.game.zingplaynew",
+                "gsn.portal"
+            ]
+        },
+        "com.gsn.zps.pack13": {
+            "price": "99.99$",
+            "target": "pack_6",
+            "packageName": [
+                "gsn.game.zingplaynew",
+                "gsn.portal"
+            ]
+        },
+        "com.gsn.zps.pack14": {
+            "price": "99.99$",
+            "target": "pack_6",
+            "packageName": [
+                "gsn.game.zingplaynew",
+                "gsn.portal"
+            ]
+        },
+        "zps.th.pack1": {
+            "price": "0.99$",
+            "target": "pack_1",
+            "packageName": [
+                "com.gsn.zps.th"
+            ]
+        },
+        "zps.th.pack2": {
+            "price": "0.99$",
+            "target": "pack_1",
+            "packageName": [
+                "com.gsn.zps.th"
+            ]
+        },
+        "zps.th.pack5": {
+            "price": "4.99$",
+            "target": "pack_2",
+            "packageName": [
+                "com.gsn.zps.th"
+            ]
+        },
+        "zps.th.pack6": {
+            "price": "4.99$",
+            "target": "pack_2",
+            "packageName": [
+                "com.gsn.zps.th"
+            ]
+        },
+        "zps.th.pack7": {
+            "price": "9.99$",
+            "target": "pack_3",
+            "packageName": [
+                "com.gsn.zps.th"
+            ]
+        },
+        "zps.th.pack8": {
+            "price": "9.99$",
+            "target": "pack_3",
+            "packageName": [
+                "com.gsn.zps.th"
+            ]
+        },
+        "zps.th.pack9": {
+            "price": "19.99$",
+            "target": "pack_4",
+            "packageName": [
+                "com.gsn.zps.th"
+            ]
+        },
+        "zps.th.pack10": {
+            "price": "19.99$",
+            "target": "pack_4",
+            "packageName": [
+                "com.gsn.zps.th"
+            ]
+        },
+        "zps.th.pack11": {
+            "price": "49.99$",
+            "target": "pack_5",
+            "packageName": [
+                "com.gsn.zps.th"
+            ]
+        },
+        "zps.th.pack12": {
+            "price": "49.99$",
+            "target": "pack_5",
+            "packageName": [
+                "com.gsn.zps.th"
+            ]
+        },
+        "zps.th.pack13": {
+            "price": "99.99$",
+            "target": "pack_6",
+            "packageName": [
+                "com.gsn.zps.th"
+            ]
+        },
+        "zps.th.pack14": {
+            "price": "99.99$",
+            "target": "pack_6",
+            "packageName": [
+                "com.gsn.zps.th"
+            ]
+        },
+        "zps.id.pack1": {
+            "price": "0.99$",
+            "target": "pack_1",
+            "packageName": [
+                "com.gsn.zps.id"
+            ]
+        },
+        "zps.id.pack2": {
+            "price": "0.99$",
+            "target": "pack_1",
+            "packageName": [
+                "com.gsn.zps.id"
+            ]
+        },
+        "zps.id.pack5": {
+            "price": "4.99$",
+            "target": "pack_2",
+            "packageName": [
+                "com.gsn.zps.id"
+            ]
+        },
+        "zps.id.pack6": {
+            "price": "4.99$",
+            "target": "pack_2",
+            "packageName": [
+                "com.gsn.zps.id"
+            ]
+        },
+        "zps.id.pack7": {
+            "price": "9.99$",
+            "target": "pack_3",
+            "packageName": [
+                "com.gsn.zps.id"
+            ]
+        },
+        "zps.id.pack8": {
+            "price": "9.99$",
+            "target": "pack_3",
+            "packageName": [
+                "com.gsn.zps.id"
+            ]
+        },
+        "zps.id.pack9": {
+            "price": "19.99$",
+            "target": "pack_4",
+            "packageName": [
+                "com.gsn.zps.id"
+            ]
+        },
+        "zps.id.pack10": {
+            "price": "19.99$",
+            "target": "pack_4",
+            "packageName": [
+                "com.gsn.zps.id"
+            ]
+        },
+        "zps.id.pack11": {
+            "price": "49.99$",
+            "target": "pack_5",
+            "packageName": [
+                "com.gsn.zps.id"
+            ]
+        },
+        "zps.id.pack12": {
+            "price": "49.99$",
+            "target": "pack_5",
+            "packageName": [
+                "com.gsn.zps.id"
+            ]
+        },
+        "zps.id.pack13": {
+            "price": "99.99$",
+            "target": "pack_6",
+            "packageName": [
+                "com.gsn.zps.id"
+            ]
+        },
+        "zps.id.pack14": {
+            "price": "99.99$",
+            "target": "pack_6",
+            "packageName": [
+                "com.gsn.zps.id"
+            ]
+        },
+        "gsn.zpb.pack1": {
+            "price": "0.99$",
+            "target": "pack_1",
+            "packageName": [
+                "com.gsn.zpb"
+            ]
+        },
+        "gsn.zpb.pack2": {
+            "price": "0.99$",
+            "target": "pack_1",
+            "packageName": [
+                "com.gsn.zpb"
+            ]
+        },
+        "gsn.zpb.pack5": {
+            "price": "4.99$",
+            "target": "pack_2",
+            "packageName": [
+                "com.gsn.zpb"
+            ]
+        },
+        "gsn.zpb.pack6": {
+            "price": "4.99$",
+            "target": "pack_2",
+            "packageName": [
+                "com.gsn.zpb"
+            ]
+        },
+        "gsn.zpb.pack7": {
+            "price": "9.99$",
+            "target": "pack_3",
+            "packageName": [
+                "com.gsn.zpb"
+            ]
+        },
+        "gsn.zpb.pack8": {
+            "price": "9.99$",
+            "target": "pack_3",
+            "packageName": [
+                "com.gsn.zpb"
+            ]
+        },
+        "gsn.zpb.pack9": {
+            "price": "19.99$",
+            "target": "pack_4",
+            "packageName": [
+                "com.gsn.zpb"
+            ]
+        },
+        "gsn.zpb.pack10": {
+            "price": "19.99$",
+            "target": "pack_4",
+            "packageName": [
+                "com.gsn.zpb"
+            ]
+        },
+        "gsn.zpb.pack11": {
+            "price": "49.99$",
+            "target": "pack_5",
+            "packageName": [
+                "com.gsn.zpb"
+            ]
+        },
+        "gsn.zpb.pack12": {
+            "price": "49.99$",
+            "target": "pack_5",
+            "packageName": [
+                "com.gsn.zpb"
+            ]
+        },
+        "gsn.zpb.pack13": {
+            "price": "99.99$",
+            "target": "pack_6",
+            "packageName": [
+                "com.gsn.zpb"
+            ]
+        },
+        "gsn.zpb.pack14": {
+            "price": "99.99$",
+            "target": "pack_6",
+            "packageName": [
+                "com.gsn.zpb"
+            ]
+        },
+        "zps.in.pack1": {
+            "price": "0.99$",
+            "target": "pack_1",
+            "packageName": [
+                "gsn.zps.in"
+            ]
+        },
+        "zps.in.pack2": {
+            "price": "0.99$",
+            "target": "pack_1",
+            "packageName": [
+                "gsn.zps.in"
+            ]
+        },
+        "zps.in.pack5": {
+            "price": "4.99$",
+            "target": "pack_2",
+            "packageName": [
+                "gsn.zps.in"
+            ]
+        },
+        "zps.in.pack6": {
+            "price": "4.99$",
+            "target": "pack_2",
+            "packageName": [
+                "gsn.zps.in"
+            ]
+        },
+        "zps.in.pack7": {
+            "price": "9.99$",
+            "target": "pack_3",
+            "packageName": [
+                "gsn.zps.in"
+            ]
+        },
+        "zps.in.pack8": {
+            "price": "9.99$",
+            "target": "pack_3",
+            "packageName": [
+                "gsn.zps.in"
+            ]
+        },
+        "zps.in.pack9": {
+            "price": "19.99$",
+            "target": "pack_4",
+            "packageName": [
+                "gsn.zps.in"
+            ]
+        },
+        "zps.in.pack10": {
+            "price": "19.99$",
+            "target": "pack_4",
+            "packageName": [
+                "gsn.zps.in"
+            ]
+        },
+        "zps.in.pack11": {
+            "price": "49.99$",
+            "target": "pack_5",
+            "packageName": [
+                "gsn.zps.in"
+            ]
+        },
+        "zps.in.pack12": {
+            "price": "49.99$",
+            "target": "pack_5",
+            "packageName": [
+                "gsn.zps.in"
+            ]
+        },
+        "zps.in.pack13": {
+            "price": "99.99$",
+            "target": "pack_6",
+            "packageName": [
+                "gsn.zps.in"
+            ]
+        },
+        "zps.in.pack14": {
+            "price": "99.99$",
+            "target": "pack_6",
+            "packageName": [
+                "gsn.zps.in"
+            ]
+        },
+        "gsn.zps.pack1": {
+            "price": "0.99$",
+            "target": "pack_1",
+            "packageName": [
+                "com.gsn.zps.my"
+            ]
+        },
+        "gsn.zps.pack2": {
+            "price": "0.99$",
+            "target": "pack_1",
+            "packageName": [
+                "com.gsn.zps.my"
+            ]
+        },
+        "gsn.zps.pack5": {
+            "price": "4.99$",
+            "target": "pack_2",
+            "packageName": [
+                "com.gsn.zps.my"
+            ]
+        },
+        "gsn.zps.pack6": {
+            "price": "4.99$",
+            "target": "pack_2",
+            "packageName": [
+                "com.gsn.zps.my"
+            ]
+        },
+        "gsn.zps.pack7": {
+            "price": "9.99$",
+            "target": "pack_3",
+            "packageName": [
+                "com.gsn.zps.my"
+            ]
+        },
+        "gsn.zps.pack8": {
+            "price": "9.99$",
+            "target": "pack_3",
+            "packageName": [
+                "com.gsn.zps.my"
+            ]
+        },
+        "gsn.zps.pack9": {
+            "price": "19.99$",
+            "target": "pack_4",
+            "packageName": [
+                "com.gsn.zps.my"
+            ]
+        },
+        "gsn.zps.pack10": {
+            "price": "19.99$",
+            "target": "pack_4",
+            "packageName": [
+                "com.gsn.zps.my"
+            ]
+        },
+        "gsn.zps.pack11": {
+            "price": "49.99$",
+            "target": "pack_5",
+            "packageName": [
+                "com.gsn.zps.my"
+            ]
+        },
+        "gsn.zps.pack12": {
+            "price": "49.99$",
+            "target": "pack_5",
+            "packageName": [
+                "com.gsn.zps.my"
+            ]
+        },
+        "gsn.zps.pack13": {
+            "price": "99.99$",
+            "target": "pack_6",
+            "packageName": [
+                "com.gsn.zps.my"
+            ]
+        },
+        "gsn.zps.pack14": {
+            "price": "99.99$",
+            "target": "pack_6",
+            "packageName": [
+                "com.gsn.zps.my"
+            ]
+        },
+        "zpl.pack1": {
+            "price": "0.99$",
+            "target": "pack_1",
+            "packageName": [
+                "com.viet.poker",
+                "com.poker.international.free",
+                "com.pokdeng.thai9k.free"
+            ]
+        },
+        "zpl.pack2": {
+            "price": "0.99$",
+            "target": "pack_1",
+            "packageName": [
+                "com.viet.poker",
+                "com.poker.international.free",
+                "com.pokdeng.thai9k.free"
+            ]
+        },
+        "zpl.pack5": {
+            "price": "4.99$",
+            "target": "pack_2",
+            "packageName": [
+                "com.viet.poker",
+                "com.poker.international.free",
+                "com.pokdeng.thai9k.free"
+            ]
+        },
+        "zpl.pack6": {
+            "price": "4.99$",
+            "target": "pack_2",
+            "packageName": [
+                "com.viet.poker",
+                "com.poker.international.free",
+                "com.pokdeng.thai9k.free"
+            ]
+        },
+        "zpl.pack7": {
+            "price": "9.99$",
+            "target": "pack_3",
+            "packageName": [
+                "com.viet.poker",
+                "com.poker.international.free",
+                "com.pokdeng.thai9k.free"
+            ]
+        },
+        "zpl.pack8": {
+            "price": "9.99$",
+            "target": "pack_3",
+            "packageName": [
+                "com.viet.poker",
+                "com.poker.international.free",
+                "com.pokdeng.thai9k.free"
+            ]
+        },
+        "zpl.pack10": {
+            "price": "19.99$",
+            "target": "pack_4",
+            "packageName": [
+                "com.viet.poker",
+                "com.poker.international.free",
+                "com.pokdeng.thai9k.free"
+            ]
+        },
+        "zpl.pack9": {
+            "price": "19.99$",
+            "target": "pack_4",
+            "packageName": [
+                "com.viet.poker",
+                "com.poker.international.free",
+                "com.pokdeng.thai9k.free"
+            ]
+        },
+        "zpl.pack11": {
+            "price": "49.99$",
+            "target": "pack_5",
+            "packageName": [
+                "com.viet.poker",
+                "com.poker.international.free",
+                "com.pokdeng.thai9k.free"
+            ]
+        },
+        "zpl.pack12": {
+            "price": "49.99$",
+            "target": "pack_5",
+            "packageName": [
+                "com.viet.poker",
+                "com.poker.international.free",
+                "com.pokdeng.thai9k.free"
+            ]
+        },
+        "zpl.pack13": {
+            "price": "99.99$",
+            "target": "pack_6",
+            "packageName": [
+                "com.viet.poker",
+                "com.poker.international.free",
+                "com.pokdeng.thai9k.free"
+            ]
+        },
+        "zpl.pack14": {
+            "price": "99.99$",
+            "target": "pack_6",
+            "packageName": [
+                "com.viet.poker",
+                "com.poker.international.free",
+                "com.pokdeng.thai9k.free"
+            ]
+        }
+    },
+    "portalResolver": {
+        "1A": {
+            "price": "0.99$",
+            "target": "pack_1"
+        },
+        "1B": {
+            "price": "0.99$",
+            "target": "pack_1"
+        },
+        "1C": {
+            "price": "0.99$",
+            "target": "pack_1"
+        },
+        "2A": {
+            "price": "1.99$",
+            "target": "pack_2"
+        },
+        "2B": {
+            "price": "1.99$",
+            "target": "pack_2"
+        },
+        "2C": {
+            "price": "1.99$",
+            "target": "pack_2"
+        },
+        "5A": {
+            "price": "4.99$",
+            "target": "pack_2"
+        },
+        "5B": {
+            "price": "4.99$",
+            "target": "pack_2"
+        },
+        "10A": {
+            "price": "9.99$",
+            "target": "pack_3"
+        },
+        "10B": {
+            "price": "9.99$",
+            "target": "pack_3"
+        },
+        "20A": {
+            "price": "19.99$",
+            "target": "pack_4"
+        },
+        "20B": {
+            "price": "19.99$",
+            "target": "pack_4"
+        },
+        "50A": {
+            "price": "49.99$",
+            "target": "pack_5"
+        },
+        "50B": {
+            "price": "49.99$",
+            "target": "pack_5"
+        },
+        "100A": {
+            "price": "99.99$",
+            "target": "pack_6"
+        },
+        "100B": {
+            "price": "99.99$",
+            "target": "pack_6"
+        }
+    }
+}

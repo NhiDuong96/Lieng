@@ -1,0 +1,1008 @@
+{
+    "GoldRange": [
+        {
+            "minGold": 1000,
+            "maxGold": 19999
+        },
+        {
+            "minGold": 20000,
+            "maxGold": 99999
+        },
+        {
+            "minGold": 100000,
+            "maxGold": 199999
+        },
+        {
+            "minGold": 200000,
+            "maxGold": 999999
+        },
+        {
+            "minGold": 1000000,
+            "maxGold": 1999999
+        },
+        {
+            "minGold": 2000000,
+            "maxGold": 9999999
+        },
+        {
+            "minGold": 10000000,
+            "maxGold": 19999999
+        },
+        {
+            "minGold": 20000000,
+            "maxGold": "NO_LIMIT"
+        }
+    ],
+    "LimitReward": [
+        500000,
+        750000,
+        1000000,
+        1500000
+    ],
+    "QuestsPlay": {
+        "1": [
+            {
+                "isAvailable": 1,
+                "targetMin": 6,
+                "targetMax": 9
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 6,
+                "targetMax": 9
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 6,
+                "targetMax": 9
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 6,
+                "targetMax": 9
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 6,
+                "targetMax": 9
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 6,
+                "targetMax": 9
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 6,
+                "targetMax": 9
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 6,
+                "targetMax": 9
+            }
+        ],
+        "2": [
+            {
+                "isAvailable": 1,
+                "targetMin": 5,
+                "targetMax": 7
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 5,
+                "targetMax": 7
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 5,
+                "targetMax": 7
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 5,
+                "targetMax": 7
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 5,
+                "targetMax": 7
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 5,
+                "targetMax": 7
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 5,
+                "targetMax": 7
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 5,
+                "targetMax": 7
+            }
+        ],
+        "3": [
+            {
+                "isAvailable": 1,
+                "targetMin": 6,
+                "targetMax": 9
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 6,
+                "targetMax": 9
+            },
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            },
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            },
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            },
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            },
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            },
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            }
+        ],
+        "4": [
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 6,
+                "targetMax": 9
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 6,
+                "targetMax": 9
+            },
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            },
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            },
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            },
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            },
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            }
+        ],
+        "5": [
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            },
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 6,
+                "targetMax": 9
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 6,
+                "targetMax": 9
+            },
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            },
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            },
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            },
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            }
+        ],
+        "6": [
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            },
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            },
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 9,
+                "targetMax": 12
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 9,
+                "targetMax": 12
+            },
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            },
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            },
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            }
+        ],
+        "7": [
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            },
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            },
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            },
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 9,
+                "targetMax": 12
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 9,
+                "targetMax": 12
+            },
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            },
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            }
+        ],
+        "8": [
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            },
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            },
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            },
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            },
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 9,
+                "targetMax": 12
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 9,
+                "targetMax": 12
+            },
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            }
+        ],
+        "9": [
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            },
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            },
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            },
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            },
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            },
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 9,
+                "targetMax": 12
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 9,
+                "targetMax": 12
+            }
+        ],
+        "10": [
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            },
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            },
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            },
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            },
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            },
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 9,
+                "targetMax": 12
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 9,
+                "targetMax": 12
+            }
+        ],
+        "11": [
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            },
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 4,
+                "targetMax": 6
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 4,
+                "targetMax": 6
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 4,
+                "targetMax": 6
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 4,
+                "targetMax": 6
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 4,
+                "targetMax": 6
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 4,
+                "targetMax": 6
+            }
+        ],
+        "12": [
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            },
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 3,
+                "targetMax": 5
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 3,
+                "targetMax": 5
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 3,
+                "targetMax": 5
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 3,
+                "targetMax": 5
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 3,
+                "targetMax": 5
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 3,
+                "targetMax": 5
+            }
+        ],
+        "13": [
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            },
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 2,
+                "targetMax": 4
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 2,
+                "targetMax": 4
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 2,
+                "targetMax": 4
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 2,
+                "targetMax": 4
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 2,
+                "targetMax": 4
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 2,
+                "targetMax": 4
+            }
+        ],
+        "14": [
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            },
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 2,
+                "targetMax": 4
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 2,
+                "targetMax": 4
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 2,
+                "targetMax": 4
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 2,
+                "targetMax": 4
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 2,
+                "targetMax": 4
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 2,
+                "targetMax": 4
+            }
+        ],
+        "15": [
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            },
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 1,
+                "targetMax": 2
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 1,
+                "targetMax": 2
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 1,
+                "targetMax": 2
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 1,
+                "targetMax": 2
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 1,
+                "targetMax": 2
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 1,
+                "targetMax": 2
+            }
+        ],
+        "16": [
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            },
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 1,
+                "targetMax": 2
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 1,
+                "targetMax": 2
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 1,
+                "targetMax": 2
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 1,
+                "targetMax": 2
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 1,
+                "targetMax": 2
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 1,
+                "targetMax": 2
+            }
+        ],
+        "17": [
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            },
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 150000,
+                "targetMax": 250000
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 750000,
+                "targetMax": 1000000
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 2000000,
+                "targetMax": 5000000
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 10000000,
+                "targetMax": 15000000
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 50000000,
+                "targetMax": 75000000
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 100000000,
+                "targetMax": 150000000
+            }
+        ],
+        "18": [
+            {
+                "isAvailable": 1,
+                "targetMin": 1,
+                "targetMax": 1
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 1,
+                "targetMax": 1
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 1,
+                "targetMax": 1
+            },
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            },
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            },
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            },
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            },
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            }
+        ],
+        "19": [
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            },
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 1,
+                "targetMax": 1
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 1,
+                "targetMax": 1
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 1,
+                "targetMax": 1
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 1,
+                "targetMax": 1
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 1,
+                "targetMax": 1
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 1,
+                "targetMax": 1
+            }
+        ],
+        "20": [
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            },
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            },
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            },
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            },
+            {
+                "isAvailable": 0,
+                "targetMin": 0,
+                "targetMax": 0
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 1,
+                "targetMax": 1
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 1,
+                "targetMax": 1
+            },
+            {
+                "isAvailable": 1,
+                "targetMin": 1,
+                "targetMax": 1
+            }
+        ]
+    },
+    "RewardRate": [
+        [
+            0.05,
+            0.05,
+            0.05,
+            0.05,
+            0.04,
+            0.02,
+            0.02,
+            0.005
+        ],
+        [
+            0.15,
+            0.15,
+            0.15,
+            0.15,
+            0.12,
+            0.06,
+            0.06,
+            0.03
+        ],
+        [
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.15,
+            0.08,
+            0.08,
+            0.04
+        ],
+        [
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.12,
+            0.12,
+            0.06
+        ]
+    ],
+    "Refresh": [
+        {
+            "rate": 0,
+            "cap": 0
+        },
+        {
+            "rate": 0.01,
+            "cap": 550000
+        },
+        {
+            "rate": 0.01,
+            "cap": 600000
+        },
+        {
+            "rate": 0.02,
+            "cap": 650000
+        },
+        {
+            "rate": 0.02,
+            "cap": 700000
+        },
+        {
+            "rate": 0.03,
+            "cap": 750000
+        },
+        {
+            "rate": 0.03,
+            "cap": 800000
+        },
+        {
+            "rate": 0.03,
+            "cap": 850000
+        },
+        {
+            "rate": 0.045,
+            "cap": 900000
+        },
+        {
+            "rate": 0.05,
+            "cap": 950000
+        },
+        {
+            "rate": 0.045,
+            "cap": 1000000
+        },
+        {
+            "rate": 0.045,
+            "cap": 1000000
+        },
+        {
+            "rate": 0.045,
+            "cap": 1000000
+        },
+        {
+            "rate": 0.045,
+            "cap": 1000000
+        },
+        {
+            "rate": 0.045,
+            "cap": 1000000
+        },
+        {
+            "rate": 0.045,
+            "cap": 1000000
+        },
+        {
+            "rate": 0.045,
+            "cap": 1000000
+        },
+        {
+            "rate": 0.045,
+            "cap": 1000000
+        },
+        {
+            "rate": 0.045,
+            "cap": 1000000
+        },
+        {
+            "rate": 0.045,
+            "cap": 1000000
+        }
+    ]
+}

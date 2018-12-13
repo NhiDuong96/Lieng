@@ -1,0 +1,68 @@
+{
+    "ByAppName": {
+        "com.zingplay.liengvn": {
+            "androidPublicKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAw4QhCE9tfPLhErhAU6HUUy9Ioe3WC7ds3gPA3+HNPtGQMQn+qssCxd\/ZZSbWs2uOhxg5U8N09r2BlqytsaHsWw\/2eZgXKFaLQ6bbQrR830L0oJwa0a8JCVqQlHTisM9fhLUkwuBkXDU4B6cACuBnjSwy35s\/+NJyCpPkaXSu89y5gj4wjBcRPEwiQ98jqv9auz7deUfF9JzGBqlQh3AQE2FqHoqmJ6Ye31w81YJuo7sMln6QgiXLKsV5plvBXIMJQg4AW2mTvh8ViWGWP6Iz\/xdMy4HQL06C\/7Xl93QHAgh5qV3pRBFdDeGXz2CmobQeEcMVzFss+Rfvyxnj7yyX1wIDAQAB"
+        },
+        "com.zingplay.liengmm": {
+            "androidPublicKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApmZ6ry\/sbRrMB+755TWplq3xxjTnvZUsEiYZNcbJxyUNb1d\/TGUoNPj7LdF56ScxY5un3lU7DG6cKs\/flej+8tqpP5yZmg50LVUeGswfzTMKCBpM\/QbXkOn8PZyrNv1OD4rjMXBPUCAZaGkTP0Fot2p+WW1rOMa5aW2w0ATOqEdgxligTxF9n2bMl0wyhfHrwj5Yp7shE42IAI4xvPHToGUnSM+YPTOkGTeyZE4tmsTyvNfRnwN9xi1Q86AEd3vfJlm2h7Ln5K58YjutbGa1nAQq7pY+IlA35OCoJSSufv4ZWtDWyYHtuSElZu646dat2+TV\/pAUT3dTk9BD8XLYHQIDAQAB"
+        },
+        "com.viet.poker": {
+            "androidPublicKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhtVO7kvS9tDIkA0kuZIt2WSu82234er9FrwObdLad+DGPyADhIV5lkvPsEmuz7piWuTaRwPj4A4xz8Yys8kdrapssNY7Jbf9NQTo58SMi6eVJbTPMIpIAP3VsZobTMBOc14Q+0RK5nCb\/XUQDVKBVBto3DOJk9bL7LSRoBX4U\/vVW3JyYyyQGCDoErNOYBsAZAnKaNuvt79Ccy4UZBJm9npzmGpO2ipF\/K3zQxXkQ9HGcSoZ03UsBAbqRq0a7g+9UyfqnflceuThEpmFGtE5ScNQQlYGzIN2nrTTgq5r3uVkowt4dW0gQ8AhUTb\/Z+lojtgCf6MfcDtR4+sj1613eQIDAQAB"
+        },
+        "com.gsn.zps.th": {
+            "androidPublicKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjKRtJalAiB75P98EpIbEf51kp5\/TrPzjwOiwQwZaHWy3NVNwYlZ8Hz4DEbM3FVFRiSJiP3\/LupqhHJQTRZOa2IkTjFXlBZzNxnBc4qQnVhEhm3\/0SkuD0UYKDSdpiidAT1teazYdqKUJ28SfxPhOs8zEqQKG87v1v+bgRHYUCE\/\/Vhc6zlc1amiLA8yQ8ZsGxp2txpexrU6U+t8VYCzKkEYLIEvX4Gf9D3ROzjwHrhXh6WXEefYOdvXdEvvsKsgAHM7ObrG2tbQ4SxzBLQ7b\/IFIIHujuG0zKKUAWzs83TETHOzG6\/w0\/MB1SF9Rt4TP0BpCuw9Hhwbm3joBtHC59wIDAQAB"
+        },
+        "gsn.game.zingplaynew": {
+            "androidPublicKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxRnFBu3mYH0O9Ph8+h4VtUg\/+419gL\/pQ7vVTHFx9c+DoOLLPy3E8lRj4PdLY8od12SRupvZZWkMWOoDzWymXzStp\/PBZGs67iBf+oIGR6HPIcT0IkM\/Xr\/sMth2eV739ppLxAuvkbGGJYUHAbmA1Dtw+MMKtD9lzKnYRztrWfYmKkqZK\/ErhFFBVstDWyApXoUlu6Dh+cUvfs\/Lc6Ed+WFVR0Nh0IPsr6eaZg5TIs1t+cqvFB7Wqnofiv+A43HN0nCEqsxEoD+3fPTpxxPeq2j870qJyCJozMM7AYJxS9es85VCoQjVRt3TKbo70Jlx1MPspNvKfxzObhwEECNzVQIDAQAB"
+        },
+        "com.gsn.zps.id": {
+            "androidPublicKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAk68DCsXeh25izh6fp4Jzyk\/50GfvNSZXZ3S1LBlLxnBgBv6U3z\/5LAVusP4OQxMQii9WhE1mT3Pp08wDLLJShUJzRN5oiPAH+I1vsIqhP8Xeafs+M06+0FCZ8FOpmqws15mVdRKosgGyusJFOrjwaxTkBr425D9ORROB2xiIokGVz6X9aVnCPzPUgRvKpqZHt3niXoOzlrTZ1j9Ef+c5iAjZG2LbTlF33j5PxweWRN8sobKXGVRCDEDB9UhDPnOKizrm9KVpDdjdveMSShcrPk9i7F\/7GHJfE8ztc6nWiOGiOoUlvswwXd\/kcvhpKRgeDgCtbGVof24C56NJEpnUewIDAQAB"
+        },
+        "com.gsn.zpb": {
+            "androidPublicKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqzUAlYngaAJ2YSyPmUKjOhTayrxLobrBQbpulKr33l21LNEh7c1tw6Ee8N\/bnj\/zmw1lAcJcX6AEswRJRso6+9t+2bCMDCE1PmLKaZgPphbcwAMGrTRWY6XmTJpJ9fq6sg\/fROi7Z+bB4kqt3pxLY3lncczNGvA8UUEhBHlQzFk0bAKKIUqWPpvAzR7JlJ5tlhUKpE9bulDOEVWzvOxke1QXhM20e5HmAw8Tz27ENc2kUsPwvGwlCUOuPHOfXn3V4LJRmMvokR9TNPK7igmyPO7z6eNCUdemZ7nytNkJI7a+wjp+BdL2cpA2Y3f67xRSfvHnU0PJaVhrP7VxqSKJXQIDAQAB"
+        },
+        "gsn.zps.in": {
+            "androidPublicKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAi\/lpwVOgTr9Ri9+pm\/9jOsxOgw\/8SzBBP8acGnAsCPeH2da9SwFNujpTp\/VSpoRr0eSHgOiZM+aCyMqY723Io65qELM8eHcuFNT1pF+QAObI\/7wgUQNGVP1rxf23sheoLLMwIcKXF1r5UJJATu2Y8uq9blrAnLYz6sYLiaV9kw\/oZnPUAlxlCC9WEGxlnWnYKLwjNrLjkqF0kZAB7SLjNmBn+O1dTORxYAcl8CFyxljbNpa5I+Ko8z4K4kmxjJNPYMNL9DPbxKlfsAMObNnt9id5POQbBYLdRUwyyvPDaGvdK2xllboxwm1ekpJOiqyChfmkipYRzO10OnHPwoyiRwIDAQAB"
+        },
+        "com.gsn.zps.my": {
+            "androidPublicKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAi7Oz8FhKqE0RBWYv6RKKN6\/yHmZHRAHFc+7uN9qEmRmSpluvjfX32Uosn3hSo4nCHbhZRr5sGIaiRRnVW8NDJElvVD1CH4JfSSZYHOSbmSgMbgDEFGfUTaWTfiwTvol6sw4y43xGgQsOX0pJxHdo9rZ0SzXZuGioggLsA+EDziJvLAv6dd8ZHD1BJ6nWuPQRg4J\/gXSEMEas1fSXkx9+\/1q\/QDmZJbbHTd9yRZVrss0a8BvMLSzrhzDiiuaLJtKP4+uzsqBbbr9BZ+DuiJjgUuqcc9ZOVQ3fwQzHIKlggFu\/iYbjIWNG8iYm6t9PLQ8DdHh1AvitSsB7cWdOcAmW9QIDAQAB"
+        },
+        "com.pokdeng.thai9k.free": {
+            "androidPublicKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzEylhd+cuHRjwMScsmzkOK6VYMlXpG1W\/p+D\/W9PHOuk3g4CbQ4CBbewJuYd02e2zDhn0D5tHrLuHIVMdbiPdH7k0ED864Cf\/IkjDVX956o+g7ZINxWWz0l\/SQSvMtncwySIS8dma5eBVXGMqAWq3FopTIF+QmcatrABYWKZIblRSPx7quHRTf8tJy3luRKM5Zoy\/MMXldi8XDgO2VlepjvIx1H\/VMnqKSgWcZcl5aF0HofaYSBgPyJDGT2cXAKHGLHN\/ZI9Urwz\/G6f4jYJxOyfwBYHcZdKX\/xk2gT0VgSL75c1zZH0tUTaGzS7g7tcwp9DOTWlaNy5hVNs3U8cswIDAQAB"
+        }
+    },
+    "ByLocate": {
+        "international": {
+            "appleCashType": "APPWallet",
+            "googleCashType": "GGWallet"
+        },
+        "vi": {
+            "appleCashType": "APPVn",
+            "googleCashType": "GGVn"
+        },
+        "th": {
+            "appleCashType": "APPTh",
+            "googleCashType": "GGTh"
+        },
+        "gofa": {
+            "appleCashType": "APPTh",
+            "googleCashType": "GGTh"
+        },
+        "id": {
+            "appleCashType": "APPId",
+            "googleCashType": "GGId"
+        },
+        "my": {
+            "appleCashType": "APPMy",
+            "googleCashType": "GGMy"
+        },
+        "mm": {
+            "appleCashType": "APPMm",
+            "googleCashType": "GGMm"
+        },
+        "ph": {
+            "appleCashType": "APPPh ",
+            "googleCashType": "GGPh "
+        }
+    }
+}

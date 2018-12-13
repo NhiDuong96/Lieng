@@ -1,0 +1,11 @@
+{
+    "Misc": {
+        "minBetGold": 100000,
+        "maxBetGold": 100000000,
+        "timeBeforeCloseBet": 300,
+        "commission": 10,
+        "maxBetPerMatch": 5,
+        "startDateMatch": 1528934400,
+        "endDateMatch": 1531612800
+    }
+}
