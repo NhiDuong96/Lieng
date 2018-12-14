@@ -1,19 +1,16 @@
 package cmd.entity;
 
 import java.nio.ByteBuffer;
-import java.util.List;
-import bitzero.server.extensions.data.BaseMsg;
+import java.util.Collection;
 
-import domain.lobby.RoomStatusObject;
-import domain.lobby.Abc;
+import domain.gameplay.GameStatusObject;
+import domain.gameplay.PlayerStatusObject;
 
 
-public class PackUtils extends BaseMsg{
+public class PackUtils extends BasePackUtils{
 	private static PackUtils instance;
 
-	private PackUtils() {
-		super((short)0);
-	}
+	private PackUtils() {}
 
 	public static PackUtils getInstance(){
 		if(instance == null){
@@ -22,32 +19,48 @@ public class PackUtils extends BaseMsg{
 		return instance;
 	}
 
-    public void packRoomStatusObject(ByteBuffer bf, RoomStatusObject obj){
-        bf.putInt(obj.id);
-		putStr(bf, obj.name);
-		putStr(bf, obj.gameStructureId);
-		bf.put(obj.numberPlayer);
-		bf.put((byte)(obj.proMode?1:0));
-		bf.put((byte)(obj.lightMode?1:0));
-		packAbc(bf, obj.fields);
+    public void packGameStatusObject(ByteBuffer bf, GameStatusObject obj){
+       if(obj == null) {
+            bf.put((byte)0);
+            return;
+        }
+        bf.put((byte)1);
+        packPlayerStatusObject(bf, obj.getPlayerList());
+		putCollectionInt(bf, obj.getPositions());
 		
     }
 
-    public void packRoomStatusObject(ByteBuffer bf, List<RoomStatusObject> objs){
+    public void packGameStatusObject(ByteBuffer bf, Collection<GameStatusObject> objs){
+       if(objs == null || objs.size() == 0) {
+            bf.put((byte)0);
+            return;
+        }
+        bf.put((byte)1);
         bf.putShort((short) objs.size());
-        for(RoomStatusObject obj: objs){
-            packRoomStatusObject(bf, obj);
+        for(GameStatusObject obj: objs){
+            packGameStatusObject(bf, obj);
         }
     }
-    public void packAbc(ByteBuffer bf, Abc obj){
-        bf.putInt(obj.ddd);
+    public void packPlayerStatusObject(ByteBuffer bf, PlayerStatusObject obj){
+       if(obj == null) {
+            bf.put((byte)0);
+            return;
+        }
+        bf.put((byte)1);
+        putStr(bf, obj.getName());
+		bf.put(obj.getGamePosition());
 		
     }
 
-    public void packAbc(ByteBuffer bf, List<Abc> objs){
+    public void packPlayerStatusObject(ByteBuffer bf, Collection<PlayerStatusObject> objs){
+       if(objs == null || objs.size() == 0) {
+            bf.put((byte)0);
+            return;
+        }
+        bf.put((byte)1);
         bf.putShort((short) objs.size());
-        for(Abc obj: objs){
-            packAbc(bf, obj);
+        for(PlayerStatusObject obj: objs){
+            packPlayerStatusObject(bf, obj);
         }
     }
 

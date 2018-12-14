@@ -5,6 +5,7 @@ import cmd.api.ApiField;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collection;
 import java.util.List;
 
 /**
@@ -25,7 +26,7 @@ public class RoomStatusObject {
     public boolean proMode;
     @ApiField
     public boolean lightMode;
-    @ApiField(type = "Abc")
+    @ApiField
     public List<Abc> fields;
 
 
@@ -37,9 +38,6 @@ public class RoomStatusObject {
         this.numberPlayer = numberPlayer;
         this.proMode = proMode;
         this.lightMode = lightMode;
-        fields = new ArrayList<>();
-        fields.add(new Abc(1));
-        fields.add(new Abc(10));
     }
 
     public int getId() {

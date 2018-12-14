@@ -8,6 +8,7 @@ import java.io.IOException;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
@@ -61,15 +62,25 @@ public class ApiRender {
         ApiJsonType element = new ApiJsonType(aClass.getPackage().getName(), aClass.getSimpleName());
         for(Field field: listField){
             String type = field.getType().getSimpleName();
-            if(type.equals("List")){
-                type += "<" + field.getAnnotation(ApiField.class).type() + ">";
+            if(type.equals("List") || type.equals("Set") || type.equals("Collection")){
+                String generic = field.getGenericType().toString();
+                generic = generic.substring(generic.indexOf("<")+1, generic.length()-1);
+                generic = generic.substring(generic.lastIndexOf(".") + 1, generic.length());
+                type = "Collection<" + generic + ">";
             }
             ApiJsonField api = new ApiJsonField(type, field.getName());
             element.field.add(api);
         }
 
         for(Method method: listMethod){
-            ApiJsonField api = new ApiJsonField(method.getReturnType().getSimpleName(), method.getName());
+            String type = method.getReturnType().getSimpleName();
+            if(type.equals("List") || type.equals("Set") || type.equals("Collection") || type.equals("Map")){
+                String generic = method.getGenericReturnType().toString();
+                generic = generic.substring(generic.indexOf("<")+1, generic.length()-1);
+                generic = generic.substring(generic.lastIndexOf(".") + 1, generic.length());
+                type = "Collection<" + generic + ">";
+            }
+            ApiJsonField api = new ApiJsonField(type, method.getName() + "()");
             element.field.add(api);
         }
 
@@ -88,7 +99,7 @@ public class ApiRender {
 
     private static String getFullPath(String fileName) {
         String path = System.getProperty("user.dir");
-        return path + "/src/main/java/cmd/entity/" + fileName;
+        return path + "/src/main/java/cmd/api/" + fileName;
     }
 
     private static void renderToJson(ApiJsonRoot apiJsonRoot, String name) throws IOException {

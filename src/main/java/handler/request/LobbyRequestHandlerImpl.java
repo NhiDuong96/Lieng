@@ -1,65 +1,53 @@
 package handler.request;
 
+import bitzero.framework.common.MsgService;
 import bitzero.server.entities.User;
-import cmd.test.response.LobbyResponseExtension;
-import cmd.test.template.UserInfoApi;
-import domain.lobby.RoomStatusObject;
-
-import java.util.ArrayList;
-import java.util.List;
+import bitzero.server.extensions.data.DataCmd;
+import cmd.lobby.template.PlayCashGame;
+import constant.ErrorDefine;
+import domain.MaintainServiceImpl;
+import domain.gameplay.service.PlayerActionServiceImpl;
+import domain.lobby.LobbyServiceImpl;
 
 /**
  * Created by pc1 on 12/12/2018.
  */
 public class LobbyRequestHandlerImpl extends LobbyRequestHandler {
     @Override
-    protected void onHandleRequestUserInfo(User user) {
-        LobbyResponseExtension.sendUserInfo(new UserInfoApi() {
-            @Override
-            public int getUID() {
-                return 0;
-            }
+    protected void onHandleRequestUserInfo(User user, DataCmd cmd) {
 
-            @Override
-            public String getUserName() {
-                return "aaa";
-            }
-
-            @Override
-            public String getDisplayName() {
-                return "bbb";
-            }
-
-            @Override
-            public int getLevel() {
-                return 0;
-            }
-
-            @Override
-            public long getGold() {
-                return 100;
-            }
-
-            @Override
-            public long getExp() {
-                return 10;
-            }
-
-            @Override
-            public String getAvatarURL() {
-                return "asdas";
-            }
-
-            @Override
-            public String getDefaultAvatar() {
-                return "as";
-            }
-
-            @Override
-            public boolean getHasGame() {
-                return false;
-            }
-
-        }, user);
     }
+
+    @Override
+    protected void onHandleRequestPlayCashGame(User user, DataCmd cmd, PlayCashGame req) {
+        if (MaintainServiceImpl.getInstance().isUnderMaintain()) {
+            MsgService.responseCommon(user, cmd.getId(), ErrorDefine.SERVER_UNDER_MAINTAIN);
+            return;
+        }
+
+        if (user.isEnteringGame()) {
+            MsgService.responseCommon(user, cmd.getId(), ErrorDefine.ENTERING_GAME);
+            return;
+        }
+
+        if (user.getJoinedRoom() != null || PlayerActionServiceImpl.getInstance().getPlayerByUser(user) != null) {
+            MsgService.responseCommon(user, cmd.getId(), ErrorDefine.ALREADY_IN_GAME);
+            return;
+        }
+
+        user.setEnteringGame(true);
+        byte errorCode = ErrorDefine.FAIL;
+        try {
+            errorCode = LobbyServiceImpl.getInstance().playCashGame(user);
+        } catch (Exception e) {
+            logger.error(req.getRoomName() + ":" + req.getStructureID(), e);
+        } finally {
+            user.setEnteringGame(false);
+        }
+
+        if (errorCode != ErrorDefine.SUCCESS) {
+            MsgService.responseCommon(user, cmd.getId(), errorCode);
+        }
+    }
+
 }

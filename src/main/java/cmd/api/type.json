@@ -1,0 +1,1 @@
+{"api":[{"package":"domain.gameplay","type":"GameStatusObject","field":[{"type":"Collection\u003cInteger\u003e","name":"getPositions()"},{"type":"Collection\u003cPlayerStatusObject\u003e","name":"getPlayerList()"}]},{"package":"domain.gameplay","type":"PlayerStatusObject","field":[{"type":"String","name":"getName()"},{"type":"byte","name":"getGamePosition()"}]}]}

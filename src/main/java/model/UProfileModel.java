@@ -51,20 +51,12 @@ public class UProfileModel extends AbstractUProfileModel{
         this.gold = gold;
     }
 
-
-
-
     public boolean getHasGame() {
         return false;
     }
 
     public void setDefaultAvatar(String defaultAvatar) {
         this.defaultAvatar = defaultAvatar;
-    }
-
-
-    public int getUID() {
-        return getUserID();
     }
 
 

@@ -21,4 +21,7 @@ public class ServerConstant extends bitzero.framework.constant.ServerConstant {
     public static final boolean ENABLE_LOCAL_LOG = ConfigHandle.instance().getLong("enable_local_log").intValue() == 1;
     public static final String LOCAL_LOG_PATH = ConfigHandle.instance().get("local_log_path");
     public static final String LOCAL_CCU_LOG_PATH = ConfigHandle.instance().get("local_ccu_log_path");
+
+    public static final int MAX_USERS = ConfigHandle.instance().getLong("max_users").intValue();
+    public static final int MAX_ROOMS = ConfigHandle.instance().getLong("max_rooms").intValue();
 }

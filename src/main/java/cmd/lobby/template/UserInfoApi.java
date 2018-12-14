@@ -1,10 +1,10 @@
-package cmd.test.template;
+package cmd.lobby.template;
 
-import domain.gameplay.GameStatusObject;
-import domain.gameplay.PlayerStatusObject;
+import domain.lobby.RoomStatusObject;
+import domain.lobby.Abc;
 
 
-import java.util.Collection;
+import java.util.List;
 
 public interface UserInfoApi
 {
@@ -17,6 +17,5 @@ public interface UserInfoApi
 	String getAvatarURL();
 	String getDefaultAvatar();
 	boolean getHasGame();
-	GameStatusObject getObject();
 
 }

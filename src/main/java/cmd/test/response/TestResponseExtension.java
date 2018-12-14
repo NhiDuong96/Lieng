@@ -9,7 +9,7 @@ import cmd.test.template.UserInfoApi;
 /**
  * Created by Minh Nhi.
  */
-public class LobbyResponseExtension {
+public class TestResponseExtension {
 
 	public static void sendUserInfo(UserInfoApi mUserInfoApi, User user){
         ExtensionUtility.getExtension().send(new ResponseUserInfo(mUserInfoApi), user);

@@ -6,18 +6,18 @@ import bitzero.server.extensions.data.DataCmd;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import cmd.lobby.request.LobbyRequestExtension;
+import cmd.test.request.TestRequestExtension;
 
-import cmd.lobby.template.PlayCashGame;
+import cmd.test.template.PlayCashGame;
 
 
 /**
  * Created by pc1 on 11/2/2018.
  */
-abstract class LobbyRequestHandler extends BaseClientRequestHandler {
+abstract class TestRequestHandler extends BaseClientRequestHandler {
     protected Logger logger = LoggerFactory.getLogger(getClass());
 
-    public LobbyRequestHandler() {
+    public TestRequestHandler() {
         super();
     }
 
@@ -25,11 +25,11 @@ abstract class LobbyRequestHandler extends BaseClientRequestHandler {
     public void handleClientRequest(User user, DataCmd cmd) {
         try {
             switch (cmd.getId()) {
-                case 1100:
+                case 5100:
                     onHandleRequestUserInfo(user, cmd);
                     break;
-                case 1200:
-                    onHandleRequestPlayCashGame(user, cmd, LobbyRequestExtension.getPlayCashGame(cmd));
+                case 5200:
+                    onHandleRequestPlayCashGame(user, cmd, TestRequestExtension.getPlayCashGame(cmd));
                     break;
 
                 default:
