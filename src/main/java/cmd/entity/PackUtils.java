@@ -3,6 +3,7 @@ package cmd.entity;
 import java.nio.ByteBuffer;
 import java.util.Collection;
 
+import model.UProfileModel;
 import domain.gameplay.CashGameImpl;
 import domain.gameplay.HandEntity;
 import domain.gameplay.Player;
@@ -21,6 +22,33 @@ public class PackUtils extends BasePackUtils{
 		return instance;
 	}
 
+    public void packUProfileModel(ByteBuffer bf, UProfileModel obj){
+       if(obj == null) {
+            bf.put((byte)0);
+            return;
+        }
+        bf.put((byte)1);
+        putStr(bf, obj.getDisplayName());
+		putStr(bf, obj.getUserName());
+		bf.putInt(obj.getLevel());
+		bf.putLong(obj.getGold());
+		putStr(bf, obj.getDefaultAvatar());
+		bf.putLong(obj.getExp());
+		putStr(bf, obj.getAvatarURL());
+		
+    }
+
+    public void packUProfileModel(ByteBuffer bf, Collection<UProfileModel> objs){
+       if(objs == null || objs.size() == 0) {
+            bf.put((byte)0);
+            return;
+        }
+        bf.put((byte)1);
+        bf.putShort((short) objs.size());
+        for(UProfileModel obj: objs){
+            packUProfileModel(bf, obj);
+        }
+    }
     public void packCashGameImpl(ByteBuffer bf, CashGameImpl obj){
        if(obj == null) {
             bf.put((byte)0);
@@ -70,10 +98,10 @@ public class PackUtils extends BasePackUtils{
         }
         bf.put((byte)1);
         bf.putInt(obj.getId());
-		bf.putInt(obj.getGamePosition());
 		packHand(bf, obj.getHand());
-		bf.putLong(obj.getChips());
 		putStr(bf, obj.getPlayerName());
+		bf.putLong(obj.getChips());
+		bf.putInt(obj.getGamePosition());
 		
     }
 

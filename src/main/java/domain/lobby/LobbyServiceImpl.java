@@ -74,7 +74,7 @@ public class LobbyServiceImpl implements LobbyService {
         }
         logger.info("no room, create one!");
         //1 -> create player
-        Player newPlayer = GameFactory.createPlayer(user);
+        Player newPlayer = GameFactory.createPlayer(user, new BuyInOption(5000, false));
 
         if(newPlayer == null){
             //player not enough gold or someone
@@ -95,7 +95,6 @@ public class LobbyServiceImpl implements LobbyService {
         CashGameImpl newGame = GameFactory.createCashGame(newRoom);
         //4-> join game
         GameServiceImpl.getInstance().joinGame(newGame, newPlayer);
-
         GameResponseExtension.sendGameInfo(new GameInfoApi() {
             @Override
             public CashGameImpl getGame() {
@@ -121,7 +120,7 @@ public class LobbyServiceImpl implements LobbyService {
         }
 
         //create player
-        Player newPlayer = GameFactory.createPlayer(user);
+        Player newPlayer = GameFactory.createPlayer(user, new BuyInOption(5000, false));
         if (newPlayer == null) {
             return ErrorDefine.NOT_ENOUGH_MIN_BUYIN;
         }

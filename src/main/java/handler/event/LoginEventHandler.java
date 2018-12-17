@@ -33,6 +33,7 @@ public class LoginEventHandler extends BaseServerEventHandler {
             UserDAOImpl.getInstance().createUProfile(user.getId(), userInfo);
         }
         else{
+            System.out.println("user profile exist!");
             //update profile for user
             //updateNewSocialData(uProfileModel, userInfo);
             uProfileModel.setLastLoginTime(FrameworkUtils.currentTimeInSecond());

@@ -22,14 +22,7 @@ class ResponseUserInfo extends BaseMsg {
     public byte[] createData() {
         ByteBuffer bf = makeBuffer();
 
-        bf.putInt(this.mUserInfoApi.getUID());
-		putStr(bf, this.mUserInfoApi.getUserName());
-		putStr(bf, this.mUserInfoApi.getDisplayName());
-		bf.putInt(this.mUserInfoApi.getLevel());
-		bf.putLong(this.mUserInfoApi.getGold());
-		bf.putLong(this.mUserInfoApi.getExp());
-		putStr(bf, this.mUserInfoApi.getAvatarURL());
-		putStr(bf, this.mUserInfoApi.getDefaultAvatar());
+        PackUtils.getInstance().packUProfileModel(bf, this.mUserInfoApi.getUserProfile());
 		bf.put((byte)(this.mUserInfoApi.getHasGame()?1:0));
 		
 

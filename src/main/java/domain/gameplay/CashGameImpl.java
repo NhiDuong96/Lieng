@@ -55,7 +55,7 @@ public class CashGameImpl extends Game{
 
     public boolean addPlayerToGame(Player player) {
         int freePos = findFreePos();
-        if (freePos > 0) {
+        if (freePos >= 0) {
             players.add(player);
             player.setGame(this);
             player.setGamePosition(freePos);

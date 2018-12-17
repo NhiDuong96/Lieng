@@ -1,10 +1,13 @@
 package model;
 
 import bitzero.framework.dao.model.AbstractUProfileModel;
+import cmd.api.ApiEntity;
+import cmd.api.ApiField;
 
 /**
  * Created by niennd on 10/29/2015.
  */
+@ApiEntity
 public class UProfileModel extends AbstractUProfileModel{
 
     long gold;
@@ -14,7 +17,6 @@ public class UProfileModel extends AbstractUProfileModel{
     String defaultAvatar;
     int level;
     long exp;
-    boolean hasGame;
 
     public UProfileModel(int userID) {
         super(userID);
@@ -51,44 +53,35 @@ public class UProfileModel extends AbstractUProfileModel{
         this.gold = gold;
     }
 
-    public boolean getHasGame() {
-        return false;
-    }
-
     public void setDefaultAvatar(String defaultAvatar) {
         this.defaultAvatar = defaultAvatar;
     }
 
-
+    @ApiField
     public String getUserName() {
         return username;
     }
-
-
+    @ApiField
     public String getDisplayName() {
         return displayname;
     }
-
-
+    @ApiField
     public int getLevel() {
         return level;
     }
-
+    @ApiField
     public long getGold() {
         return gold;
     }
-
-
+    @ApiField
     public long getExp() {
         return exp;
     }
-
-
+    @ApiField
     public String getAvatarURL() {
         return avatarURL;
     }
-
-
+    @ApiField
     public String getDefaultAvatar() {
         return defaultAvatar;
     }

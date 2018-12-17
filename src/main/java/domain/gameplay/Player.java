@@ -35,6 +35,7 @@ public class Player implements Comparable<Player>{
     public Player(User user, long buyInChips){
         this(user);
         this.buyInChips = buyInChips;
+        this.chips = buyInChips;
     }
 
     public User getUser() {
