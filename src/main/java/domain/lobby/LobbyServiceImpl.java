@@ -7,17 +7,18 @@ import bitzero.server.entities.Room;
 import bitzero.server.entities.User;
 import bitzero.server.entities.Zone;
 import bitzero.server.exceptions.BZTooManyRoomsException;
+import cmd.game.response.GameResponseExtension;
+import cmd.game.template.GameInfoApi;
+import cmd.game.template.PlayerJoinedGameApi;
 import config.GameConfig;
 import constant.CmdDefine;
 import constant.ErrorDefine;
 import constant.ServerConstant;
-import domain.gameplay.Game;
-import domain.gameplay.GameFactory;
-import domain.gameplay.GameType;
-import domain.gameplay.Player;
+import domain.gameplay.*;
 import domain.gameplay.service.GameServiceImpl;
 import domain.lobby.format.CashGameFormat;
 import domain.lobby.option.BuyInOption;
+import handler.request.GameRequestHandlerImpl;
 import org.slf4j.LoggerFactory;
 
 /**
@@ -65,7 +66,7 @@ public class LobbyServiceImpl implements LobbyService {
         Game game = getGameByRoom(room);
 
         if(game != null){
-            logger.info("find room!");
+            logger.info("found room!");
             byte errorCode = joinRoom(user, room);
             if(errorCode == ErrorDefine.SUCCESS){
                 return errorCode;
@@ -88,14 +89,22 @@ public class LobbyServiceImpl implements LobbyService {
         //this call very important!
         newRoom.setGroupId("playNow");
         //join room to zone
-        user.getZone().addRoom(room);
+        user.getZone().addRoom(newRoom);
 
         //3-> create game
-        Game newGame = GameFactory.createGame(room);
+        CashGameImpl newGame = GameFactory.createCashGame(newRoom);
+        //4-> join game
         GameServiceImpl.getInstance().joinGame(newGame, newPlayer);
 
+        GameResponseExtension.sendGameInfo(new GameInfoApi() {
+            @Override
+            public CashGameImpl getGame() {
+                return newGame;
+            }
+        }, user);
+
         // attach game to room
-        attachGameToRoom(room, newGame);
+        attachGameToRoom(newRoom, newGame);
         return ErrorDefine.SUCCESS;
     }
 
@@ -106,7 +115,7 @@ public class LobbyServiceImpl implements LobbyService {
         }
 
         if (user == null) {
-            // bot join test
+            // bot join
 
             return ErrorDefine.SUCCESS;
         }
@@ -117,7 +126,7 @@ public class LobbyServiceImpl implements LobbyService {
             return ErrorDefine.NOT_ENOUGH_MIN_BUYIN;
         }
 
-        Player joinedPlayer = GameServiceImpl.getInstance().joinGame(game, newPlayer);
+        Player joinedPlayer = GameServiceImpl.getInstance().joinGame((CashGameImpl) game, newPlayer);
         if (joinedPlayer == null) {
             return ErrorDefine.ROOM_IS_FULL;
         }
@@ -129,11 +138,31 @@ public class LobbyServiceImpl implements LobbyService {
 
         ExtensionUtility.instance().joinChannel(user, getGameZone(GameType.CASH).getId());
 
-        //response to all player in game
-        //response game info for player
+        GameRequestHandlerImpl.broadcastGame(game, GameResponseExtension.getPlayerJoinedGameMsg(new PlayerJoinedGameApi() {
+            @Override
+            public Player getPlayer() {
+                return joinedPlayer;
+            }
+
+            @Override
+            public boolean getShowLastCard() {
+                return false;
+            }
+        }));
 
         room.removeUser(user);
         ExtensionUtility.instance().joinRoom(user, room);
+
+        GameResponseExtension.sendGameInfo(new GameInfoApi() {
+            @Override
+            public CashGameImpl getGame() {
+                if(game instanceof CashGameImpl){
+                    return (CashGameImpl) game;
+                }
+                return null;
+            }
+        }, user);
+
         return ErrorDefine.SUCCESS;
     }
 

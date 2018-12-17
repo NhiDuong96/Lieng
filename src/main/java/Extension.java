@@ -10,16 +10,17 @@ import bitzero.server.extensions.BZExtension;
 import bitzero.server.extensions.ExtensionLogLevel;
 import bitzero.server.extensions.data.DataCmd;
 import cmd.authen.RequestLogin;
-import cmd.test.response.TestResponseExtension;
+import config.GameConfig;
 import constant.CmdDefine;
 import constant.ServerConstant;
+import domain.lobby.LobbyServiceImpl;
 import extras.webserver.RestServer;
 import handler.event.DisconnectEventHandler;
 import handler.event.LoginEventHandler;
 import handler.event.LogoutEventHandler;
 import handler.event.PaymentUpdateEventHandler;
+import handler.request.GameRequestHandlerImpl;
 import handler.request.LobbyRequestHandlerImpl;
-import handler.request.TestRequestHandlerImpl;
 
 
 public class Extension extends BZExtension {
@@ -32,7 +33,7 @@ public class Extension extends BZExtension {
     public void init() {
         trace(ExtensionLogLevel.INFO, "Request handler register");
         addRequestHandler(CmdDefine.LOBBY_MULTI_IDS, LobbyRequestHandlerImpl.class);
-        addRequestHandler((short) 5000, TestRequestHandlerImpl.class);
+        addRequestHandler(CmdDefine.GAME_MULTI_IDS, GameRequestHandlerImpl.class);
 
         trace(ExtensionLogLevel.INFO, "Event handler register");
         addEventHandler(BZEventType.USER_LOGIN, LoginEventHandler.class);
@@ -42,6 +43,8 @@ public class Extension extends BZExtension {
 
         // init others service
         //RestServer.getInstance().onExtensionInit();
+        LobbyServiceImpl.getInstance().initGameChannels();
+        GameConfig.init();
     }
 
     @Override

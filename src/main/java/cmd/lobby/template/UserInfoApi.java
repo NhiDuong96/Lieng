@@ -1,10 +1,10 @@
 package cmd.lobby.template;
 
-import domain.lobby.RoomStatusObject;
-import domain.lobby.Abc;
+import domain.gameplay.Player;
+import domain.gameplay.holder.Hand;
 
 
-import java.util.List;
+import java.util.Collection;
 
 public interface UserInfoApi
 {

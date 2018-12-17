@@ -1,13 +1,21 @@
 package domain.gameplay.holder;
 
+import cmd.api.ApiEntity;
+import cmd.api.ApiField;
+
 /**
  * Created by pc1 on 12/12/2018.
  */
+@ApiEntity
 public class Hand {
     private long cards;
 
     public Hand(){
         cards = 0L;
+    }
+
+    public Hand(byte[] cards){
+        addCards(cards);
     }
 
     public void addCard(byte card){
@@ -34,6 +42,7 @@ public class Hand {
         return Long.bitCount(cards);
     }
 
+    @ApiField
     public long getValue(){
         return cards;
     }

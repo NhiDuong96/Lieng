@@ -1,12 +1,13 @@
 package domain.lobby.format;
 
+import config.GameConfig;
 import domain.lobby.BlindLevel;
 import domain.lobby.BuyinRange;
 
 /**
  * Created by GSN on 11/4/2015.
  */
-public class CashGameFormat extends AbstractGameFormat {
+public class CashGameFormat extends AbstractGameFormat  implements Comparable{
     BlindLevel blindLevel;
     BuyinRange buyinRange;
     boolean lightFormat;
@@ -50,5 +51,16 @@ public class CashGameFormat extends AbstractGameFormat {
 
     public void setProModeFormat(boolean proModeFormat) {
         this.proModeFormat = proModeFormat;
+    }
+
+    @Override
+    public int compareTo(Object o) {
+        CashGameFormat cashGameFormat = (CashGameFormat) o;
+        if (getBlindLevel().getAnte() > cashGameFormat.getBlindLevel().getAnte()) {
+            return -1 * GameConfig.OPTIMIZE_CASH_MATCHING_ORDER;
+        } else if (getBlindLevel().getAnte() < cashGameFormat.getBlindLevel().getAnte()) {
+            return 1 * GameConfig.OPTIMIZE_CASH_MATCHING_ORDER;
+        }
+        return 0;
     }
 }

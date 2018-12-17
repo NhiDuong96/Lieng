@@ -9,11 +9,11 @@ import domain.lobby.option.PlayMode;
 public class GameStructure {
     String id;
     GameType gameType;
+    PlayMode playMode;
     BlindLevel currentBlindLevel;
     int maxPlayers;
     int channelID;
     int defaultPlayerTimeout;
-    PlayMode playMode;
 
     public GameStructure(String id, GameType gameType, BlindLevel currentBlindLevel, int maxPlayers, int channelID, int defaultPlayerTimeout, PlayMode playMode) {
         this.id = id;

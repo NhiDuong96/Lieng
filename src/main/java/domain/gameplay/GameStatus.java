@@ -3,7 +3,7 @@ package domain.gameplay;
 public enum GameStatus {
     NOT_STARTED((byte) 0),
     SEATING((byte) 1),
-    PREFLOP((byte) 2),
+    PRE_FLOP((byte) 2),
     SHOW_DOWN((byte) 3),
     ANTE((byte) 4);
 

@@ -1,6 +1,6 @@
 package domain.gameplay.service;
 
-import domain.gameplay.Game;
+import domain.gameplay.CashGameImpl;
 import domain.gameplay.Player;
 import handler.event.LeaveGameReason;
 
@@ -8,9 +8,9 @@ import handler.event.LeaveGameReason;
  * Service to handle the overall game operations
  */
 public interface GameService {
-    Game startGame(Game game);
+    CashGameImpl startGame(CashGameImpl game);
 
-    Player joinGame(Game game, Player player);
+    Player joinGame(CashGameImpl game, Player player);
 
     boolean quitGame(Player player, LeaveGameReason quitReason, String description);
 

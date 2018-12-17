@@ -1,24 +1,25 @@
 package domain.gameplay;
 
 
-import domain.gameplay.card.Deck;
+import cmd.api.ApiEntity;
 import domain.lobby.BlindLevel;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
+@ApiEntity
 public class HandEntity {
+    private long id;
+    private Game game;
+
     private BlindLevel blindLevel;
     public Map<Integer, Long> mapAnteDetail;
     public Map<Integer, Long> mapBettingDetail;
-    private long id;
-    private Game game;
     private Set<PlayerHand> players;
     private Set<PlayerHand> bkPlayers;
     private Player currentToAct;
     private Player lastPlayerBetting;
-    private Deck deck;
     private long pot;
     private long totalBetAmount;
     private long lastBetAmount;
@@ -35,4 +36,21 @@ public class HandEntity {
         mapAnteDetail = new HashMap<>();
         this.showdown = false;
     }
+
+    public Game getGame() {
+        return game;
+    }
+
+    public void setGame(Game game) {
+        this.game = game;
+    }
+
+    public Set<PlayerHand> getPlayers() {
+        return players;
+    }
+
+    public void setPlayers(Set<PlayerHand> players) {
+        this.players = players;
+    }
+
 }

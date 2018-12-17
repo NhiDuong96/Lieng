@@ -18,7 +18,7 @@ public class GameFactory {
     }
 
 
-    public static Game createGame(Room room) {
-        return new Game(room);
+    public static CashGameImpl createCashGame(Room room) {
+        return new CashGameImpl(room, null);
     }
 }
