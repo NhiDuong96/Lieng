@@ -25,7 +25,8 @@ class RequestPlayCashGame extends BaseCmd {
         this.mPlayCashGame.setRoomName(readString(bf));
 		this.mPlayCashGame.setStructureID(readString(bf));
 		this.mPlayCashGame.setBuyinChips(readLong(bf));
-		this.mPlayCashGame.setAutoBuyin((readByte(bf) != 0));
+		this.mPlayCashGame.setPlayMode(readByte(bf));
+		this.mPlayCashGame.setAutoBuyIn((readByte(bf) != 0));
 		
     }
 

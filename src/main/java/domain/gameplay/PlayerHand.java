@@ -9,9 +9,9 @@ import domain.gameplay.holder.Hand;
 public class PlayerHand {
     private Hand hand;
 
-    private Player player;
-
     private HandRank handRank;
+
+    private long roundBetAmount;
 
     public PlayerHand() {
     }
@@ -24,14 +24,6 @@ public class PlayerHand {
         this.hand = hand;
     }
 
-    public Player getPlayer() {
-        return player;
-    }
-
-    public void setPlayer(Player player) {
-        this.player = player;
-    }
-
     public HandRank getHandRank() {
         return handRank;
     }
@@ -39,4 +31,13 @@ public class PlayerHand {
     public void setHandRank(HandRank handRank) {
         this.handRank = handRank;
     }
+
+    public long getRoundBetAmount() {
+        return roundBetAmount;
+    }
+
+    public void setRoundBetAmount(long roundBetAmount) {
+        this.roundBetAmount = roundBetAmount;
+    }
+
 }

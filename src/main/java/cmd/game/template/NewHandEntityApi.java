@@ -9,9 +9,9 @@ import domain.gameplay.holder.Hand;
 
 import java.util.Collection;
 
-public interface PlayerJoinedGameApi
+public interface NewHandEntityApi
 {
-	Player getPlayer();
-	boolean getShowLastCard();
+	byte getCurrentPos();
+	byte[] getCards();
 
 }

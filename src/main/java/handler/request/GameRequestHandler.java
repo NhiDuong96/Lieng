@@ -8,6 +8,7 @@ import org.slf4j.LoggerFactory;
 
 import cmd.game.request.GameRequestExtension;
 
+import cmd.game.template.GameAction;
 
 
 /**
@@ -24,6 +25,9 @@ abstract class GameRequestHandler extends BaseClientRequestHandler {
     public void handleClientRequest(User user, DataCmd cmd) {
         try {
             switch (cmd.getId()) {
+                case 2100:
+                    onHandleRequestGameAction(user, cmd, GameRequestExtension.getGameAction(cmd));
+                    break;
 
                 default:
                     break;
@@ -33,5 +37,6 @@ abstract class GameRequestHandler extends BaseClientRequestHandler {
         }
     }
 
+    protected abstract void onHandleRequestGameAction(User user, DataCmd cmd, GameAction gameAction);
 
 }

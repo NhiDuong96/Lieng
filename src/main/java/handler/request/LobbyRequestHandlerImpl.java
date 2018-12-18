@@ -10,6 +10,8 @@ import constant.ErrorDefine;
 import domain.MaintainServiceImpl;
 import domain.gameplay.service.PlayerActionServiceImpl;
 import domain.lobby.LobbyServiceImpl;
+import domain.lobby.option.BuyInOption;
+import domain.lobby.option.PlayMode;
 import model.UProfileModel;
 import model.dao.UserDAOImpl;
 
@@ -53,7 +55,10 @@ public class LobbyRequestHandlerImpl extends LobbyRequestHandler {
         user.setEnteringGame(true);
         byte errorCode = ErrorDefine.FAIL;
         try {
-            errorCode = LobbyServiceImpl.getInstance().playCashGame(user);
+            errorCode = LobbyServiceImpl.getInstance().playCashGame(user,
+                    new BuyInOption(req.getBuyinChips(), req.getAutoBuyIn()),
+                    req.getStructureID(), req.getRoomName(), new PlayMode(req.getPlayMode()));
+
         } catch (Exception e) {
             logger.error(req.getRoomName() + ":" + req.getStructureID(), e);
         } finally {

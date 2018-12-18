@@ -58,6 +58,10 @@ public class UProfileModel extends AbstractUProfileModel{
     }
 
     @ApiField
+    public int getUID(){
+        return getUserID();
+    }
+    @ApiField
     public String getUserName() {
         return username;
     }

@@ -5,6 +5,8 @@ import cmd.api.ApiEntity;
 import cmd.api.ApiField;
 import config.GameConfig;
 import domain.gameplay.service.GameHandServiceImpl;
+import domain.gameplay.util.GameUtil;
+import domain.lobby.BlindLevel;
 
 import java.util.Set;
 
@@ -15,6 +17,8 @@ import java.util.Set;
 public class CashGameImpl extends Game{
     GameStructure gameStructure;
     HandEntity currentHand;
+
+    Player firstBetPlayer;
 
     public CashGameImpl(Room room, GameStructure gameStructure) {
         super(room);
@@ -29,6 +33,11 @@ public class CashGameImpl extends Game{
                 //todo
             }
         }, GameConfig.NEW_HAND_DELAY_SEC + GameConfig.WINNER_EFFECT_DELAY_SEC * totalWinner);
+    }
+
+    @ApiField
+    public long getBlindAnte(){
+        return gameStructure.getCurrentBlindLevel().getAnte();
     }
 
     @ApiField
@@ -48,27 +57,27 @@ public class CashGameImpl extends Game{
         this.gameStructure = gameStructure;
     }
 
-    @ApiField
-    public Set<Player> getPlayers(){
-        return players;
+    public Player getFirstBetPlayer() {
+        return firstBetPlayer;
+    }
+
+    public void setFirstBetPlayer(Player firstBetPlayer) {
+        this.firstBetPlayer = firstBetPlayer;
     }
 
     public boolean addPlayerToGame(Player player) {
         int freePos = findFreePos();
         if (freePos >= 0) {
-            players.add(player);
+            addPlayer(player);
             player.setGame(this);
             player.setGamePosition(freePos);
             return true;
         }
         return false;
     }
-    int findFreePos() {
-        Integer[] playerPos = null;//GameConfig.CASH_GAME_PLAYER_POS_MAP.get(getGameStructure().getMaxPlayers());
 
-        if (playerPos == null) {
-            playerPos = GameConfig.DEFAULT_PLAYER_POS;
-        }
+    int findFreePos() {
+        Integer[] playerPos = GameConfig.DEFAULT_PLAYER_POS;
 
         for (int j = 0; j < playerPos.length; j++) {
             int i = playerPos[j];
@@ -84,6 +93,11 @@ public class CashGameImpl extends Game{
             }
         }
         return -1;
+    }
+
+    @ApiField
+    public byte getGameStatusCode(){
+        return GameUtil.getGameStatus(this).getCode();
     }
 
 }

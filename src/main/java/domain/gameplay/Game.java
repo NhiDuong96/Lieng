@@ -8,23 +8,24 @@ import bitzero.server.entities.BZRoomRemoveMode;
 import bitzero.server.entities.Room;
 import bitzero.server.entities.User;
 import cmd.api.ApiEntity;
+import cmd.api.ApiField;
+import com.google.common.collect.HashBiMap;
 import config.GameConfig;
 import domain.gameplay.service.GameServiceImpl;
 import domain.gameplay.util.GameUtil;
 import handler.event.LeaveGameReason;
+import org.apache.commons.collections.bidimap.DualHashBidiMap;
 
 import java.util.*;
 import java.util.concurrent.ScheduledFuture;
 import java.util.concurrent.TimeUnit;
+
 
 /**
  * Created by GSN on 10/29/2015.
  */
 
 public class Game {
-    public long totalBroadcastMsg = 0;
-
-
     long id;
     Room room;
     Set<Player> players;
@@ -52,7 +53,7 @@ public class Game {
             room.setAutoRemoveMode(BZRoomRemoveMode.NEVER_REMOVE);
         }
         this.room = room;
-        this.players = new HashSet<>();
+        players = new HashSet<>();
 
         isStarted = false;
         isDestroy = false;
@@ -81,6 +82,7 @@ public class Game {
         }
     }
 
+    @ApiField
     public Set<Player> getPlayers() {
         return players;
     }
@@ -107,6 +109,7 @@ public class Game {
                 }
             } catch (Exception e) {
 //                    LogicLogger.getInstance().getLogger().error(getName(), e);
+                e.printStackTrace();
                 destroy("exception from Loop()");
             }
         };
@@ -114,6 +117,7 @@ public class Game {
     }
 
     public void destroy(String reason){
+        System.out.println(reason);
         if(isDestroy()) {
 //        LogicLogger.getInstance().warn(this, "was destroyed", reason);
             return;
@@ -173,6 +177,10 @@ public class Game {
     }
 
     public void setActionTimeout(ActionTimeOutListener listener, int pActionTimeout, int repeat){
+//        if(mActionTimeout > 0) {
+//            System.out.println("have action on running! -> prevent");
+//            return;
+//        }
         this.timeOutListener = listener;
         this.mActionTimeout = pActionTimeout;
         this.timeOutRepeat = repeat;
@@ -193,6 +201,10 @@ public class Game {
 
     public int getActionTimeout() {
         return mActionTimeout;
+    }
+
+    public long getTimer() {
+        return timer;
     }
 
     protected void onStart() {

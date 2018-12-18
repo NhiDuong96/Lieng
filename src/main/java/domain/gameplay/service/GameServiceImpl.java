@@ -29,13 +29,13 @@ public class GameServiceImpl implements GameService {
         if (game.getPlayers().size() < GameConfig.MIN_PLAYER_TO_START_GAME) {
             throw new IllegalStateException("Not Enough Players");
         }
-//            if (game.getPlayers().size() > gs.getMaxPlayers()) {
-//                throw new IllegalStateException("Too Many Players");
-//            }
+        if (game.getPlayers().size() > gs.getMaxPlayers()) {
+            throw new IllegalStateException("Too Many Players");
+        }
         if (game.isStarted()) {
             throw new IllegalStateException("Game already started");
         }
-
+        System.out.println("start new hand entity");
         game.start();
         game.setNewHandEntityDelay(0);
         return game;

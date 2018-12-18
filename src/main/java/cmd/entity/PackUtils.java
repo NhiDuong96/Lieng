@@ -32,9 +32,10 @@ public class PackUtils extends BasePackUtils{
 		putStr(bf, obj.getUserName());
 		bf.putInt(obj.getLevel());
 		bf.putLong(obj.getGold());
-		putStr(bf, obj.getDefaultAvatar());
 		bf.putLong(obj.getExp());
+		bf.putInt(obj.getUID());
 		putStr(bf, obj.getAvatarURL());
+		putStr(bf, obj.getDefaultAvatar());
 		
     }
 
@@ -55,7 +56,9 @@ public class PackUtils extends BasePackUtils{
             return;
         }
         bf.put((byte)1);
-        packHandEntity(bf, obj.getCurrentHand());
+        bf.put(obj.getGameStatusCode());
+		bf.putLong(obj.getBlindAnte());
+		packHandEntity(bf, obj.getCurrentHand());
 		packPlayer(bf, obj.getPlayers());
 		
     }
@@ -98,10 +101,11 @@ public class PackUtils extends BasePackUtils{
         }
         bf.put((byte)1);
         bf.putInt(obj.getId());
-		packHand(bf, obj.getHand());
+		bf.putInt(obj.getGamePosition());
 		putStr(bf, obj.getPlayerName());
 		bf.putLong(obj.getChips());
-		bf.putInt(obj.getGamePosition());
+		packHand(bf, obj.getHand());
+		bf.put(obj.getPlayerStatusCode());
 		
     }
 

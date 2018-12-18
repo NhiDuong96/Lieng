@@ -9,9 +9,10 @@ import domain.gameplay.holder.Hand;
 
 import java.util.Collection;
 
-public interface PlayerJoinedGameApi
+public interface GameActionApi
 {
-	Player getPlayer();
-	boolean getShowLastCard();
+	byte getActionID();
+	byte getCurPlayerPos();
+	long getChips();
 
 }

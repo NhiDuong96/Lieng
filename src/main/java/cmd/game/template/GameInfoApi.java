@@ -1,5 +1,6 @@
 package cmd.game.template;
 
+import model.UProfileModel;
 import domain.gameplay.CashGameImpl;
 import domain.gameplay.HandEntity;
 import domain.gameplay.Player;

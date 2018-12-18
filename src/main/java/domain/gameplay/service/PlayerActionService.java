@@ -15,4 +15,6 @@ public interface PlayerActionService {
     boolean bet(Player player, HandEntity hand, long betAmount);
 
     boolean call(Player player, HandEntity hand);
+
+    boolean check(Player player, HandEntity hand);
 }

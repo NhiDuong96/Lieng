@@ -31,4 +31,16 @@ public class HandUtils {
         }
         return list;
     }
+
+    public static byte[] getCardsArray(Hand cards){
+        byte[] list = new byte[cards.getCardsNumber()];
+        long value = cards.getValue();
+        int i = 0;
+        while (value != 0L){
+            long card = Long.lowestOneBit(value);
+            list[i++] = getCardIndex(card);
+            value &= ~card;
+        }
+        return list;
+    }
 }

@@ -6,11 +6,14 @@ import bitzero.server.BitZeroServer;
 import bitzero.server.core.BZEvent;
 import bitzero.server.core.BZEventParam;
 import bitzero.server.entities.User;
-import domain.gameplay.CashGameImpl;
-import domain.gameplay.Game;
-import domain.gameplay.GameStatus;
-import domain.gameplay.Player;
+import config.GameConfig;
+import domain.gameplay.*;
 import domain.gameplay.service.GameServiceImpl;
+import domain.lobby.BlindLevel;
+import domain.lobby.CashGameChannel;
+import domain.lobby.format.AbstractGameFormat;
+import domain.lobby.format.CashGameFormat;
+import domain.lobby.option.PlayMode;
 import handler.event.LeaveGameReason;
 import handler.event.ZPSeaEventParam;
 import handler.event.ZPSeaEventType;
@@ -25,6 +28,27 @@ import java.util.Set;
  */
 public class GameUtil {
 
+    /**
+     * Determine the current state of the game
+     *
+     * @param game {@link Game} object to get the state of
+     * @return {@link GameStatus} representing the current game state
+     */
+    public static GameStatus getGameStatus(CashGameImpl game) {
+        if (!game.isStarted()) {
+            return GameStatus.NOT_STARTED;
+        }
+
+        HandEntity hand = game.getCurrentHand();
+        if (hand == null) {
+            return GameStatus.SEATING;
+        }
+
+        if (hand.getCurrentToAct() == null) {
+            return GameStatus.SHOW_DOWN;
+        }
+        return GameStatus.PRE_FLOP;
+    }
 
     public static void forcedLeaveGame(Player p, LeaveGameReason reason) {
         try {
@@ -56,26 +80,16 @@ public class GameUtil {
         }
     }
 
-//    public static void fireStartGameEvent(GameStatus gs, CashGameImpl game) {
-//        Map evtParams = new HashMap();
-//        evtParams.put(ZPSeaEventParam.GAME_STATUS, gs);
-//        evtParams.put(ZPSeaEventParam.GAME_STRUCTURE, game.getGameStructure().clone());
-//        evtParams.put(ZPSeaEventParam.NUM_PLAYER, Integer.valueOf(game.getPlayers().size()));
-//        evtParams.put(ZPSeaEventParam.SET_PLAYER_ID, getSetPlayerID(game.getPlayers()));
-//        evtParams.put(ZPSeaEventParam.HAND_ENTITY, game.getCurrentHand());
-//        BitZeroServer.getInstance().getEventManager().dispatchEvent(new BZEvent(ZPSeaEventType.START_GAME, evtParams));
-//    }
-//
-//    private static Set<Integer> getSetPlayerID(Set<Player> players) {
-//        Set<Player> playersClone = new HashSet<>();
-//        playersClone.addAll(players);
-//        Set<Integer> ids = new HashSet<>();
-//        for (Player p : playersClone) {
-//            if (!p.isBot()) {
-//                ids.add(p.getId());
-//            }
-//        }
-//        return ids;
-//    }
+    public static GameStructure buildGameStructure(AbstractGameFormat gameFormat, PlayMode playMode) {
+        if (gameFormat instanceof CashGameFormat) {
+            CashGameFormat cashGameFormat = (CashGameFormat) gameFormat;
+            BlindLevel blindLevel = new BlindLevel(cashGameFormat.getBlindLevel().getAnte(), cashGameFormat.getBlindLevel().getSidepot());
+            CashGameChannel cashGameChannel = GameConfig.MAP_CASH_GAME_CHANNEL.get(cashGameFormat.getChannelID());
+            int playerTimeout = cashGameChannel == null ? GameConfig.TIMEOUT_PLAYER_ACTION_SEC : cashGameChannel.getFastPlayerTimeOut();
+            return new GameStructure(cashGameFormat.getId(), GameType.CASH, blindLevel, cashGameFormat.getMaxPlayers(), gameFormat.getChannelID(), playerTimeout, playMode);
+        } else {
+            throw new IllegalArgumentException("No handle for " + gameFormat.getId());
+        }
+    }
 
 }

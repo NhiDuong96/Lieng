@@ -166,6 +166,10 @@ public class GameConfig {
             MAP_CASH_GAME_FORMAT.put(key, new CashGameFormat(key, maxPlayer, maxSpectator, blindLevel, buyinRange, lightFormat, proModeFormat));
         }
 
+        for(String key: MAP_CASH_GAME_FORMAT.keySet()){
+            System.out.println(key);
+        }
+
         MAP_CASH_GAME_CHANNEL.clear();
         LIST_ALL_CASH_GAME_FORMAT.clear();
         keyIter = channelJson.keys();

@@ -4,6 +4,7 @@ import bitzero.server.entities.User;
 import cmd.api.ApiEntity;
 import cmd.api.ApiField;
 import domain.gameplay.holder.Hand;
+import domain.gameplay.util.PlayerUtil;
 
 /**
  * Created by pc1 on 12/13/2018.
@@ -26,7 +27,12 @@ public class Player implements Comparable<Player>{
 
     private long timeJoinGame;
 
-    private Hand hand;
+    private PlayerHand playerHand;
+
+    private long timeStartSittingOut;
+
+    private volatile boolean beingActing;
+    private boolean sittingOut;
 
     public Player(User user){
         this.user = user;
@@ -36,6 +42,8 @@ public class Player implements Comparable<Player>{
         this(user);
         this.buyInChips = buyInChips;
         this.chips = buyInChips;
+        betValue = 0;
+        sittingOut = false;
     }
 
     public User getUser() {
@@ -92,15 +100,69 @@ public class Player implements Comparable<Player>{
 
     @ApiField
     public Hand getHand() {
-        return hand;
+        if(playerHand == null) return null;
+        return playerHand.getHand();
     }
 
-    public void setHand(Hand hand) {
-        this.hand = hand;
+    public PlayerHand getPlayerHand() {
+        return playerHand;
+    }
+
+    public boolean isBeingActing() {
+        return beingActing;
+    }
+
+    public void setBeingActing(boolean beingActing) {
+        this.beingActing = beingActing;
+    }
+
+    public void setPlayerHand(PlayerHand hand) {
+        this.playerHand = hand;
+    }
+
+    public boolean isSittingOut() {
+        return sittingOut;
+    }
+
+    public void setSittingOut(boolean sittingOut) {
+        this.sittingOut = sittingOut;
+        if (sittingOut) {
+            setTimeStartSittingOut(getGame().getTimer());
+        } else {
+            setTimeStartSittingOut(0);
+        }
+    }
+
+    public void setTimeStartSittingOut(long timeStartSittingOut) {
+        this.timeStartSittingOut = timeStartSittingOut;
     }
 
     @Override
     public int compareTo(Player o) {
         return getGamePosition() - o.getGamePosition();
     }
+
+    @ApiField
+    public byte getPlayerStatusCode(){
+        return PlayerUtil.getPlayerStatus(this).getCode();
+    }
+
+    public void addBetAmount(long value) {
+        if (value > 0) {
+            betValue += value;
+//            getGame().getCurrentHand().mapBettingDetail.put(getClientGamePosition(), betValue);
+        } else {
+//            LogicLogger.getInstance().trace("Error! add betting mount", this, value);
+        }
+    }
+
+    @ApiField
+    public long getBetValue() {
+        return betValue;
+    }
+
+    public void setBetValue(long betValue) {
+        this.betValue = betValue;
+    }
+
 }

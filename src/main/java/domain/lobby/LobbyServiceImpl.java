@@ -18,6 +18,7 @@ import domain.gameplay.*;
 import domain.gameplay.service.GameServiceImpl;
 import domain.lobby.format.CashGameFormat;
 import domain.lobby.option.BuyInOption;
+import domain.lobby.option.PlayMode;
 import handler.request.GameRequestHandlerImpl;
 import org.slf4j.LoggerFactory;
 
@@ -61,20 +62,35 @@ public class LobbyServiceImpl implements LobbyService {
 
 
     @Override
-    public byte playCashGame(User user) throws BZTooManyRoomsException {
-        Room room = LobbyUtil.autoSelectRoom(user);
-        Game game = getGameByRoom(room);
+    public byte playCashGame(User user, BuyInOption opt, String structureId, String rName, PlayMode playMode) throws BZTooManyRoomsException {
+        CashGameFormat reqGameStructure = GameConfig.MAP_CASH_GAME_FORMAT.get(structureId);
 
-        if(game != null){
-            logger.info("found room!");
-            byte errorCode = joinRoom(user, room);
-            if(errorCode == ErrorDefine.SUCCESS){
-                return errorCode;
+        CashGameFormat newRoomFormat = reqGameStructure;
+
+        if(newRoomFormat == null) {
+            logger.info("finding room");
+            Room room = LobbyUtil.autoSelectRoom(user, opt, playMode);
+            CashGameImpl game = (CashGameImpl) getGameByRoom(room);
+
+            if (game != null) {
+                logger.info("found room!");
+                CashGameFormat cgf = GameConfig.MAP_CASH_GAME_FORMAT.get(game.getGameStructure().getId());
+                byte errorCode = joinRoom(user, room, opt);
+                System.out.println(errorCode);
+                if (errorCode == ErrorDefine.SUCCESS) {
+                    return errorCode;
+                }
+                // continue create game
+                newRoomFormat = cgf;
+            }else{
+                //set BuyinOption here
+                newRoomFormat = LobbyUtil.selectOptimalCashGame(user, opt, playMode);
             }
         }
+
         logger.info("no room, create one!");
         //1 -> create player
-        Player newPlayer = GameFactory.createPlayer(user, new BuyInOption(5000, false));
+        Player newPlayer = GameFactory.createPlayer(user, opt);
 
         if(newPlayer == null){
             //player not enough gold or someone
@@ -84,15 +100,16 @@ public class LobbyServiceImpl implements LobbyService {
         ExtensionUtility.instance().joinChannel(user, getGameZone(GameType.CASH).getId());
 
         //2-> create room
-        Room newRoom = createRoom(getGameZone(GameType.CASH), user, "roomName", 9, 100, "");
+        Room newRoom = createRoom(getGameZone(GameType.CASH), user, "roomName", newRoomFormat.getMaxPlayers(), newRoomFormat.getMaxSpectators(), "");
 
         //this call very important!
-        newRoom.setGroupId("playNow");
+        System.out.println("id game format optimal: " +newRoomFormat.getId());
+        newRoom.setGroupId(newRoomFormat.getId());
         //join room to zone
         user.getZone().addRoom(newRoom);
 
         //3-> create game
-        CashGameImpl newGame = GameFactory.createCashGame(newRoom);
+        CashGameImpl newGame = GameFactory.createCashGame(newRoom, newRoomFormat, playMode);
         //4-> join game
         GameServiceImpl.getInstance().joinGame(newGame, newPlayer);
         GameResponseExtension.sendGameInfo(new GameInfoApi() {
@@ -107,7 +124,7 @@ public class LobbyServiceImpl implements LobbyService {
         return ErrorDefine.SUCCESS;
     }
 
-    public byte joinRoom(User user, Room room){
+    public byte joinRoom(User user, Room room, BuyInOption opt){
         Game game = getGameByRoom(room);
         if (game == null) {
             return ErrorDefine.ROOM_NOT_EXIST;
@@ -120,7 +137,7 @@ public class LobbyServiceImpl implements LobbyService {
         }
 
         //create player
-        Player newPlayer = GameFactory.createPlayer(user, new BuyInOption(5000, false));
+        Player newPlayer = GameFactory.createPlayer(user, opt);
         if (newPlayer == null) {
             return ErrorDefine.NOT_ENOUGH_MIN_BUYIN;
         }
@@ -137,7 +154,7 @@ public class LobbyServiceImpl implements LobbyService {
 
         ExtensionUtility.instance().joinChannel(user, getGameZone(GameType.CASH).getId());
 
-        GameRequestHandlerImpl.broadcastGame(game, GameResponseExtension.getPlayerJoinedGameMsg(new PlayerJoinedGameApi() {
+        GameRequestHandlerImpl.broadcastGame(game, GameResponseExtension.getPlayerJoinedGame(new PlayerJoinedGameApi() {
             @Override
             public Player getPlayer() {
                 return joinedPlayer;
@@ -155,10 +172,7 @@ public class LobbyServiceImpl implements LobbyService {
         GameResponseExtension.sendGameInfo(new GameInfoApi() {
             @Override
             public CashGameImpl getGame() {
-                if(game instanceof CashGameImpl){
-                    return (CashGameImpl) game;
-                }
-                return null;
+                return (CashGameImpl) game;
             }
         }, user);
 
