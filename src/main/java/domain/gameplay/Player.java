@@ -33,6 +33,7 @@ public class Player implements Comparable<Player>{
 
     private volatile boolean beingActing;
     private boolean sittingOut;
+    private boolean acted;
 
     public Player(User user){
         this.user = user;
@@ -165,4 +166,11 @@ public class Player implements Comparable<Player>{
         this.betValue = betValue;
     }
 
+    public boolean isActed() {
+        return acted;
+    }
+
+    public void setActed(boolean acted) {
+        this.acted = acted;
+    }
 }

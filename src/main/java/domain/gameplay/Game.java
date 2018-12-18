@@ -173,6 +173,7 @@ public class Game {
     }
 
     public void setActionTimeout(ActionTimeOutListener listener, int pActionTimeout) {
+        System.out.println(pActionTimeout);
         this.setActionTimeout(listener, pActionTimeout, 1);
     }
 

@@ -11,7 +11,7 @@ import java.util.*;
 @ApiEntity
 public class HandEntity {
     private long id;
-    private Game game;
+    private CashGameImpl game;
 
     public Map<Integer, Long> mapAnteDetail;
     public Map<Integer, Long> mapBettingDetail;
@@ -37,11 +37,11 @@ public class HandEntity {
         this.showdown = false;
     }
 
-    public Game getGame() {
+    public CashGameImpl getGame() {
         return game;
     }
 
-    public void setGame(Game game) {
+    public void setGame(CashGameImpl game) {
         this.game = game;
     }
 

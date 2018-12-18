@@ -19,6 +19,7 @@ public class CashGameImpl extends Game{
     HandEntity currentHand;
 
     Player firstBetPlayer;
+    boolean checkShowedLastCard;
 
     public CashGameImpl(Room room, GameStructure gameStructure) {
         super(room);
@@ -27,6 +28,7 @@ public class CashGameImpl extends Game{
 
     public void setNewHandEntityDelay(int totalWinner){
         setActionTimeout(() -> {
+            System.out.println("start new hand entity");
             //create new hand entity here
             HandEntity hand = GameHandServiceImpl.getInstance().startNewHand(this);
             if(hand == null){
@@ -98,6 +100,37 @@ public class CashGameImpl extends Game{
     @ApiField
     public byte getGameStatusCode(){
         return GameUtil.getGameStatus(this).getCode();
+    }
+
+    public void tryNewBettingRound(Player curPlayer) {
+        if (curPlayer == null) return;
+
+        if (getCurrentHand() == null) {
+            return;
+        }
+
+        boolean isEnded = GameHandServiceImpl.getInstance().tryEndHand(getCurrentHand());
+
+        if (isEnded) {
+            return;
+        }
+
+//        if (curPlayer.isActed() && GameHandServiceImpl.getInstance().isActionResolved(getCurrentHand()) ) {
+//            switch (GameUtil.getGameStatus(this)) {
+//                case PRE_FLOP:
+//                    GameHandServiceImpl.getInstance().endHand(getCurrentHand());
+//                    break;
+//                default:
+//            }
+//        }
+    }
+
+    public boolean isCheckShowedLastCard() {
+        return checkShowedLastCard;
+    }
+
+    public void setCheckShowedLastCard(boolean checkShowedLastCard) {
+        this.checkShowedLastCard = checkShowedLastCard;
     }
 
 }

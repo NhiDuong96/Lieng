@@ -82,15 +82,43 @@ public class GameHandServiceImpl implements GameHandService {
 
     private void verifyDealer(HandEntity hand) {
         //start with first player
-        CashGameImpl cashGame = (CashGameImpl) hand.getGame();
         //todo
         Player player = hand.getPlayers().iterator().next();
         System.out.println("first player: " + player.getUser().getName());
-        cashGame.setFirstBetPlayer(player);
+        hand.getGame().setFirstBetPlayer(player);
+    }
+
+    public boolean tryEndHand(HandEntity hand) {
+        // check hand only 1 player hand
+        if (hand.getPlayers().size() == 1) {
+            GameHandServiceImpl.getInstance().endHand(hand);
+            return true;
+        }
+        return false;
+    }
+
+    //Helper method to see if there are any outstanding actions left in a betting round
+    public boolean isActionResolved(HandEntity hand) {
+        if (hand.getPlayers().size() == 1) {
+            return true;
+        }
+        long roundBetAmount = hand.getTotalBetAmount();
+        for (Player ph : hand.getPlayers()) {
+            //All players should have paid the roundBetAmount or should be all in
+            if (ph.getPlayerHand().getRoundBetAmount() != roundBetAmount && ph.getChips() > 0) {
+                //Debug.trace("Action resolved", ph.getPlayer(), ph.getRoundBetAmount(), roundBetAmount);
+                return false;
+            }
+        }
+        return true;
     }
 
     @Override
     public void endHand(HandEntity hand) {
+        System.out.println("end hand");
+    }
 
+    public boolean endCashGame(HandEntity hand) {
+        return true;
     }
 }

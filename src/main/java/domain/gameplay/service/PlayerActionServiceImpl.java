@@ -55,6 +55,7 @@ public class PlayerActionServiceImpl implements PlayerActionService {
 
         GameRequestHandlerImpl.sendPlayerAction(hand.getGame(), PlayerAction.FOLD, player, 0);
 
+        player.setActed(true);
         player.setBeingActing(false);
         return true;
     }
@@ -120,6 +121,7 @@ public class PlayerActionServiceImpl implements PlayerActionService {
 
         GameRequestHandlerImpl.sendPlayerAction(hand.getGame(), PlayerAction.BET, player, betAmount);
 
+        player.setActed(true);
         player.setBeingActing(false);
         return true;
     }
@@ -155,11 +157,14 @@ public class PlayerActionServiceImpl implements PlayerActionService {
         player.setChips(player.getChips() - toCall);
         player.addBetAmount(toCall);
 
-        hand.setCurrentToAct(PlayerUtil.getNextPlayerToAct(hand, player));
+        Player next = PlayerUtil.getNextPlayerToAct(hand, player);
+        hand.setCurrentToAct(next);
 
         GameRequestHandlerImpl.sendPlayerAction(hand.getGame(), PlayerAction.CALL, player, toCall);
 
+        player.setActed(true);
         player.setBeingActing(false);
+        hand.getGame().tryNewBettingRound(next);
         return true;
     }
 
